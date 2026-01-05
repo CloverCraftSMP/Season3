@@ -1,0 +1,7 @@
+{
+    "name": "CloverCraft SMP Season 3",
+    "version": "0.0.1",
+    "overrides": [
+        "config"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "target": "multiplatform",
+    "mc_versions": [
+        "1.21.1"
+    ],
+    "loaders": {
+        "fabric": "0.18.4"
+    },
+    "lockfile_version": 1
+}
