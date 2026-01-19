@@ -6,5 +6,1051 @@
     "loaders": {
         "fabric": "0.18.4"
     },
+    "projects": [
+        {
+            "pakku_id": "jY7zulyIXDgsd5jS",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "collective",
+                "modrinth": "collective"
+            },
+            "name": {
+                "curseforge": "Collective",
+                "modrinth": "Collective"
+            },
+            "id": {
+                "curseforge": "342584",
+                "modrinth": "e0M1UDsY"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "collective-1.21.1-8.13.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7148/969/collective-1.21.1-8.13.jar",
+                    "id": "7148969",
+                    "parent_id": "342584",
+                    "hashes": {
+                        "sha1": "a31359f980453a838a7e854d86f485314fda91ad",
+                        "md5": "b454e160d38e5463f86b50ca82e9ef83"
+                    },
+                    "required_dependencies": [],
+                    "size": 946726,
+                    "date_published": "2025-10-25T16:55:00.750Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "collective-1.21.1-8.13.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/e0M1UDsY/versions/VTg6femX/collective-1.21.1-8.13.jar",
+                    "id": "VTg6femX",
+                    "parent_id": "e0M1UDsY",
+                    "hashes": {
+                        "sha512": "20ade6d666440659d38ec43202624993f47681a844c7f9e3e66a462e9f88f5d98bdd9a0a26278b1ed94bd4836b3c9cdbcfef73ad8515555f239e84bfea45d938",
+                        "sha1": "a31359f980453a838a7e854d86f485314fda91ad"
+                    },
+                    "required_dependencies": [],
+                    "size": 946726,
+                    "date_published": "2025-10-25T16:55:15.384057Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dGjZM8Beg6NjBNI1",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "fabric-api",
+                "modrinth": "fabric-api"
+            },
+            "name": {
+                "curseforge": "Fabric API",
+                "modrinth": "Fabric API"
+            },
+            "id": {
+                "curseforge": "306612",
+                "modrinth": "P7dR8mSH"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "fabric-api-0.116.7+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7081/224/fabric-api-0.116.7+1.21.1.jar",
+                    "id": "7081224",
+                    "parent_id": "306612",
+                    "hashes": {
+                        "sha1": "79e9f3e82499fbae5bd667b96a79927ae68f90eb",
+                        "md5": "6d844b1f5a6f67395912e81043ae3aed"
+                    },
+                    "required_dependencies": [],
+                    "size": 2424884,
+                    "date_published": "2025-10-08T08:08:25.650Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "fabric-api-0.116.7+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/m6zu1K31/fabric-api-0.116.7+1.21.1.jar",
+                    "id": "m6zu1K31",
+                    "parent_id": "P7dR8mSH",
+                    "hashes": {
+                        "sha512": "0d7bf97e516cfdb742d7e37a456ed51f96c46eac060c0f2b80338089670b38aba2f7a9837e5e07a6bdcbf732e902014fb1202f6e18e00d6d2b560a84ddf9c024",
+                        "sha1": "79e9f3e82499fbae5bd667b96a79927ae68f90eb"
+                    },
+                    "required_dependencies": [],
+                    "size": 2424884,
+                    "date_published": "2025-10-08T08:08:32.073948Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "aHL3kGHg9hHOr8Oa",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "frozenlib",
+                "modrinth": "frozenlib"
+            },
+            "name": {
+                "curseforge": "FrozenLib",
+                "modrinth": "FrozenLib"
+            },
+            "id": {
+                "curseforge": "709773",
+                "modrinth": "9KawNmQc"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "FrozenLib-2.2.4-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7319/058/FrozenLib-2.2.4-mc1.21.1.jar",
+                    "id": "7319058",
+                    "parent_id": "709773",
+                    "hashes": {
+                        "sha1": "a50b9fe98350bde7e5493abc96af49b81d24107c",
+                        "md5": "c1e1f4252058bc00753197df42260c08"
+                    },
+                    "required_dependencies": [],
+                    "size": 1665090,
+                    "date_published": "2025-12-11T02:15:23.573Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "FrozenLib-2.2.4-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/9KawNmQc/versions/GdadG0oj/FrozenLib-2.2.4-mc1.21.1.jar",
+                    "id": "GdadG0oj",
+                    "parent_id": "9KawNmQc",
+                    "hashes": {
+                        "sha512": "2fe0816d77ea68a644efec183050f6e0a2f7c7f228dfb8267f015cc13fb2e78af89820692234a7279673710116adc668f39d24fe066d205c0c2bb78408ffd0c5",
+                        "sha1": "a50b9fe98350bde7e5493abc96af49b81d24107c"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 1665090,
+                    "date_published": "2025-12-10T22:30:06.266150Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Azh5GKOoeP9ugDsF",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "joy-of-painting",
+                "modrinth": "joy-of-painting"
+            },
+            "name": {
+                "curseforge": "Joy of Painting",
+                "modrinth": "Joy of Painting"
+            },
+            "id": {
+                "curseforge": "350727",
+                "modrinth": "YOs4tZea"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "xercapaint-1.21.1-1.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5907/272/xercapaint-1.21.1-1.0.1.jar",
+                    "id": "5907272",
+                    "parent_id": "350727",
+                    "hashes": {
+                        "sha1": "897d7787396e245878d761beb7156b7024bf21c8",
+                        "md5": "3e1f5e1e70de4790d327e001fad6e2e7"
+                    },
+                    "required_dependencies": [],
+                    "size": 400450,
+                    "date_published": "2024-11-16T07:48:04.900Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "xercapaint-1.21.1-1.0.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/YOs4tZea/versions/LheqdhBz/xercapaint-1.21.1-1.0.1.jar",
+                    "id": "LheqdhBz",
+                    "parent_id": "YOs4tZea",
+                    "hashes": {
+                        "sha512": "d5e0fab309f5eaa98a85c9cdd29e35f1991a9dbe5e7a83fdb5749f256b20ba6617b194053eb01e7751486e275ca11469f7a425aee3047937a4b5f72efc285049",
+                        "sha1": "897d7787396e245878d761beb7156b7024bf21c8"
+                    },
+                    "required_dependencies": [],
+                    "size": 400450,
+                    "date_published": "2024-11-16T07:48:13.102700Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "MSbL1PVSSGxhQiU6",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "selene",
+                "modrinth": "moonlight"
+            },
+            "name": {
+                "curseforge": "Moonlight Lib",
+                "modrinth": "Moonlight Lib"
+            },
+            "id": {
+                "curseforge": "499980",
+                "modrinth": "twkfQtEc"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "moonlight-1.21-2.29.11-fabric.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/wR1wTIdC/moonlight-1.21-2.29.11-fabric.jar",
+                    "id": "wR1wTIdC",
+                    "parent_id": "twkfQtEc",
+                    "hashes": {
+                        "sha512": "7d0b4948986c72e26e4b26b97bb9bcd1de3a74363ece3eabbfd71df6bb94cf2219b0d8aa14e1705ab5102af9da0ba85d5bc8bae4a78132e9fd38dab5266fe2cf",
+                        "sha1": "d2191c2d56ce757bec74feb1d2edce2b7fdc4ed6"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 1561129,
+                    "date_published": "2026-01-17T11:55:22.766215Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "moonlight-1.21-2.29.11-fabric.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7473/44/moonlight-1.21-2.29.11-fabric.jar",
+                    "id": "7473044",
+                    "parent_id": "499980",
+                    "hashes": {
+                        "sha1": "d2191c2d56ce757bec74feb1d2edce2b7fdc4ed6",
+                        "md5": "ff6244e2886a6b83018f1db4cc959d13"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 1561129,
+                    "date_published": "2026-01-17T11:55:02.917Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "K7MZfLaS6eSTZgLU",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "platform",
+                "modrinth": "platform"
+            },
+            "name": {
+                "curseforge": "Platform",
+                "modrinth": "Platform"
+            },
+            "id": {
+                "curseforge": "997634",
+                "modrinth": "i6fiqm5y"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "platform-fabric-1.21.1-1.2.11.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7227/586/platform-fabric-1.21.1-1.2.11.3.jar",
+                    "id": "7227586",
+                    "parent_id": "997634",
+                    "hashes": {
+                        "sha1": "342ec8915347e80c576c0a7722b62e3cb6504476",
+                        "md5": "dce66f25641987ba36a8012a45143e97"
+                    },
+                    "required_dependencies": [],
+                    "size": 734737,
+                    "date_published": "2025-11-16T06:32:48.790Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "platform-fabric-1.21.1-1.2.11.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/i6fiqm5y/versions/7na86AyJ/platform-fabric-1.21.1-1.2.11.3.jar",
+                    "id": "7na86AyJ",
+                    "parent_id": "i6fiqm5y",
+                    "hashes": {
+                        "sha512": "bfe366551a40c28e3db61b2b9fec0792acef5e1b59aee6bf9daf6e48629867fad4962a70476e58649b78dcd52f771e68ad4acba98cfa241a6ad5ee48a20a403b",
+                        "sha1": "342ec8915347e80c576c0a7722b62e3cb6504476"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 734737,
+                    "date_published": "2025-11-16T06:29:38.092464Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "qImb80WUC50TTvvO",
+            "pakku_links": [
+                "H9cwTP6T7qkB3SPX",
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "supplementaries",
+                "modrinth": "supplementaries"
+            },
+            "name": {
+                "curseforge": "Supplementaries",
+                "modrinth": "Supplementaries"
+            },
+            "id": {
+                "curseforge": "412082",
+                "modrinth": "fFEIiSDQ"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "supplementaries-1.21-3.5.16-fabric.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7387/813/supplementaries-1.21-3.5.16-fabric.jar",
+                    "id": "7387813",
+                    "parent_id": "412082",
+                    "hashes": {
+                        "sha1": "50502aaf6144f16ec2403f31b8a9b28ce3ea56b1",
+                        "md5": "b7273dace924ed01f670a91e737b05e9"
+                    },
+                    "required_dependencies": [
+                        "499980",
+                        "306612"
+                    ],
+                    "size": 13158660,
+                    "date_published": "2025-12-28T10:08:25.107Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "supplementaries-1.21-3.5.16-fabric.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/sL3OlZYC/supplementaries-1.21-3.5.16-fabric.jar",
+                    "id": "sL3OlZYC",
+                    "parent_id": "fFEIiSDQ",
+                    "hashes": {
+                        "sha512": "871b2fe1999a1313dc18d0a2f1ace3ee1a304fe89daf1a23b82c985a0ba8ede944724a9fd742b428daaee79759dbb38cba35daf9271ead76a7e8e7b0d1c702b1",
+                        "sha1": "50502aaf6144f16ec2403f31b8a9b28ce3ea56b1"
+                    },
+                    "required_dependencies": [
+                        "twkfQtEc",
+                        "P7dR8mSH"
+                    ],
+                    "size": 13158660,
+                    "date_published": "2025-12-28T10:08:35.362554Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "zWT51veRo992pI60",
+            "pakku_links": [
+                "jY7zulyIXDgsd5jS"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "tree-harvester",
+                "modrinth": "tree-harvester"
+            },
+            "name": {
+                "curseforge": "Tree Harvester",
+                "modrinth": "Tree Harvester"
+            },
+            "id": {
+                "curseforge": "367178",
+                "modrinth": "abooMhox"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "treeharvester-1.21.1-9.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6184/916/treeharvester-1.21.1-9.1.jar",
+                    "id": "6184916",
+                    "parent_id": "367178",
+                    "hashes": {
+                        "sha1": "08abaeb2bca62538c2f33fbc42f9eead478aecee",
+                        "md5": "269629c1b9f7f0a95cebf12ccac46418"
+                    },
+                    "required_dependencies": [
+                        "342584"
+                    ],
+                    "size": 119125,
+                    "date_published": "2025-02-12T12:20:57.677Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "treeharvester-1.21.1-9.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/abooMhox/versions/OtzwmSlR/treeharvester-1.21.1-9.1.jar",
+                    "id": "OtzwmSlR",
+                    "parent_id": "abooMhox",
+                    "hashes": {
+                        "sha512": "ef05666db209bcc339a89c83106c329a51d32310188f913375d8ebb3ff98251f99ae21baa6def18e1125d64e5d454f6cd5c5dbe7f8ddc00312dfa1b89a866c4d",
+                        "sha1": "08abaeb2bca62538c2f33fbc42f9eead478aecee"
+                    },
+                    "required_dependencies": [
+                        "e0M1UDsY"
+                    ],
+                    "size": 119125,
+                    "date_published": "2025-02-12T12:21:09.806210Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "yUnCzcwRS1jvk4wA",
+            "pakku_links": [
+                "K7MZfLaS6eSTZgLU"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "vanillabackport",
+                "modrinth": "vanillabackport"
+            },
+            "name": {
+                "curseforge": "Vanilla Backport",
+                "modrinth": "Vanilla Backport"
+            },
+            "id": {
+                "curseforge": "417430",
+                "modrinth": "6xwxDTgf"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "vanillabackport-fabric-1.21.1-1.1.5.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7227/51/vanillabackport-fabric-1.21.1-1.1.5.1.jar",
+                    "id": "7227051",
+                    "parent_id": "417430",
+                    "hashes": {
+                        "sha1": "310b9412496a52255b0122c369528b247152bd4e",
+                        "md5": "86dffcc26725f17a0ec2329e0061f510"
+                    },
+                    "required_dependencies": [
+                        "997634"
+                    ],
+                    "size": 27172044,
+                    "date_published": "2025-11-16T01:51:52.043Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "vanillabackport-fabric-1.21.1-1.1.5.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/6xwxDTgf/versions/NsLfcMnu/vanillabackport-fabric-1.21.1-1.1.5.1.jar",
+                    "id": "NsLfcMnu",
+                    "parent_id": "6xwxDTgf",
+                    "hashes": {
+                        "sha512": "6006a2e6415a3c75ee13242be4ee4caccf2506b2b8c2e42bb79ddeb1ffe44842c546ac22226c226be5472dc4b8fec61d82e078725b121ed7cf20f63d920a1264",
+                        "sha1": "310b9412496a52255b0122c369528b247152bd4e"
+                    },
+                    "required_dependencies": [
+                        "i6fiqm5y"
+                    ],
+                    "size": 27172044,
+                    "date_published": "2025-11-16T02:00:46.811478Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "jBcgPFc28Gx6GwSZ",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1",
+                "16ZKYLpBOHByBlyV"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "vinurl",
+                "modrinth": "vinurl"
+            },
+            "name": {
+                "curseforge": "VinURL",
+                "modrinth": "VinURL"
+            },
+            "id": {
+                "curseforge": "1326616",
+                "modrinth": "5PsMUIsq"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "vinurl-2.2.1+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7414/160/vinurl-2.2.1+mc1.21.1.jar",
+                    "id": "7414160",
+                    "parent_id": "1326616",
+                    "hashes": {
+                        "sha1": "064fd084d1558a2b4a168fdb8735d40dff2416b6",
+                        "md5": "60066ae7db22a8df53cb01dd235ba59e"
+                    },
+                    "required_dependencies": [
+                        "306612",
+                        "532610"
+                    ],
+                    "size": 135714,
+                    "date_published": "2026-01-03T22:18:33.783Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "vinurl-2.2.1+mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/5PsMUIsq/versions/mEgzUGes/vinurl-2.2.1+mc1.21.1.jar",
+                    "id": "mEgzUGes",
+                    "parent_id": "5PsMUIsq",
+                    "hashes": {
+                        "sha512": "f738448616d7de6f69e00a9903a94c85203dd20649bad5edbc1f4ebb5e193b49edac7c921c6c629bbd21f1adba289cd21acf6f41dbf10cafcb1631d3251f1754",
+                        "sha1": "064fd084d1558a2b4a168fdb8735d40dff2416b6"
+                    },
+                    "required_dependencies": [
+                        "ccKDOlHs",
+                        "P7dR8mSH"
+                    ],
+                    "size": 135714,
+                    "date_published": "2026-01-03T22:48:36.834039Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "6Te1TRrT3bI1FX4Q",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "wilder-flowers",
+                "modrinth": "wilder-flowers"
+            },
+            "name": {
+                "curseforge": "Wilder Flowers",
+                "modrinth": "Wilder Flowers"
+            },
+            "id": {
+                "curseforge": "1390211",
+                "modrinth": "8lUQapTY"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "wilderflowers-1.0.4+1.21.1-fabric.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7326/835/wilderflowers-1.0.4+1.21.1-fabric.jar",
+                    "id": "7326835",
+                    "parent_id": "1390211",
+                    "hashes": {
+                        "sha1": "6c8f64fda05911aa65c9e19a7c47d57c0997e498",
+                        "md5": "e1f5336410984b2c83e3e08453d2a97f"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 3096151,
+                    "date_published": "2025-12-13T03:48:34.570Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "wilderflowers-1.0.4+1.21.1-fabric.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/8lUQapTY/versions/oZwwEqaj/wilderflowers-1.0.4+1.21.1-fabric.jar",
+                    "id": "oZwwEqaj",
+                    "parent_id": "8lUQapTY",
+                    "hashes": {
+                        "sha512": "67989e5165919122a4c8c420f84e9cb37fe1edbffd2c044103dac3f2434f6556c7590936bd521e3c83bb60f469a0ce82a8defdf4de254cb41d6f0a70ab881eaa",
+                        "sha1": "6c8f64fda05911aa65c9e19a7c47d57c0997e498"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 3096151,
+                    "date_published": "2025-12-13T03:48:36.781355Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "eB593JYRzBk2cEMk",
+            "pakku_links": [
+                "aHL3kGHg9hHOr8Oa",
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "wilder-wild",
+                "modrinth": "wilder-wild"
+            },
+            "name": {
+                "curseforge": "Wilder Wild [Fabric]",
+                "modrinth": "Wilder Wild"
+            },
+            "id": {
+                "curseforge": "648511",
+                "modrinth": "AtHRJSUW"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "WilderWild-4.2.1-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1-Snapshot",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7362/889/WilderWild-4.2.1-mc1.21.1.jar",
+                    "id": "7362889",
+                    "parent_id": "648511",
+                    "hashes": {
+                        "sha1": "0c6b03e5d615720f91965a2dd16db912fcc7eb1e",
+                        "md5": "fe50a7f4944313dc91b8fd7c8b3622d1"
+                    },
+                    "required_dependencies": [
+                        "709773",
+                        "306612"
+                    ],
+                    "size": 29831233,
+                    "date_published": "2025-12-21T20:11:38.283Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "WilderWild-4.2.1-mc1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/AtHRJSUW/versions/LGumUR4U/WilderWild-4.2.1-mc1.21.1.jar",
+                    "id": "LGumUR4U",
+                    "parent_id": "AtHRJSUW",
+                    "hashes": {
+                        "sha512": "14fff8800f61b9c177d97b4b0143e79f5479082cf7cff956b6f27eed5c1bd1e0345685d17943eac5ff793996f64cdfd9e929e68508da0b66d83924a47e34d8e2",
+                        "sha1": "0c6b03e5d615720f91965a2dd16db912fcc7eb1e"
+                    },
+                    "required_dependencies": [
+                        "9KawNmQc",
+                        "P7dR8mSH"
+                    ],
+                    "size": 29831233,
+                    "date_published": "2025-12-21T20:01:35.162842Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "DxBZwrHsrs40Nu7B",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "xaeros-minimap",
+                "modrinth": "xaeros-minimap"
+            },
+            "name": {
+                "curseforge": "Xaero's Minimap",
+                "modrinth": "Xaero's Minimap"
+            },
+            "id": {
+                "curseforge": "263420",
+                "modrinth": "1bokaNcj"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "xaerominimap-fabric-1.21.1-25.3.5.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7412/193/xaerominimap-fabric-1.21.1-25.3.5.jar",
+                    "id": "7412193",
+                    "parent_id": "263420",
+                    "hashes": {
+                        "sha1": "82cbfff0e68092f31869f4d6509590e58c9f6b92",
+                        "md5": "fb6b4241c0573185502ad9f840c4c1a7"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 2159839,
+                    "date_published": "2026-01-03T13:19:10.357Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "xaerominimap-fabric-1.21.1-25.3.5.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/Vqkdzsyt/xaerominimap-fabric-1.21.1-25.3.5.jar",
+                    "id": "Vqkdzsyt",
+                    "parent_id": "1bokaNcj",
+                    "hashes": {
+                        "sha512": "2f4f9abbd5f3c33d641cd803e19c36346762c33201c4ae7be29e856fc35f2e943eea3b0dc627fc73acf792c04d687bba6182839ee107e5c34d529600d7d4b40d",
+                        "sha1": "82cbfff0e68092f31869f4d6509590e58c9f6b92"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 2159839,
+                    "date_published": "2026-01-03T14:08:05.493097Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "KgN4YIQr60JITt4S",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "xaeros-world-map",
+                "modrinth": "xaeros-world-map"
+            },
+            "name": {
+                "curseforge": "Xaero's World Map",
+                "modrinth": "Xaero's World Map"
+            },
+            "id": {
+                "curseforge": "317780",
+                "modrinth": "NcUtCpym"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "xaeroworldmap-fabric-1.21.1-1.40.6.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7416/976/xaeroworldmap-fabric-1.21.1-1.40.6.jar",
+                    "id": "7416976",
+                    "parent_id": "317780",
+                    "hashes": {
+                        "sha1": "35638fedcb3527489f5f35778e7dd78de5492f36",
+                        "md5": "3871e11f81a54867de32a81f885291e2"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 1406730,
+                    "date_published": "2026-01-04T15:33:54.260Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "xaeroworldmap-fabric-1.21.1-1.40.6.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/hT5eHHLt/xaeroworldmap-fabric-1.21.1-1.40.6.jar",
+                    "id": "hT5eHHLt",
+                    "parent_id": "NcUtCpym",
+                    "hashes": {
+                        "sha512": "4f86dc8c54ff49b366ab1c3842599e6e0882bb471385b2aa5e954cf81a66a585284f41143e0405458530c106d9955220e65b8313aca56c3ec8124c6ddb60905a",
+                        "sha1": "35638fedcb3527489f5f35778e7dd78de5492f36"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 1406730,
+                    "date_published": "2026-01-04T15:50:36.657933Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "16ZKYLpBOHByBlyV",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "owo-lib",
+                "modrinth": "owo-lib"
+            },
+            "name": {
+                "curseforge": "oωo (owo-lib)",
+                "modrinth": "oωo (owo-lib)"
+            },
+            "id": {
+                "curseforge": "532610",
+                "modrinth": "ccKDOlHs"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "owo-lib-0.12.15.4+1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6446/6/owo-lib-0.12.15.4+1.21.jar",
+                    "id": "6446006",
+                    "parent_id": "532610",
+                    "hashes": {
+                        "sha1": "45725e6d33b624e565a7a6e5d3627af40814288d",
+                        "md5": "3627aee17111e12a8c66928f5d7a3fba"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 1183559,
+                    "date_published": "2025-04-20T23:53:17.673Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "owo-lib-0.12.15.4+1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/JB1fLQnc/owo-lib-0.12.15.4+1.21.jar",
+                    "id": "JB1fLQnc",
+                    "parent_id": "ccKDOlHs",
+                    "hashes": {
+                        "sha512": "b9c79035c912ef043722f2a1f0bc0166e0ca047ea5237a86f23198dea487289e0a0f92a96e46bd683ffc39e4190b95450d13456b14f6280587635b51c9393a1b",
+                        "sha1": "45725e6d33b624e565a7a6e5d3627af40814288d"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 1183559,
+                    "date_published": "2025-04-20T23:53:15.614454Z"
+                }
+            ]
+        }
+    ],
     "lockfile_version": 1
 }
