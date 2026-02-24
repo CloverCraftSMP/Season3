@@ -268,6 +268,81 @@
             ]
         },
         {
+            "pakku_id": "f8Q61nB9UI5qAr4T",
+            "pakku_links": [
+                "UAim16NBrM3aUbKY",
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "modmenu",
+                "modrinth": "modmenu"
+            },
+            "name": {
+                "curseforge": "Mod Menu",
+                "modrinth": "Mod Menu"
+            },
+            "id": {
+                "curseforge": "308702",
+                "modrinth": "mOgUt4GM"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "modmenu-11.0.3.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5810/603/modmenu-11.0.3.jar",
+                    "id": "5810603",
+                    "parent_id": "308702",
+                    "hashes": {
+                        "sha1": "6213120772192040a0aeb5c7cfe330c068605b1f",
+                        "md5": "d9a3c1f26c571e3eb07ef2ed3e89d1b0"
+                    },
+                    "required_dependencies": [
+                        "1037459",
+                        "306612"
+                    ],
+                    "size": 973066,
+                    "date_published": "2024-10-14T04:11:10.747Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "modmenu-11.0.3.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/YIfqIJ8q/modmenu-11.0.3.jar",
+                    "id": "YIfqIJ8q",
+                    "parent_id": "mOgUt4GM",
+                    "hashes": {
+                        "sha512": "4c6387a059c7ac9028acc3d78124af02a4495bef2c16783bbffe5bf449067daf2620708fd57f8725e46f0c34d0f571adf60f0869742bfe7f6101ddf13a2a87da",
+                        "sha1": "6213120772192040a0aeb5c7cfe330c068605b1f"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH",
+                        "eXts2L7r"
+                    ],
+                    "size": 973066,
+                    "date_published": "2024-10-14T04:11:09.901609Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "MSbL1PVSSGxhQiU6",
             "type": "MOD",
             "side": "BOTH",
@@ -535,6 +610,44 @@
                     ],
                     "size": 13158660,
                     "date_published": "2025-12-28T10:08:35.362554Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "UAim16NBrM3aUbKY",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "text-placeholder-api"
+            },
+            "name": {
+                "curseforge": "Text Placeholder API"
+            },
+            "id": {
+                "curseforge": "1037459"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "placeholder-api-2.4.2+1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6131/327/placeholder-api-2.4.2+1.21.jar",
+                    "id": "6131327",
+                    "parent_id": "1037459",
+                    "hashes": {
+                        "sha1": "aa1b9a49f9f190dfe4825c502b150817dd2998c3",
+                        "md5": "4de8568a088a276c94168514d625413d"
+                    },
+                    "required_dependencies": [],
+                    "size": 232325,
+                    "date_published": "2025-01-27T19:08:23.927Z"
                 }
             ]
         },
