@@ -1,36 +1,33 @@
-# Minecraft
-local/
-saves/
-mods/
-logs/
-crash-reports/
-backups/
-resourcepacks/
-server-resource-packs/
-screenshots/
-downloads/
-modernfix/
-fancymenu_data/
-ESM/
-.fabric/
-dynamic-resource-pack-cache/
-frozenlib/
-moddata/
-moonlight-global-datapacks/
-shaderpacks/
-texturepacks/
-vinurl/
-xaero/
-data/
-!config/yosbr/
-config/
+# ==========================================
+# Operating Systems
+# ==========================================
 
-icon.png
-./options.txt
-rhino.local.properties
-usercache.json
-usernamecache.json
-emi.json
+# macOS
+.AppleDouble
+.DS_Store
+.LSOverride
+
+# Windows
+*.lnk
+$RECYCLE.BIN/
+Desktop.ini
+ehthumbs.db
+Thumbs.db
+
+# Linux
+*~
+.directory
+.fuse_hidden*
+.Trash-*
+
+
+# ==========================================
+# Tools
+# ==========================================
+
+# VSCode
+/.vscode/*
+!/.vscode/*.code-workspace
 
 # Pakku
 build/
@@ -39,25 +36,60 @@ build/
 !pakku.json
 !pakku-lock.json
 
-# VSCode
-!/.vscode/*.code-workspace
-/.vscode/*
 
-# -----------------
-# Linux
-*~
-.fuse_hidden*
-.directory
-.Trash-*
+# ==========================================
+# Minecraft
+# ==========================================
 
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.lnk
+/options.txt
+emi.json
+icon.png
+rhino.local.properties
 
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
+
+# ==========================================
+# Minecraft Directories
+# ==========================================
+
+backups/
+crash-reports/
+local/
+logs/
+mods/
+resourcepacks/
+saves/
+screenshots/
+server-resource-packs/
+shaderpacks/
+texturepacks/
+
+
+# ==========================================
+# Mod Data & Configs
+# ==========================================
+
+# Ignore all configs except yosbr
+config/*
+!config/yosbr/
+
+# Mod-specific folders and caches
+.fabric/
+ESM/
+fancymenu_data/
+moddata/
+modernfix/
+vinurl/
+xaero/
+
+
+# ==========================================
+# Caches
+# ==========================================
+
+data/
+downloads/
+dynamic-resource-pack-cache/
+frozenlib/
+moonlight-global-datapacks/
+usercache.json
+usernamecache.json
