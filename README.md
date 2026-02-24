@@ -1,4 +1,10 @@
-# CloverCraft SMP Season 3
+<h1 align="center">CloverCraft SMP</h1>
+
+<div align="center">
+  Season 3
+</div>
+
+<br />
 
 **Version:** 1.21.1
 
