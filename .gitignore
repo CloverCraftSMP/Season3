@@ -13,9 +13,20 @@ modernfix/
 fancymenu_data/
 ESM/
 .fabric/
+dynamic-resource-pack-cache/
+frozenlib/
+moddata/
+moonlight-global-datapacks/
+shaderpacks/
+texturepacks/
+vinurl/
+xaero/
+data/
+!config/yosbr/
+config/
 
 icon.png
-options.txt
+./options.txt
 rhino.local.properties
 usercache.json
 usernamecache.json
