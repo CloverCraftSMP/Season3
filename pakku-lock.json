@@ -138,6 +138,80 @@
             ]
         },
         {
+            "pakku_id": "XSYat2cf6wGHCfgt",
+            "pakku_links": [
+                "Pyp1FMa3z9ef5yhu",
+                "kOu0gNGFjZHcIWLn",
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "fancymenu",
+                "modrinth": "fancymenu"
+            },
+            "name": {
+                "curseforge": "FancyMenu",
+                "modrinth": "FancyMenu"
+            },
+            "id": {
+                "curseforge": "367706",
+                "modrinth": "Wq5SjeWM"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "fancymenu_fabric_3.8.1_MC_1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7256/739/fancymenu_fabric_3.8.1_MC_1.21.1.jar",
+                    "id": "7256739",
+                    "parent_id": "367706",
+                    "hashes": {
+                        "sha1": "65903483bbf770824d821c6065309648aae95304",
+                        "md5": "8e396d8a4315d4d5db4fe742d8d4c0b2"
+                    },
+                    "required_dependencies": [
+                        "416797",
+                        "938643",
+                        "306612"
+                    ],
+                    "size": 4522643,
+                    "date_published": "2025-11-24T08:25:07.490Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "fancymenu_fabric_3.8.1_MC_1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Wq5SjeWM/versions/6V6kRZzL/fancymenu_fabric_3.8.1_MC_1.21.1.jar",
+                    "id": "6V6kRZzL",
+                    "parent_id": "Wq5SjeWM",
+                    "hashes": {
+                        "sha512": "84669b544633d6993322f6eed917f221e8b99596157604226c19ec4b164df088ef6ab5202f5e5d81472f6ab7e747f1b096a1b69369e680ba20c96d7fec8cdd64",
+                        "sha1": "65903483bbf770824d821c6065309648aae95304"
+                    },
+                    "required_dependencies": [
+                        "J81TRJWm",
+                        "P7dR8mSH",
+                        "CVT4pFB2"
+                    ],
+                    "size": 4522643,
+                    "date_published": "2025-11-24T08:25:16.451447Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "aHL3kGHg9hHOr8Oa",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1"
@@ -264,6 +338,120 @@
                     "required_dependencies": [],
                     "size": 400450,
                     "date_published": "2024-11-16T07:48:13.102700Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Pyp1FMa3z9ef5yhu",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "konkrete-fabric"
+            },
+            "name": {
+                "curseforge": "Konkrete [Fabric] [MOVED TO NEW PAGE]"
+            },
+            "id": {
+                "curseforge": "416797"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "konkrete_fabric_1.9.9_MC_1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5430/434/konkrete_fabric_1.9.9_MC_1.21.jar",
+                    "id": "5430434",
+                    "parent_id": "416797",
+                    "hashes": {
+                        "sha1": "c521e23a8be17a941f4f95a76feba9df5e3de5d0",
+                        "md5": "287ee9cfc6015f706672fd8c20f5ef9c"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 786695,
+                    "date_published": "2024-06-15T08:08:46.427Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "kOu0gNGFjZHcIWLn",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "melody",
+                "modrinth": "melody"
+            },
+            "name": {
+                "curseforge": "Melody",
+                "modrinth": "Melody"
+            },
+            "id": {
+                "curseforge": "938643",
+                "modrinth": "CVT4pFB2"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "melody_fabric_1.0.10_MC_1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.4",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5430/438/melody_fabric_1.0.10_MC_1.21.jar",
+                    "id": "5430438",
+                    "parent_id": "938643",
+                    "hashes": {
+                        "sha1": "5624eea73f251c70a9489192d326f9b4aab3b13c",
+                        "md5": "0f1bfbf2dd4fa047a1616fc448f3b856"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 188035,
+                    "date_published": "2024-06-15T08:11:21.593Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "melody_fabric_1.0.10_MC_1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.4"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/OqxSeb4n/melody_fabric_1.0.10_MC_1.21.jar",
+                    "id": "OqxSeb4n",
+                    "parent_id": "CVT4pFB2",
+                    "hashes": {
+                        "sha512": "a7e13e66d3d406b26ee7e5394ae84653d1b9a4f1e4151a2f925fb07869576d6a3b419ba5702bd1ff5bad91054a66f5071720e17f85e1579e8e4f83664bc3dc5e",
+                        "sha1": "5624eea73f251c70a9489192d326f9b4aab3b13c"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 188035,
+                    "date_published": "2024-06-15T08:11:26.157766Z"
                 }
             ]
         },
