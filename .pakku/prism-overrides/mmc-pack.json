@@ -1,0 +1,21 @@
+{
+    "components": [
+        {
+            "important": true,
+            "uid": "net.minecraft",
+            "version": "1.21.1"
+        },
+        {
+            "cachedName": "Fabric Loader",
+            "cachedRequires": [
+                {
+                    "uid": "net.fabricmc.intermediary"
+                }
+            ],
+            "cachedVersion": "0.18.4",
+            "uid": "net.fabricmc.fabric-loader",
+            "version": "0.18.4"
+        }
+    ],
+    "formatVersion": 1
+}

@@ -8,6 +8,13 @@
 
 ## Setup
 
+0. **Symlink or clone github repo into prism instances folder**
+
+    ```bash
+    # symlink (linux example)
+    ln -s /home/syfe/projects/personal/Season3 /home/syfe/.local/share/PrismLauncher/instances/CCSMP3/minecraft
+    ```
+
 1. **Install Dependencies ([pakku](https://juraj-hrivnak.github.io/Pakku/installing-pakku.html) for pack management, CLI tool)**
 
     ```bash

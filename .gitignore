@@ -1,55 +1,52 @@
-**/*.log
-**/*.gz
-**/*.DS_Store
-**/*.jar
-**/*.mrpack
-**/*.code-workspace
-**/*.zip
+# Minecraft
+local/
+saves/
+mods/
+logs/
+crash-reports/
+backups/
+resourcepacks/
+server-resource-packs/
+screenshots/
+downloads/
+modernfix/
+fancymenu_data/
+ESM/
+.fabric/
 
-.vs/
-.vscode/
-.idea/
-package.json
-package.g.props
-package-lock.json
-node_modules/
-
-build/
-!.pakku/**/*
-!pakku.jar
-
-/.mixin.out/
-/classOut
-/backups
-/crash-reports
-/logs
-/saves
-/modernfix
-/XaeroWaypoints*
-/XaeroWorldMap*
-/xaero
-/cache
-/screenshots
-/shaderpacks
-/data
-
-.curseclient
-.sl_password
-options.txt
-patchouli_data.json
-usernamecache.json
-usercache.json
-rhino.local.properties
-profile.json
-emi.json
-sl_password.txt
-servers.dat
-servers.dat_old
-cherishedworlds-favorites.dat
-realms_persistence.json
-minecraftinstance.json
-knownkeys.txt
-optionsof.txt
-optionsshaders.txt
 icon.png
+options.txt
+rhino.local.properties
+usercache.json
+usernamecache.json
+emi.json
 
+# Pakku
+build/
+!.pakku/
+!pakku.jar
+!pakku.json
+!pakku-lock.json
+
+# VSCode
+!/.vscode/*.code-workspace
+/.vscode/*
+
+# -----------------
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
