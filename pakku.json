@@ -1,7 +1,9 @@
 {
     "name": "CloverCraft SMP Season 3",
-    "version": "0.0.1",
+    "author": "CloverCraft Team",
+    "version": "DEV",
     "overrides": [
-        "config"
+        "config",
+        "defaultconfigs"
     ]
 }

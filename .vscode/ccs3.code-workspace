@@ -1,0 +1,20 @@
+{
+    "folders": [
+        {
+            "name": "Root",
+            "path": "../"
+        },
+        {
+            "name": "Client Config",
+            "path": "../config/yosbr/config"
+        },
+        {
+            "name": "Configs",
+            "path": "../config"
+        },
+        {
+            "name": "Config Defaults",
+            "path": "../defaultconfigs"
+        }
+    ]
+}
