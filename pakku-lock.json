@@ -430,25 +430,48 @@
             ]
         },
         {
-            "pakku_id": "ahRYV7kDoSaSBnYw",
+            "pakku_id": "i5JDZwq3wmRG9Z2P",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1"
             ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                "curseforge": "axiom",
+                "curseforge": "axiomtool",
                 "modrinth": "axiom"
             },
             "name": {
-                "curseforge": "Axiom",
+                "curseforge": "AxiomTool",
                 "modrinth": "Axiom"
             },
             "id": {
-                "curseforge": "420044",
+                "curseforge": "911202",
                 "modrinth": "N6n5dqoA"
             },
+            "redistributable": false,
             "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Axiom-5.1.1-for-MC1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7081/792/Axiom-5.1.1-for-MC1.21.1.jar",
+                    "id": "7081792",
+                    "parent_id": "911202",
+                    "hashes": {
+                        "sha1": "3b6fbba88ae1fb84ab4bb08a45026d0919e341a8",
+                        "md5": "54d04e70e5bce68d70fa45f3e4492df3"
+                    },
+                    "required_dependencies": [],
+                    "size": 42728924,
+                    "date_published": "2025-10-08T10:28:07.547Z"
+                },
                 {
                     "type": "modrinth",
                     "file_name": "Axiom-5.2.1-for-MC1.21.1.jar",
@@ -2041,7 +2064,8 @@
             "pakku_links": [
                 "Pyp1FMa3z9ef5yhu",
                 "kOu0gNGFjZHcIWLn",
-                "dGjZM8Beg6NjBNI1"
+                "dGjZM8Beg6NjBNI1",
+                "Fuu8faZmASAvKMLU"
             ],
             "type": "MOD",
             "side": "CLIENT",
@@ -3066,23 +3090,27 @@
             ]
         },
         {
-            "pakku_id": "Pyp1FMa3z9ef5yhu",
+            "pakku_id": "Fuu8faZmASAvKMLU",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1"
             ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
-                "curseforge": "konkrete-fabric"
+                "curseforge": "konkrete",
+                "modrinth": "konkrete"
             },
             "name": {
-                "curseforge": "Konkrete [Fabric] [MOVED TO NEW PAGE]"
+                "curseforge": "Konkrete",
+                "modrinth": "Konkrete"
             },
             "id": {
-                "curseforge": "416797"
+                "curseforge": "410295",
+                "modrinth": "J81TRJWm"
             },
             "files": [
                 {
-                    "type": "curseforge",
+                    "type": "modrinth",
                     "file_name": "konkrete_fabric_1.9.9_MC_1.21.jar",
                     "mc_versions": [
                         "1.21",
@@ -3092,18 +3120,18 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5430/434/konkrete_fabric_1.9.9_MC_1.21.jar",
-                    "id": "5430434",
-                    "parent_id": "416797",
+                    "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/Qvrc7DuG/konkrete_fabric_1.9.9_MC_1.21.jar",
+                    "id": "Qvrc7DuG",
+                    "parent_id": "J81TRJWm",
                     "hashes": {
-                        "sha1": "c521e23a8be17a941f4f95a76feba9df5e3de5d0",
-                        "md5": "287ee9cfc6015f706672fd8c20f5ef9c"
+                        "sha512": "6d4c65a0a9d51b2b956ba61f926f642e901573c9621289cf7a387996370fcab23c69ee6e698596965e9bd68b86b1e96e44295172a880a979105347719228ecf8",
+                        "sha1": "c521e23a8be17a941f4f95a76feba9df5e3de5d0"
                     },
                     "required_dependencies": [
-                        "306612"
+                        "P7dR8mSH"
                     ],
                     "size": 786695,
-                    "date_published": "2024-06-15T08:08:46.427Z"
+                    "date_published": "2024-06-15T08:08:52.591973Z"
                 }
             ]
         },
@@ -3449,7 +3477,8 @@
             "pakku_id": "f8Q61nB9UI5qAr4T",
             "pakku_links": [
                 "UAim16NBrM3aUbKY",
-                "dGjZM8Beg6NjBNI1"
+                "dGjZM8Beg6NjBNI1",
+                "kbFI8jqxyCnOShNL"
             ],
             "type": "MOD",
             "side": "CLIENT",
@@ -4648,16 +4677,20 @@
             ]
         },
         {
-            "pakku_id": "UAim16NBrM3aUbKY",
+            "pakku_id": "kbFI8jqxyCnOShNL",
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
-                "curseforge": "text-placeholder-api"
+                "curseforge": "text-placeholder-api",
+                "modrinth": "placeholder-api"
             },
             "name": {
-                "curseforge": "Text Placeholder API"
+                "curseforge": "Text Placeholder API",
+                "modrinth": "Text Placeholder API"
             },
             "id": {
-                "curseforge": "1037459"
+                "curseforge": "1037459",
+                "modrinth": "eXts2L7r"
             },
             "files": [
                 {
@@ -4682,6 +4715,29 @@
                     "required_dependencies": [],
                     "size": 232325,
                     "date_published": "2025-01-27T19:08:23.927Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "placeholder-api-2.4.2+1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/U5bhVym2/placeholder-api-2.4.2+1.21.jar",
+                    "id": "U5bhVym2",
+                    "parent_id": "eXts2L7r",
+                    "hashes": {
+                        "sha512": "fc13d3a5c048dbaab86318edaf8b6c6b46ef9f1d367e8f063d19f5a9b0da66c5ae419d92c8c4608edc89a01eb44d91ffcf017fea73f39b222cbd85e82f70a233",
+                        "sha1": "aa1b9a49f9f190dfe4825c502b150817dd2998c3"
+                    },
+                    "required_dependencies": [],
+                    "size": 232325,
+                    "date_published": "2025-01-27T19:08:23.196696Z"
                 }
             ]
         },
