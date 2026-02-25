@@ -2768,6 +2768,71 @@
             ]
         },
         {
+            "pakku_id": "pAAYTFzfPdIIPHmm",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "sound-physics-remastered",
+                "modrinth": "sound-physics-remastered"
+            },
+            "name": {
+                "curseforge": "Sound Physics Remastered",
+                "modrinth": "Sound Physics Remastered"
+            },
+            "id": {
+                "curseforge": "535489",
+                "modrinth": "qyVF9oeo"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/7032/249/sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
+                    "id": "7032249",
+                    "parent_id": "535489",
+                    "hashes": {
+                        "sha1": "07d9f758338ad5be38b7fa1eb32c71a7c4840ea0",
+                        "md5": "ca55ac70824e229cd1175238b50608a6"
+                    },
+                    "required_dependencies": [],
+                    "size": 205671,
+                    "date_published": "2025-09-25T14:30:35.697Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://cdn.modrinth.com/data/qyVF9oeo/versions/tVu2EZ4u/sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
+                    "id": "tVu2EZ4u",
+                    "parent_id": "qyVF9oeo",
+                    "hashes": {
+                        "sha512": "72c69678b6afc5ec48027f6e40f7421370dffa1483e23767e0b5f1b36581be652308b33864848e186845df9052f512b79698c69242adb297058cdc3357b64d60",
+                        "sha1": "07d9f758338ad5be38b7fa1eb32c71a7c4840ea0"
+                    },
+                    "required_dependencies": [],
+                    "size": 205671,
+                    "date_published": "2025-09-25T14:30:43.785864Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "qImb80WUC50TTvvO",
             "pakku_links": [
                 "H9cwTP6T7qkB3SPX",
