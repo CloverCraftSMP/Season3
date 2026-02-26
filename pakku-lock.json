@@ -2403,81 +2403,12 @@
             ]
         },
         {
-            "pakku_id": "aHL3kGHg9hHOr8Oa",
+            "pakku_id": "Ei9FytwQMD7JII21",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1"
             ],
             "type": "MOD",
             "side": "BOTH",
-            "slug": {
-                "curseforge": "frozenlib",
-                "modrinth": "frozenlib"
-            },
-            "name": {
-                "curseforge": "FrozenLib",
-                "modrinth": "FrozenLib"
-            },
-            "id": {
-                "curseforge": "709773",
-                "modrinth": "9KawNmQc"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "FrozenLib-2.2.4-mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7319/058/FrozenLib-2.2.4-mc1.21.1.jar",
-                    "id": "7319058",
-                    "parent_id": "709773",
-                    "hashes": {
-                        "sha1": "a50b9fe98350bde7e5493abc96af49b81d24107c",
-                        "md5": "c1e1f4252058bc00753197df42260c08"
-                    },
-                    "required_dependencies": [],
-                    "size": 1665090,
-                    "date_published": "2025-12-11T02:15:23.573Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "FrozenLib-2.2.4-mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/9KawNmQc/versions/GdadG0oj/FrozenLib-2.2.4-mc1.21.1.jar",
-                    "id": "GdadG0oj",
-                    "parent_id": "9KawNmQc",
-                    "hashes": {
-                        "sha512": "2fe0816d77ea68a644efec183050f6e0a2f7c7f228dfb8267f015cc13fb2e78af89820692234a7279673710116adc668f39d24fe066d205c0c2bb78408ffd0c5",
-                        "sha1": "a50b9fe98350bde7e5493abc96af49b81d24107c"
-                    },
-                    "required_dependencies": [
-                        "P7dR8mSH"
-                    ],
-                    "size": 1665090,
-                    "date_published": "2025-12-10T22:30:06.266150Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "jV34XzxE13KOF934",
-            "pakku_links": [
-                "dGjZM8Beg6NjBNI1"
-            ],
-            "type": "MOD",
-            "side": "CLIENT",
             "slug": {
                 "curseforge": "geckolib",
                 "modrinth": "geckolib"
@@ -2609,11 +2540,11 @@
             ]
         },
         {
-            "pakku_id": "xQC6xCwz9L19Tj1d",
+            "pakku_id": "flDO0XZenxdxw3pj",
             "pakku_links": [
                 "g0bO5VOlJG82Kqc9",
                 "vYKlm3L2uvUOH982",
-                "jV34XzxE13KOF934"
+                "Ei9FytwQMD7JII21"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -2673,9 +2604,9 @@
                         "sha1": "3f39999e159146c105a03010170b714bbd962125"
                     },
                     "required_dependencies": [
-                        "8BmcQJ2H",
                         "Ha28R6CL",
-                        "XaDC71GB"
+                        "XaDC71GB",
+                        "8BmcQJ2H"
                     ],
                     "size": 3404738,
                     "date_published": "2026-01-03T01:41:57.905035Z"
@@ -2893,75 +2824,6 @@
                     "required_dependencies": [],
                     "size": 2690177,
                     "date_published": "2025-02-20T15:09:04.693Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "X9IrVh88NOsjgayu",
-            "pakku_links": [
-                "dGjZM8Beg6NjBNI1"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "itemstats",
-                "modrinth": "itemstats"
-            },
-            "name": {
-                "curseforge": "Item Stat Tracker",
-                "modrinth": "Item Stat Tracker"
-            },
-            "id": {
-                "curseforge": "1362799",
-                "modrinth": "ow5rRJYD"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "itemstats-fabric-1.21.11-0.2.3.jar",
-                    "mc_versions": [
-                        "1.21.11"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7325/644/itemstats-fabric-1.21.11-0.2.3.jar",
-                    "id": "7325644",
-                    "parent_id": "1362799",
-                    "hashes": {
-                        "sha1": "346902a3af7f407df173f814908f96354fb3065c",
-                        "md5": "eec5340be972a58efd8d478a808611f5"
-                    },
-                    "required_dependencies": [
-                        "306612"
-                    ],
-                    "size": 39883,
-                    "date_published": "2025-12-12T20:29:32.113Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "itemstats-fabric-1.21.1-0.2.3.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/ow5rRJYD/versions/rRn3qcnC/itemstats-fabric-1.21.1-0.2.3.jar",
-                    "id": "rRn3qcnC",
-                    "parent_id": "ow5rRJYD",
-                    "hashes": {
-                        "sha512": "1233f9e6fc83ac51931b1135f6d47fe69a714c4d6406716b6e9e698fb484024cbf783d5365993638cd6e2baf4bc303b82c99569a383a0b9912521d773fd6000c",
-                        "sha1": "09aa634e80cdac6cd5a4c90fdee94fdf76bcc39f"
-                    },
-                    "required_dependencies": [
-                        "P7dR8mSH"
-                    ],
-                    "size": 39343,
-                    "date_published": "2025-12-12T20:23:24.491470Z"
                 }
             ]
         },
@@ -5168,82 +5030,6 @@
                     ],
                     "size": 3380787,
                     "date_published": "2026-01-27T05:12:53.553Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "eB593JYRzBk2cEMk",
-            "pakku_links": [
-                "aHL3kGHg9hHOr8Oa",
-                "dGjZM8Beg6NjBNI1"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "wilder-wild",
-                "modrinth": "wilder-wild"
-            },
-            "name": {
-                "curseforge": "Wilder Wild [Fabric]",
-                "modrinth": "Wilder Wild"
-            },
-            "id": {
-                "curseforge": "648511",
-                "modrinth": "AtHRJSUW"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "WilderWild-4.2.1-mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1-Snapshot",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7362/889/WilderWild-4.2.1-mc1.21.1.jar",
-                    "id": "7362889",
-                    "parent_id": "648511",
-                    "hashes": {
-                        "sha1": "0c6b03e5d615720f91965a2dd16db912fcc7eb1e",
-                        "md5": "fe50a7f4944313dc91b8fd7c8b3622d1"
-                    },
-                    "required_dependencies": [
-                        "709773",
-                        "306612"
-                    ],
-                    "size": 29831233,
-                    "date_published": "2025-12-21T20:11:38.283Z"
-                },
-                {
-                    "type": "modrinth",
-                    "file_name": "WilderWild-4.2.1-mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/AtHRJSUW/versions/LGumUR4U/WilderWild-4.2.1-mc1.21.1.jar",
-                    "id": "LGumUR4U",
-                    "parent_id": "AtHRJSUW",
-                    "hashes": {
-                        "sha512": "14fff8800f61b9c177d97b4b0143e79f5479082cf7cff956b6f27eed5c1bd1e0345685d17943eac5ff793996f64cdfd9e929e68508da0b66d83924a47e34d8e2",
-                        "sha1": "0c6b03e5d615720f91965a2dd16db912fcc7eb1e"
-                    },
-                    "required_dependencies": [
-                        "9KawNmQc",
-                        "P7dR8mSH"
-                    ],
-                    "size": 29831233,
-                    "date_published": "2025-12-21T20:01:35.162842Z"
                 }
             ]
         },
