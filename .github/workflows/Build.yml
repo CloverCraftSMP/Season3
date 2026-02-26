@@ -41,14 +41,14 @@ jobs:
                 name: changelog
                 path: CHANGELOG-*.md
 
-            - name: Send Discord message
-              uses: hugoalh/send-discord-webhook-ghaction@v7.0.5
-              if: ${{ steps.info.outputs.diff != '' }}
-              with:
-                key: ${{ secrets.DISCORD_WEBHOOK_DEV }}
-                username: "GitHub"
-                avatar_url: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-                content: ${{ steps.info.outputs.diff }}
+            # - name: Send Discord message
+            #   uses: hugoalh/send-discord-webhook-ghaction@v7.0.5
+            #   if: ${{ steps.info.outputs.diff != '' }}
+            #   with:
+            #     key: ${{ secrets.DISCORD_WEBHOOK_DEV }}
+            #     username: "GitHub"
+            #     avatar_url: "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+            #     content: ${{ steps.info.outputs.diff }}
 
     build-modpack:
         name: Build Modpack
