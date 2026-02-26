@@ -430,6 +430,69 @@
             ]
         },
         {
+            "pakku_id": "5Fu0xf3E4jQ6D9Lq",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "automodpack",
+                "modrinth": "automodpack"
+            },
+            "name": {
+                "curseforge": "AutoModpack",
+                "modrinth": "AutoModpack"
+            },
+            "id": {
+                "curseforge": "639211",
+                "modrinth": "k68glP2e"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "automodpack-mc1.21.1-fabric-4.0.5.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7488/50/automodpack-mc1.21.1-fabric-4.0.5.jar",
+                    "id": "7488050",
+                    "parent_id": "639211",
+                    "hashes": {
+                        "sha1": "763853d7a87c2bc18a976de886324d9e60e0ee63",
+                        "md5": "edc7decf202b5894a04d12332667e71d"
+                    },
+                    "required_dependencies": [],
+                    "size": 15842276,
+                    "date_published": "2026-01-19T11:42:19.243Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "automodpack-mc1.21.1-fabric-4.0.5.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/k68glP2e/versions/taR5fMv3/automodpack-mc1.21.1-fabric-4.0.5.jar",
+                    "id": "taR5fMv3",
+                    "parent_id": "k68glP2e",
+                    "hashes": {
+                        "sha512": "6bc599601975083b1287894b5c783466b05acd15a2c6276b7258749e1db6e07fe95f40653fc88366e9354faed0552ad89923df270d6f61643c5a239805acc77c",
+                        "sha1": "763853d7a87c2bc18a976de886324d9e60e0ee63"
+                    },
+                    "required_dependencies": [],
+                    "size": 15842276,
+                    "date_published": "2026-01-19T11:42:26.174027Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "i5JDZwq3wmRG9Z2P",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1"
