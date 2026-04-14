@@ -80,6 +80,7 @@ moddata/
 modernfix/
 vinurl/
 xaero/
+automodpack/.private/
 
 
 # ==========================================
@@ -89,7 +90,9 @@ xaero/
 data/
 downloads/
 dynamic-resource-pack-cache/
+dynamic-data-pack-cache/
 frozenlib/
 moonlight-global-datapacks/
+.mixin.out/
 usercache.json
 usernamecache.json
