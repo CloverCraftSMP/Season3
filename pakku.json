@@ -15,9 +15,6 @@
         },
         "chimes": {
             "side": "BOTH"
-        },
-        "smallships": {
-            "side": "BOTH"
         }
     }
 }
