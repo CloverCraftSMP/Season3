@@ -1,0 +1,206 @@
+
+[general]
+	applicationID = "1362909405468954624"
+	enabled = true
+	debugging = false
+	launcherIntegration = false
+	rpcImageServer = false
+	rpcImageServerUrl = "https://rpcavatar.firstdark.dev"
+	version = 26
+
+[init]
+	enabled = true
+
+	[[init.presence]]
+		type = "PLAYING"
+		description = "Loading up CloverCraft!"
+		state = "Getting ready to go on an adventure!"
+		largeImageKey = ["clover_smile"]
+		largeImageText = "{{custom.cleanversion}}"
+		smallImageKey = ["clover_happy"]
+		smallImageText = "{{game.mods}} mods installed"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+[main_menu]
+	enabled = true
+
+	[[main_menu.presence]]
+		type = "PLAYING"
+		description = "Just hanging out~"
+		state = "Contemplating to click that quit button or to sink another hour in"
+		largeImageKey = ["clover_rest"]
+		largeImageText = "{{custom.cleanversion}}"
+		smallImageKey = []
+		smallImageText = ""
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+[server_list]
+	enabled = true
+
+	[[server_list.presence]]
+		type = "PLAYING"
+		description = "Getting ready to jump in"
+		state = "Scoping out the forest of servers to finally just join the SMP..."
+		largeImageKey = ["clover_wave"]
+		largeImageText = "{{custom.cleanversion}}"
+		smallImageKey = []
+		smallImageText = ""
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+[realms_list]
+	enabled = true
+
+	[[realms_list.presence]]
+		type = "PLAYING"
+		description = "Browsing realms"
+		state = "What are we doing here?"
+		largeImageKey = ["clover_quit"]
+		largeImageText = "{{custom.cleanversion}}"
+		smallImageKey = []
+		smallImageText = ""
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+[join_game]
+	enabled = true
+
+	[[join_game.presence]]
+		type = "PLAYING"
+		description = "Hopping on for a quick game"
+		state = "Joining the same server as dei..."
+		largeImageKey = ["clover_dread"]
+		largeImageText = "{{custom.cleanversion}}"
+		smallImageKey = []
+		smallImageText = ""
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+[single_player]
+	enabled = true
+
+	[[single_player.presence]]
+		type = "PLAYING"
+		description = "Currently In {{world.name}}"
+		state = "All around me are familiar faces"
+		largeImageKey = ["clover_goober"]
+		largeImageText = "{{custom.cleanversion}}"
+		smallImageKey = []
+		smallImageText = ""
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+[multi_player]
+	enabled = true
+
+	[[multi_player.presence]]
+		type = "PLAYING"
+		description = "Playing on CloverCraft SMP with {{server.players.count}} players"
+		state = "Hanging out with the community <3"
+		largeImageKey = ["clover_heart"]
+		largeImageText = "{{custom.cleanversion}}"
+		smallImageKey = []
+		smallImageText = ""
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+[realms]
+	enabled = true
+
+	[[realms.presence]]
+		type = "PLAYING"
+		description = "Playing on {{realm.name}}"
+		state = "Playing on a Realm"
+		largeImageKey = ["clover_smile"]
+		largeImageText = "{{custom.cleanversion}}"
+		smallImageKey = ["{{images.player}}"]
+		smallImageText = "{{player.name}}"
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+[paused]
+	enabled = true
+
+	[[paused.presence]]
+		type = "PLAYING"
+		description = "In the Pause Menu"
+		state = "~Wii menu music intensifies~"
+		largeImageKey = ["clover_popcorn"]
+		largeImageText = "{{custom.cleanversion}}"
+		smallImageKey = []
+		smallImageText = ""
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+[generic]
+
+	[[generic.presence]]
+		type = "PLAYING"
+		description = "Playing CloverCraft"
+		state = ""
+		largeImageKey = ["clover_happy"]
+		largeImageText = "{{custom.cleanversion}}"
+		smallImageKey = []
+		smallImageText = ""
+		streamingActivityUrl = "https://twitch.tv/twitch"
+		buttons = []
+
+[custom]
+	enabled = true
+
+	[[custom.variables]]
+		name = "modpackversion"
+		# TODO: pull this from main config
+		value = "v1.0.0"
+
+	[[custom.variables]]
+		name = "cleanversion"
+		value = "CloverCraft {{custom.modpackversion}} for Minecraft {{game.version}}"
+
+[dimension_overrides]
+	enabled = false
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in The Overworld"
+			state = ""
+			largeImageKey = ["overworld"]
+			largeImageText = "In the Overworld"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in The Nether"
+			state = ""
+			largeImageKey = ["nether"]
+			largeImageText = "In the Nether"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+
+		[[dimension_overrides.dimensions.presence]]
+			type = "PLAYING"
+			description = "{{player.name}} is in The End"
+			state = ""
+			largeImageKey = ["end"]
+			largeImageText = "In the End"
+			smallImageKey = ["mclogo"]
+			smallImageText = "{{game.mods}} mods installed"
+			streamingActivityUrl = "https://twitch.tv/twitch"
+			buttons = []
+
