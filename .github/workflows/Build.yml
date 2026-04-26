@@ -14,7 +14,7 @@ on:
 jobs:
   modpack-info:
     name: Modpack Info
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     outputs:
       projectname:   ${{ steps.info.outputs.projectname }}
       projectsuffix: ${{ steps.info.outputs.projectsuffix }}
@@ -40,7 +40,7 @@ jobs:
  
   build:
     name: Build Modpack
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: [modpack-info]
     steps:
       - name: Checkout
