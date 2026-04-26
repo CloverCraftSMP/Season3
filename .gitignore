@@ -35,6 +35,7 @@ build/
 !pakku.jar
 !pakku.json
 !pakku-lock.json
+dev-server/
 
 
 # ==========================================
