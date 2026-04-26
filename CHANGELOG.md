@@ -6,7 +6,9 @@
 
 @news@{
 
-- Added changelogs
+- Discord RPC
+- Improved GitHub workflow
+- Modrinth publishing (waiting on pack to be published before finishing automating)
 
 }
 
