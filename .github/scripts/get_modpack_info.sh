@@ -32,7 +32,7 @@ echo "mcversion=$mcversion" >> "$GITHUB_OUTPUT"
 echo "🎮 mcversion=$mcversion" | tee -a "$GITHUB_STEP_SUMMARY"
  
 # -- TAGS --
-latest_tag=$(git describe --tags --abbrev=0)
+latest_tag=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
 echo "tag=$latest_tag" >> "$GITHUB_OUTPUT"
 echo "🏷  tag=$latest_tag" | tee -a "$GITHUB_STEP_SUMMARY"
  
