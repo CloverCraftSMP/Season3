@@ -33,16 +33,15 @@ jobs:
         with:
           distribution: temurin
           java-version: 25
-          
+
       - name: Get modpack info
         id: info
         run: bash .github/scripts/get_modpack_info.sh
  
-      - name: Upload changelog
-        uses: actions/upload-artifact@v4
-        with:
-          name: changelog
-          path: CHANGELOG-${{ steps.info.outputs.projectsuffix }}.md
+      - name: Save changelog locally
+        run: |
+          mkdir -p /tmp/modpack-builds
+          cp CHANGELOG-${{ steps.info.outputs.projectsuffix }}.md /tmp/modpack-builds/
  
   build:
     name: Build Modpack
@@ -56,7 +55,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: 21
+          java-version: 25
  
       - name: Download Pakku
         run: |
@@ -92,17 +91,11 @@ jobs:
           mv build/modrinth/*.mrpack   "${NAME}-${SUFFIX}.mrpack"
           mv build/serverpack/*.zip    "${NAME}-${SUFFIX}-Server-Pack.zip"
  
-      - name: Upload mrpack
-        uses: actions/upload-artifact@v4
-        with:
-          name: mrpack
-          path: "*.mrpack"
- 
-      - name: Upload serverpack
-        uses: actions/upload-artifact@v4
-        with:
-          name: serverpack
-          path: "*-Server-Pack.zip"
+      - name: Save pack files locally
+        run: |
+          mkdir -p /tmp/modpack-builds
+          cp *.mrpack /tmp/modpack-builds/
+          cp *-Server-Pack.zip /tmp/modpack-builds/
  
   release:
     name: Release

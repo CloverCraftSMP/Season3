@@ -31,29 +31,14 @@ jobs:
     name: GitHub Release
     runs-on: self-hosted
     steps:
-      - name: Download mrpack
-        uses: actions/download-artifact@v4
-        with:
-          name: mrpack
-
-      - name: Download serverpack
-        uses: actions/download-artifact@v4
-        with:
-          name: serverpack
-
-      - name: Download changelog
-        uses: actions/download-artifact@v4
-        with:
-          name: changelog
-
       - name: Create release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ inputs.tag }}
-          body_path: CHANGELOG-${{ inputs.projectsuffix }}.md
+          body_path: /tmp/modpack-builds/CHANGELOG-${{ inputs.projectsuffix }}.md
           files: |
-            ${{ inputs.projectname }}-${{ inputs.projectsuffix }}.mrpack
-            ${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip
+            /tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}.mrpack
+            /tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -61,26 +46,16 @@ jobs:
     name: Modrinth Release
     runs-on: self-hosted
     steps:
-      - name: Download mrpack
-        uses: actions/download-artifact@v4
-        with:
-          name: mrpack
-
-      - name: Download changelog
-        uses: actions/download-artifact@v4
-        with:
-          name: changelog
-
       - name: Publish to Modrinth
         uses: Kir-Antipov/mc-publish@v3.3
         with:
           modrinth-id: ${{ env.MR_PROJECT_ID }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          files: "*.mrpack"
+          files: "/tmp/modpack-builds/*.mrpack"
           name: ${{ inputs.projectname }} ${{ inputs.projectsuffix }}
           version: ${{ inputs.projectsuffix }}
           version-type: ${{ inputs.rel_type }}
-          changelog-file: CHANGELOG-${{ inputs.projectsuffix }}.md
+          changelog-file: /tmp/modpack-builds/CHANGELOG-${{ inputs.projectsuffix }}.md
           loaders: fabric
           game-versions: ${{ inputs.mcversion }}
 
@@ -105,11 +80,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Download changelog
-        uses: actions/download-artifact@v4
-        with:
-          name: changelog
-          path: .github/changelogs
+      - name: Retrieve changelog locally
+        run: |
+          mkdir -p .github/changelogs
+          cp /tmp/modpack-builds/CHANGELOG-${{ inputs.projectsuffix }}.md .github/changelogs/
 
       - name: Reset CHANGELOG.md from template
         # The processed changelog is archived under .github/changelogs/,
