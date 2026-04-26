@@ -70,8 +70,7 @@ texturepacks/
 # ==========================================
 
 # Ignore all configs except yosbr
-config/*
-!config/yosbr/
+config/
 
 # Mod-specific folders and caches
 .fabric/
@@ -81,7 +80,6 @@ moddata/
 modernfix/
 vinurl/
 xaero/
-automodpack/.private/
 
 
 # ==========================================

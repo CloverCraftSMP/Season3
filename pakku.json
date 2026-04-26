@@ -2,10 +2,6 @@
     "name": "CloverCraft SMP Season 3",
     "author": "CloverCraft Team",
     "version": "DEV",
-    "overrides": [
-        "config",
-        "defaultconfigs"
-    ],
     "projects": {
         "geckolib": {
             "side": "BOTH"
