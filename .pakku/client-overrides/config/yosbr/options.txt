@@ -1,0 +1,16 @@
+version:3955
+fov:0.5
+fullscreen:true
+gamma:1.0
+guiScale:2
+maxFps:165
+narrator:0
+directionalAudio:true
+toggleSprint:true
+darkMojangStudiosBackground:true
+tutorialStep:none
+skipMultiplayerWarning:true
+joinedFirstServer:true
+onboardAccessibility:false
+soundCategory_master:0.5
+soundCategory_music:0.2

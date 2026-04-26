@@ -72,10 +72,10 @@ jobs:
         run: |
           VERSION="${{ needs.modpack-info.outputs.projectsuffix }}"
           echo "Injecting version $VERSION..."
-          grep -rl "@modpack_version@" overrides/ | while read -r file; do
+          grep -rl "@modpack_version@" .pakku/ 2>/dev/null | while read -r file; do
             sed -i "s/@modpack_version@/$VERSION/g" "$file"
             echo "  ✔ $file"
-          done
+          done || true
  
       - name: Export modpack
         # Produces:
