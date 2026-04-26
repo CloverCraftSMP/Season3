@@ -47,8 +47,8 @@ emi.json
 icon.png
 rhino.local.properties
 command_history.txt
-server.dat
-server.dat_old
+servers.dat
+servers.dat_old
 
 
 # ==========================================

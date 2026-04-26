@@ -5,16 +5,20 @@
             "path": "../"
         },
         {
-            "name": "Client Config",
-            "path": "../config/yosbr/config"
+            "name": "Pakku Client Config",
+            "path": "../.pakku/client-overrides/config/yosbr/config"
         },
         {
-            "name": "Configs",
+            "name": "Pakku Server Config",
+            "path": "../.pakku/server-overrides/config"
+        },
+        {
+            "name": "Local Client Config",
             "path": "../config"
         },
         {
-            "name": "Config Defaults",
-            "path": "../defaultconfigs"
+            "name": "Local Server Config",
+            "path": "../dev-server/config"
         }
     ]
 }
