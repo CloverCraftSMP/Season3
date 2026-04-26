@@ -75,9 +75,6 @@ texturepacks/
 # Ignore all configs except yosbr
 /config/
 
-# Allowed mod configs
-!config/simple-rpc/
-
 # Mod-specific folders and caches
 .fabric/
 ESM/
