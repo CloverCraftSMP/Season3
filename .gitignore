@@ -46,6 +46,9 @@ dev-server/
 emi.json
 icon.png
 rhino.local.properties
+command_history.txt
+server.dat
+server.dat_old
 
 
 # ==========================================
@@ -70,7 +73,7 @@ texturepacks/
 # ==========================================
 
 # Ignore all configs except yosbr
-config/
+/config/
 
 # Mod-specific folders and caches
 .fabric/
@@ -80,6 +83,7 @@ moddata/
 modernfix/
 vinurl/
 xaero/
+Distant_Horizons_server_data/
 
 
 # ==========================================

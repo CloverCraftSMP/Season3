@@ -1,7 +1,7 @@
 {
     "name": "CloverCraft SMP Season 3",
-    "author": "CloverCraft Team",
     "version": "DEV",
+    "author": "CloverCraft Team",
     "projects": {
         "geckolib": {
             "side": "BOTH"
@@ -11,6 +11,9 @@
         },
         "chimes": {
             "side": "BOTH"
+        },
+        "distant-horizons": {
+            "side": "CLIENT"
         }
     }
 }
