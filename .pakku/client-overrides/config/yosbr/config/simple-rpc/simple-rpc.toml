@@ -152,8 +152,7 @@
 
 	[[custom.variables]]
 		name = "modpackversion"
-		# TODO: pull this from main config
-		value = "v1.0.0"
+		value = "@modpack_version@"
 
 	[[custom.variables]]
 		name = "cleanversion"
