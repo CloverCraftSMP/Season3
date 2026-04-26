@@ -147,8 +147,8 @@
         {
             "pakku_id": "SDeLApvej7tnKQmJ",
             "pakku_links": [
-                "MSbL1PVSSGxhQiU6",
-                "dGjZM8Beg6NjBNI1"
+                "dGjZM8Beg6NjBNI1",
+                "Qj9I73SRi37EQCVl"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -4768,19 +4768,19 @@
             ]
         },
         {
-            "pakku_id": "MSbL1PVSSGxhQiU6",
+            "pakku_id": "Qj9I73SRi37EQCVl",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                "curseforge": "selene",
                 "modrinth": "moonlight"
             },
             "name": {
-                "curseforge": "Moonlight Lib",
                 "modrinth": "Moonlight Lib"
             },
             "id": {
-                "curseforge": "499980",
                 "modrinth": "twkfQtEc"
             },
             "files": [
@@ -4806,27 +4806,6 @@
                     ],
                     "size": 1607319,
                     "date_published": "2026-04-18T07:28:06.787398Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "moonlight-fabric-1.21-2.30.0-alpha2.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7996/750/moonlight-fabric-1.21-2.30.0-alpha2.jar",
-                    "id": "7996750",
-                    "parent_id": "499980",
-                    "hashes": {
-                        "sha1": "7742e8460002173db2ccd6dcc072f9bde5b9bf24",
-                        "md5": "bb90da82376996bd2d8e04ca0a2571cd"
-                    },
-                    "required_dependencies": [],
-                    "size": 1595937,
-                    "date_published": "2026-04-26T20:09:19.483Z"
                 }
             ]
         },
@@ -6448,7 +6427,8 @@
             "pakku_id": "qImb80WUC50TTvvO",
             "pakku_links": [
                 "H9cwTP6T7qkB3SPX",
-                "dGjZM8Beg6NjBNI1"
+                "dGjZM8Beg6NjBNI1",
+                "Qj9I73SRi37EQCVl"
             ],
             "type": "MOD",
             "side": "BOTH",
