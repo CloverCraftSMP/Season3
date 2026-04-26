@@ -1,327 +1,112 @@
-# much taken from https://github.com/juraj-hrivnak/Underdog/blob/852ff8a9d2c4b6fe3ab605a7f31177d5333acaf0/.github/workflows/BuildMultiplatform.yml
 name: Build
 run-name: "Build #${{ github.run_number }}"
-
+ 
 on:
-    push:
-        tags:
-            - 'v*'
-        branches:
-            - main
-
+  push:
+    tags:
+      - 'v*'
+    branches:
+      - main
+ 
 jobs:
   modpack-info:
     name: Modpack Info
     runs-on: ubuntu-latest
     outputs:
-      projectname: ${{ steps.info.outputs.projectname }}
+      projectname:   ${{ steps.info.outputs.projectname }}
       projectsuffix: ${{ steps.info.outputs.projectsuffix }}
-      mcversion: ${{ steps.info.outputs.mcversion }}
-      tag: ${{ steps.version.outputs.tag }}
-      news: ${{ steps.mod_changes.outputs.news }}
+      mcversion:     ${{ steps.info.outputs.mcversion }}
+      tag:           ${{ steps.info.outputs.tag }}
+      rel_type:      ${{ steps.info.outputs.rel_type }}
+      news:          ${{ steps.info.outputs.news }}
     steps:
-      - name: Checkout with fetch depth 2
-        uses: actions/checkout@v6
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 2
-      - name: Get tag
-        id: version
-        uses: "WyriHaximus/github-action-get-previous-tag@v1"
-        with:
-          fallback: tag_not_found
+          fetch-depth: 0  # Full history needed for git describe and diff
+ 
       - name: Get modpack info
         id: info
-        shell: bash
-        run: |
-          set +e
-
-          if [ ! -f pax/modpack/manifest.json ]; then
-            echo "::error::Could not find manifest.json" && exit 1
-          fi
-          manifestjson=`cat pax/modpack/manifest.json`
-
-          projectname=`echo $(jq -r '.name' <<< "$manifestjson")`
-          echo "projectname=$projectname" >> $GITHUB_OUTPUT
-
-          mcversion=`echo $(jq -r '.minecraft.version' <<< "$manifestjson")`
-          echo "mcversion=$mcversion" >> $GITHUB_OUTPUT
-
-          if [[ ${{ startsWith(github.ref, 'refs/tags/v') }} == true ]]; then
-            echo "projectsuffix=${{ steps.version.outputs.tag }}" >> $GITHUB_OUTPUT
-          else
-            echo "projectsuffix=build.${{ github.run_number }}" >> $GITHUB_OUTPUT
-          fi
-      - name: Checkout with fetch depth 0
-        uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-      - name: Process changelog
-        id: mod_changes
-        shell: bash
-        run: |
-          set +e
-
-          curl https://github.com/josephburnett/jd/releases/download/v1.7.1/jd-amd64-linux -o ./pax/jd -L -J
-          sudo chmod +x ./pax/jd
-
-          manifest="./pax/modpack/manifest.json"
-          changelog="./CHANGELOG.md"
-
-          branch=$(git rev-parse --abbrev-ref HEAD)
-          current_commit=$(git rev-parse --short ${{ github.sha }})
-          previous_commit=$(git log -n 1 --skip 1 --pretty=format:"%h" -- $manifest)
-          latest_commit=$(git log -n 1 --pretty=format:"%h" $branch -- $manifest)
-          latest_tag=$(git describe --tags --abbrev=0)
-          latest_tagged_commit=$(git rev-list -n 1 --pretty=format:"%h" $latest_tag | sed -n 2p)
-
-          if [ "$latest_tag" = ${{ steps.version.outputs.tag }} ]; then
-            latest_tag=$(git describe --tags --abbrev=0 $(git describe --tags --abbrev=0)^)
-            latest_tagged_commit=$(git rev-list -n 1 --pretty=format:"%h" $latest_tag | sed -n 2p)
-          fi
-
-          if [ "$latest_commit" = "$current_commit" ]; then
-            echo "changed=true" >> $GITHUB_OUTPUT
-          else
-            echo "changed=false" >> $GITHUB_OUTPUT
-          fi
-
-          echo "branch: $branch"
-          echo "current commit: $current_commit"
-          echo "previous commit: $previous_commit"
-          echo "latest commit: $latest_commit"
-          echo "latest tagged commit: $latest_tagged_commit"
-          echo "latest tag: $latest_tag"
-
-          RED='\033[0;31m'
-          GREEN='\033[0;32m'
-          BLUE='\033[0;36m'
-          NC='\033[0m'
-
-          git show $latest_tagged_commit:$manifest > ./pax/modpack/manifest_prev.json
-          mods_removed_raw=$(./pax/jd -set ./pax/modpack/manifest_prev.json $manifest | grep '^-' | grep -P -o '"name":[\s]*"\K[^"]*' | tr -d '\[\]')
-          mods_added_raw=$(./pax/jd -set ./pax/modpack/manifest_prev.json $manifest | grep '^+' | grep -P -o '"name":[\s]*"\K[^"]*' | tr -d '\[\]')
-
-          mods_added=""
-          mods_removed=""
-          mods_updated=""
-
-          mod_changes=""
-
-          if [[ ! -z ""$mods_added_raw"" ]]; then
-            while IFS= read -r line1; do
-              foo=""
-              while IFS= read -r line2; do
-                foo="${line1//$line2}"
-                if [[ -z ""$foo"" ]]; then
-                  if [[ ! -z ""$mods_updated"" ]]; then
-                    mods_updated+="\n"
-                  fi
-                  mods_updated+="- $line1"
-                  break
-                fi
-              done <<< "$mods_removed_raw"
-              if [[ ! -z ""$foo"" ]]; then
-                if [[ ! -z ""$mods_added"" ]]; then
-                  mods_added+="\n"
-                fi
-                mods_added+="- $foo"
-              fi
-            done <<< "$mods_added_raw"
-          fi
-
-          if [[ ! -z ""$mods_removed_raw"" ]]; then
-            while IFS= read -r line1; do
-              bar=""
-              while IFS= read -r line2; do
-                bar="${line1//$line2}"
-                if [[ -z ""$bar"" ]]; then
-                  break
-                fi
-              done <<< "$mods_added_raw"
-              if [[ ! -z ""$bar"" ]]; then
-                if [[ ! -z ""$mods_removed"" ]]; then
-                  mods_removed+="\n"
-                fi
-                mods_removed+="- $bar"
-              fi
-            done <<< "$mods_removed_raw"
-          fi
-
-          if [[ ! -z ""$mods_added"" ]] || [[ ! -z ""$mods_removed"" ]] || [[ ! -z ""$mods_updated"" ]]; then
-            echo -e "x---------------x"
-            echo -e "|  Mod Changes  |"
-
-            mod_changes+="## Mod Changes\n\n"
-            mod_changes+="Since: [\`$latest_tag\`](<https://github.com/${{ github.repository }}/releases/tag/$latest_tag>)\n\n"
-            mod_changes+="\`\`\`markdown\n"
-          fi
-
-          if [[ ! -z ""$mods_added"" ]]; then
-            echo -e "${GREEN}Added:"
-            echo -e "$mods_added"
-
-            mod_changes+="Added:\n"
-            mod_changes+="$mods_added\n"
-
-            if [[ ! -z ""$mods_removed"" ]] || [[ ! -z ""$mods_updated"" ]]; then
-              mod_changes+="\n"
-            fi
-          fi
-          if [[ ! -z ""$mods_removed"" ]]; then
-            echo -e "${RED}Removed:"
-            echo -e "$mods_removed"
-
-            mod_changes+="Removed:\n"
-            mod_changes+="$mods_removed\n"
-
-            if [[ ! -z ""$mods_updated"" ]]; then
-              mod_changes+="\n"
-            fi
-          fi
-          if [[ ! -z ""$mods_updated"" ]]; then
-            echo -e "${BLUE}Updated:"
-            echo -e "$mods_updated"
-
-            mod_changes+="Updated:\n"
-            mod_changes+="$mods_updated\n"
-          fi
-
-          if [[ ! -z ""$mods_added"" ]] || [[ ! -z ""$mods_removed"" ]] || [[ ! -z ""$mods_updated"" ]]; then
-            echo -e "${NC}x---------------x"
-
-            mod_changes+="\`\`\`"
-          fi
-
-          if [[ ! -z ""$mod_changes"" ]]; then
-            echo -e "$mod_changes" >> $GITHUB_STEP_SUMMARY
-          fi
-
-          # Replace @mod_changes@
-          mod_changes=$(echo $mod_changes | sed -r 's/[/]/\\\//g')
-          perl -i -pe "s/\@mod_changes\@/$mod_changes/g" $changelog
-
-          # Upload @mod_changes@
-          mod_changes=$(echo $mod_changes | sed -r 's/\\\\n/\\n/g')
-          echo "markdown=$mod_changes" >> $GITHUB_OUTPUT
-
-          rm ./pax/modpack/manifest_prev.json
-
-          # Replace @version@
-          perl -i -pe "s/\@version\@/${{ steps.info.outputs.projectsuffix }}/g" $changelog
-
-          # Get & upload @news@
-          news=$(grep -Pzo '\@news\@\{\K[\s]\n*([\s\S]*)\n(?=\})' $changelog | sed '/^$/d' | sed -E ':a;N;$!ba;s/\r{0,1}\n/\\n/g')
-          echo news=$news >> $GITHUB_OUTPUT
-
-          # Replace @news@
-          perl -0777 -i -pe "s/\@news\@\{[\s]\n*([\s\S]*)\n\}\n/$news/g" $changelog
-
-          # Finally, Rename changelog
-          mv $changelog CHANGELOG-${{ steps.info.outputs.projectsuffix }}.md
+        run: bash .github/scripts/get_modpack_info.sh
+ 
       - name: Upload changelog
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v4
         with:
           name: changelog
           path: CHANGELOG-${{ steps.info.outputs.projectsuffix }}.md
-      - name: Send Discord message
-        if: ${{ steps.mod_changes.outputs.changed == 'true' }}
-        uses: "hugoalh/send-discord-webhook-ghaction@v7.0.5"
-        with:
-          key: ${{ secrets.DISCORD_WEBHOOK }}
-          content: "${{ steps.mod_changes.outputs.markdown }}"
-          username: "UnderBot"
-          avatar_url: "https://media.forgecdn.net/avatars/828/211/638215807562150866.png"
-
-  build-modpack:
+ 
+  build:
     name: Build Modpack
     runs-on: ubuntu-latest
     needs: [modpack-info]
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
-      - name: Download changelog
-        uses: actions/download-artifact@v6
+        uses: actions/checkout@v4
+ 
+      - name: Set up Java
+        uses: actions/setup-java@v4
         with:
-          name: changelog
-          path: pax/modpack
-      - name: Replace strings
-        shell: bash
+          distribution: temurin
+          java-version: 21
+ 
+      - name: Download Pakku
         run: |
-          set +e
-
-          manifest="./pax/modpack/manifest.json"
-          custom_window_title="./config/fancymenu/config.txt"
-          fancymenu="./config/fancymenu/customization/main_menu.txt"
-          rich_presence="./config/DiscordRPC.cfg"
-          grooovy="./groovy/runConfig.json"
-
-          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $manifest
-          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $custom_window_title
-          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $fancymenu
-          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $rich_presence
-          perl -i -pe "s/\@version\@/${{ needs.modpack-info.outputs.projectsuffix }}/g" $grooovy
-
-          cat <<< $(jq '.debug = false' $grooovy) > $grooovy
-      - name: Sync overrides
+          PAKKU_VERSION=$(curl -sSL https://api.github.com/repos/juraj-hrivnak/Pakku/releases/latest | jq -r .tag_name)
+          curl -sSL "https://github.com/juraj-hrivnak/Pakku/releases/download/${PAKKU_VERSION}/pakku.jar" -o pakku.jar
+ 
+      - name: Set pack version
+        # On tagged releases, stamp the lock file with the tag version so
+        # the exported filenames and mrpack metadata reflect the release.
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: java -jar pakku.jar set --version "${{ needs.modpack-info.outputs.projectsuffix }}"
+ 
+      - name: Inject modpack version into configs
         run: |
-          cd pax/
-          chmod +x ./sync_overrides.sh
-          ./sync_overrides.sh
+          VERSION="${{ needs.modpack-info.outputs.projectsuffix }}"
+          echo "Injecting version $VERSION..."
+          grep -rl "@modpack_version@" overrides/ | while read -r file; do
+            sed -i "s/@modpack_version@/$VERSION/g" "$file"
+            echo "  ✔ $file"
+          done
+ 
       - name: Export modpack
+        # Produces:
+        #   build/modrinth/<name>-<version>.mrpack
+        #   build/serverpack/<name>-<version>.zip
+        run: java -jar pakku.jar export
+ 
+      - name: Stage artifacts
+        # Rename to the consistent suffix so downstream jobs can reference them by name
         run: |
-          cd pax/
-          pax_version=$(grep -Po '(?<="PAX": ")[^"]*' setup.json)
-          curl https://github.com/froehlichA/pax/releases/download/v$pax_version/pax -o pax -L -J
-          sudo chmod +x ./pax
-          ./pax export
-      - name: Rename zip
-        run: mv pax/.out/${{ needs.modpack-info.outputs.projectname }}.zip pax/.out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.projectsuffix }}.zip
-      - name: Upload zip
-        uses: actions/upload-artifact@v5
+          NAME="${{ needs.modpack-info.outputs.projectname }}"
+          SUFFIX="${{ needs.modpack-info.outputs.projectsuffix }}"
+          mv build/modrinth/*.mrpack   "${NAME}-${SUFFIX}.mrpack"
+          mv build/serverpack/*.zip    "${NAME}-${SUFFIX}-Server-Pack.zip"
+ 
+      - name: Upload mrpack
+        uses: actions/upload-artifact@v4
         with:
-          name: modpack
-          path: pax/.out/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.projectsuffix }}.zip
-
-  build-serverpack:
-    name: Build Serverpack
-    runs-on: ubuntu-latest
-    needs: [modpack-info]
-    if: startsWith(github.ref, 'refs/tags/v')
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-      - name: Download Mods
-        run: |
-          cd pax/
-          modpack_downloader_version=$(grep -Po '(?<="ModpackDownloader": ")[^"]*' setup.json)
-          curl https://github.com/Joshyx/ModpackDownloader/releases/download/v$modpack_downloader_version/ModpackDownloader-$modpack_downloader_version.jar -o ModpackDownloader-$modpack_downloader_version.jar -L -J
-          java -jar ModpackDownloader-$modpack_downloader_version.jar modpack ..
-      - name: Export serverpack
-        run: |
-          cd pax/
-          server_pack_creator_version=$(grep -Po '(?<="ServerPackCreator": ")[^"]*' setup.json)
-          cd serverpack/
-          curl https://github.com/Griefed/ServerPackCreator/releases/download/$server_pack_creator_version/ServerPackCreator-$server_pack_creator_version.jar -o ServerPackCreator-$server_pack_creator_version.jar -L -J
-          java -jar ServerPackCreator-$server_pack_creator_version.jar -cli
-      - name: Rename zip
-        run: |
-          mv pax/serverpack/server-packs/_server_pack.zip pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.projectsuffix }}-Server-Pack.zip
-      - name: Upload zip
-        uses: actions/upload-artifact@v5
+          name: mrpack
+          path: "*.mrpack"
+ 
+      - name: Upload serverpack
+        uses: actions/upload-artifact@v4
         with:
           name: serverpack
-          path: pax/serverpack/server-packs/${{ needs.modpack-info.outputs.projectname }}-${{ needs.modpack-info.outputs.projectsuffix }}-Server-Pack.zip
-
+          path: "*-Server-Pack.zip"
+ 
   release:
     name: Release
-    needs: [modpack-info, build-modpack, build-serverpack]
+    needs: [modpack-info, build]
     if: startsWith(github.ref, 'refs/tags/v')
+    permissions:
+      contents: write
     uses: ./.github/workflows/Release.yml
     with:
-      projectname: ${{ needs.modpack-info.outputs.projectname }}
+      projectname:   ${{ needs.modpack-info.outputs.projectname }}
       projectsuffix: ${{ needs.modpack-info.outputs.projectsuffix }}
-      mcversion: ${{ needs.modpack-info.outputs.mcversion }}
-      tag: ${{ needs.modpack-info.outputs.tag }}
-      rel_type: "release"
-      news: ${{ needs.modpack-info.outputs.news }}
+      mcversion:     ${{ needs.modpack-info.outputs.mcversion }}
+      tag:           ${{ needs.modpack-info.outputs.tag }}
+      rel_type:      ${{ needs.modpack-info.outputs.rel_type }}
+      news:          ${{ needs.modpack-info.outputs.news }}
     secrets: inherit
