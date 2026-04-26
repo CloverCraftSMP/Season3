@@ -28,6 +28,12 @@ jobs:
         with:
           fetch-depth: 0  # Full history needed for git describe and diff
  
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 25
+          
       - name: Get modpack info
         id: info
         run: bash .github/scripts/get_modpack_info.sh
