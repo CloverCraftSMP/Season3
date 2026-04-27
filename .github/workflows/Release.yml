@@ -42,40 +42,41 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  release-modrinth:
-    name: Modrinth Release
-    runs-on: self-hosted
-    steps:
-      - name: Publish to Modrinth
-        uses: Kir-Antipov/mc-publish@v3.3
-        with:
-          modrinth-id: ${{ env.MR_PROJECT_ID }}
-          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          files: "/tmp/modpack-builds/*.mrpack"
-          name: ${{ inputs.projectname }} ${{ inputs.projectsuffix }}
-          version: ${{ inputs.projectsuffix }}
-          version-type: ${{ inputs.rel_type }}
-          changelog-file: /tmp/modpack-builds/CHANGELOG-${{ inputs.projectsuffix }}.md
-          loaders: fabric
-          game-versions: ${{ inputs.mcversion }}
+  # release-modrinth:
+  #   name: Modrinth Release
+  #   runs-on: self-hosted
+  #   steps:
+  #     - name: Publish to Modrinth
+  #       uses: Kir-Antipov/mc-publish@v3.3
+  #       with:
+  #         modrinth-id: ${{ env.MR_PROJECT_ID }}
+  #         modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+  #         files: "/tmp/modpack-builds/*.mrpack"
+  #         name: ${{ inputs.projectname }} ${{ inputs.projectsuffix }}
+  #         version: ${{ inputs.projectsuffix }}
+  #         version-type: ${{ inputs.rel_type }}
+  #         changelog-file: /tmp/modpack-builds/CHANGELOG-${{ inputs.projectsuffix }}.md
+  #         loaders: fabric
+  #         game-versions: ${{ inputs.mcversion }}
 
-      - name: Send Discord announcement
-        uses: hugoalh/send-discord-webhook-ghaction@v7.0.5
-        with:
-          key: ${{ secrets.DISCORD_WEBHOOK_ANNOUNCEMENTS }}
-          username: "CloverBot"
-          # avatar_url: ""   # Add your bot avatar URL here
-          content: |
-            ## **${{ inputs.projectname }}** has been updated to ${{ inputs.projectsuffix }}! 🍀
-            [Modrinth](<https://modrinth.com/modpack/${{ env.MR_PROJECT_ID }}/version/${{ inputs.projectsuffix }}>) • [GitHub](<https://github.com/${{ github.repository }}/releases/tag/${{ inputs.tag }}>) • [Issues](<https://github.com/${{ github.repository }}/issues>)
-            ### What's new?
-            ${{ inputs.news }}
-          embeds: "[{}]"
+  #     - name: Send Discord announcement
+  #       uses: hugoalh/send-discord-webhook-ghaction@v7.0.5
+  #       with:
+  #         key: ${{ secrets.DISCORD_WEBHOOK_ANNOUNCEMENTS }}
+  #         username: "CloverBot"
+  #         # avatar_url: ""   # Add your bot avatar URL here
+  #         content: |
+  #           ## **${{ inputs.projectname }}** has been updated to ${{ inputs.projectsuffix }}! 🍀
+  #           [Modrinth](<https://modrinth.com/modpack/${{ env.MR_PROJECT_ID }}/version/${{ inputs.projectsuffix }}>) • [GitHub](<https://github.com/${{ github.repository }}/releases/tag/${{ inputs.tag }}>) • [Issues](<https://github.com/${{ github.repository }}/issues>)
+  #           ### What's new?
+  #           ${{ inputs.news }}
+  #         embeds: "[{}]"
 
   update-changelogs:
     name: Update Changelogs
     runs-on: self-hosted
-    needs: [release-github, release-modrinth]
+    # needs: [release-github, release-modrinth]
+    needs: [release-github]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -106,7 +107,8 @@ jobs:
   close-fixed-issues:
     name: Close Fixed Issues
     runs-on: self-hosted
-    needs: [release-github, release-modrinth]
+    # needs: [release-github, release-modrinth]
+    needs: [release-github]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
