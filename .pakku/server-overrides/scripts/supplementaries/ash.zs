@@ -1,0 +1,1 @@
+blastFurnace.addRecipe("ct_ash_from_planks", <item:supplementaries:ash>, <tag:items:minecraft:planks>, 0.3, 50);
