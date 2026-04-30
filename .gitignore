@@ -44,7 +44,6 @@ dev-server/
 
 /options.txt
 emi.json
-icon.png
 rhino.local.properties
 command_history.txt
 servers.dat
