@@ -7,7 +7,8 @@ import java.util.Comparator;
 public class DevLaunch {
     public static void main(String[] args) throws Exception {
         Path configDir = Paths.get("config");
-        Path overridesConfigDir = Paths.get(".pakku", "client-overrides", "config");
+        Path commonOverridesDir = Paths.get(".pakku", "overrides", "config");
+        Path clientOverridesDir = Paths.get(".pakku", "client-overrides", "config");
 
         System.out.println("Wiping root config directory...");
         if (Files.exists(configDir)) {
@@ -17,11 +18,18 @@ public class DevLaunch {
                  .forEach(File::delete);
         }
 
-        if (Files.exists(overridesConfigDir)) {
-            System.out.println("Copying overrides from " + overridesConfigDir + " to " + configDir + "...");
-            copyDirectory(overridesConfigDir, configDir);
+        if (Files.exists(commonOverridesDir)) {
+            System.out.println("Copying common overrides from " + commonOverridesDir + " to " + configDir + "...");
+            copyDirectory(commonOverridesDir, configDir);
         } else {
-            System.out.println("No overrides found at " + overridesConfigDir + ". Skipping copy.");
+            System.out.println("No common overrides found at " + commonOverridesDir + ". Skipping copy.");
+        }
+
+        if (Files.exists(clientOverridesDir)) {
+            System.out.println("Copying client overrides from " + clientOverridesDir + " to " + configDir + "...");
+            copyDirectory(clientOverridesDir, configDir);
+        } else {
+            System.out.println("No client overrides found at " + clientOverridesDir + ". Skipping copy.");
         }
 
         System.out.println("Running pakku fetch...");
