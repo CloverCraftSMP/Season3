@@ -81,6 +81,9 @@ java -jar ./pakku.jar diff ./pakku-lock-prev.json ./pakku-lock.json -v --markdow
  
 # -- CHANGELOG --
 changelog="./CHANGELOG.md"
+
+# Substitute @version@ with the actual version tag/build number
+perl -pi -e "s/\@version\@/${projectsuffix}/g" "$changelog"
  
 # Substitute @mod_changes@ with the generated diff
 perl -0777 -i -pe 'BEGIN { open F, "PROJECTS_DIFF.md"; undef $/; $d = <F> } s/\@mod_changes\@/$d/s' "$changelog"
