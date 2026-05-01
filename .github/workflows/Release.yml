@@ -51,7 +51,9 @@ jobs:
         with:
           modrinth-id: ${{ env.MR_PROJECT_ID }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          files: "/tmp/modpack-builds/*.mrpack"
+          files: |
+            /tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}.mrpack
+            /tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip
           name: ${{ inputs.projectname }} ${{ inputs.projectsuffix }}
           version: ${{ inputs.projectsuffix }}
           version-type: ${{ inputs.rel_type }}

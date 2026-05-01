@@ -3,7 +3,7 @@
 ## @version@
 
 @news@{
-  - 
+  - Test version for Modrinth publishing
 }
 
 ## Mod Changes
