@@ -9,9 +9,18 @@
 ![Modrinth](https://img.shields.io/modrinth/dt/Ds1KOhlV?style=for-the-badge&logo=modrinth&color=62b47a&label=Downloads)
 </div>
 
----
+Polished modpack, quality performance enhancements and stellar immersion; designed for our community. We've hand-picked a collection of mods that enhance vanilla gameplay.
 
-## Setup
+## ✨ What's inside?
+
+- **Quality Performance:** An intentionally light modpack for achieving high performance without compromise.
+- **Expanded Horizons:** Take in a world like never before, from the little touches to the wider valleys. An experience like never before
+- **Quality of Life Galore:** Enjoy countless small improvements that make gameplay more intuitive, from inventory management and recipe viewing with EMI to improved map tools and UI enhancements.
+- **More to Build & Do:** Expand your creative potential with new building blocks from Supplementaries, new foods and farming mechanics with Farmer's Delight, and new decorative options.
+- **Built for Security:** Utilising Pakku as our modpack management tool, git version control, and auto-generated changelogs with publishing.
+
+
+## Dev Setup
 
 0. **Symlink or clone github repo into Prism instances folder**
 
@@ -64,12 +73,27 @@ cmd /c "java -jar pakku.jar fetch && copy /Y "$INST_MC_DIR\.pakku\prism-override
 java -jar pakku.jar fetch && cp -f "$INST_MC_DIR/.pakku/prism-overrides/mmc-pack.json" "$INST_DIR/mmc-pack.json"
 ```
 
+<details>
+<summary>💖 Credits</summary>
+
+This modpack wouldn't exist without the hard work of many talented creators. We'd like to extend our deepest gratitude to them!
+
+**All Mod Authors:** A massive thank you to every single developer whose mod is featured in this pack. Your creativity is the foundation of this entire project. Please support them on Modrinth and CurseForge!
+
+**Community & Friends:** Thank you to everyone who supported us on [Ko-Fi](https://ko-fi.com/clovercraftteam), helped test the pack and give feedback!
+
+
+**Off-platform mods:**
+- [Chimes](https://www.curseforge.com/minecraft/mc-mods/chimes)
+
+</details>
+
 <div align="center">
 
 ---
- 
-Made with 🍀 for [CloverCraft SMP](https://modrinth.com/modpack/clovercraftsmp-season-3) · Season 3
- 
+
+*Made with 🍀 for our amazing community by the CloverCraft Team*
+
 ---
  
 </div>
