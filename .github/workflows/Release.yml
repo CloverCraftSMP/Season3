@@ -42,22 +42,22 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  # release-modrinth:
-  #   name: Modrinth Release
-  #   runs-on: self-hosted
-  #   steps:
-  #     - name: Publish to Modrinth
-  #       uses: Kir-Antipov/mc-publish@v3.3
-  #       with:
-  #         modrinth-id: ${{ env.MR_PROJECT_ID }}
-  #         modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-  #         files: "/tmp/modpack-builds/*.mrpack"
-  #         name: ${{ inputs.projectname }} ${{ inputs.projectsuffix }}
-  #         version: ${{ inputs.projectsuffix }}
-  #         version-type: ${{ inputs.rel_type }}
-  #         changelog-file: /tmp/modpack-builds/CHANGELOG-${{ inputs.projectsuffix }}.md
-  #         loaders: fabric
-  #         game-versions: ${{ inputs.mcversion }}
+  release-modrinth:
+    name: Modrinth Release
+    runs-on: self-hosted
+    steps:
+      - name: Publish to Modrinth
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: ${{ env.MR_PROJECT_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          files: "/tmp/modpack-builds/*.mrpack"
+          name: ${{ inputs.projectname }} ${{ inputs.projectsuffix }}
+          version: ${{ inputs.projectsuffix }}
+          version-type: ${{ inputs.rel_type }}
+          changelog-file: /tmp/modpack-builds/CHANGELOG-${{ inputs.projectsuffix }}.md
+          loaders: fabric
+          game-versions: ${{ inputs.mcversion }}
 
   #     - name: Send Discord announcement
   #       uses: hugoalh/send-discord-webhook-ghaction@v7.0.5
@@ -75,8 +75,7 @@ jobs:
   update-changelogs:
     name: Update Changelogs
     runs-on: self-hosted
-    # needs: [release-github, release-modrinth]
-    needs: [release-github]
+    needs: [release-github, release-modrinth]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -103,19 +102,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
-
-  close-fixed-issues:
-    name: Close Fixed Issues
-    runs-on: self-hosted
-    # needs: [release-github, release-modrinth]
-    needs: [release-github]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Close issues labeled "fixed in dev"
-        uses: juraj-hrivnak/close-issues-based-on-label@master
-        env:
-          LABEL: "fixed in dev"
-          VERSION: ${{ inputs.tag }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
