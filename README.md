@@ -1,9 +1,12 @@
 <div align="center">
 <h1>CloverCraft SMP</h1>
 
+**Season 3**
+
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-62b47a?style=for-the-badge&logo=minecraft&logoColor=white)
 ![Fabric](https://img.shields.io/badge/Fabric_Loader-0.19.2-dbb98a?style=for-the-badge)
 ![Targets](https://img.shields.io/badge/Targets-Modrinth_%7C_Server-4a9eff?style=for-the-badge)
+![Modrinth](https://img.shields.io/modrinth/dt/Ds1KOhlV?style=for-the-badge&logo=modrinth&color=62b47a&label=Downloads)
 </div>
 
 ---
@@ -62,6 +65,7 @@ java -jar pakku.jar fetch && cp -f "$INST_MC_DIR/.pakku/prism-overrides/mmc-pack
 ```
 
 <div align="center">
+
 ---
  
 Made with 🍀 for [CloverCraft SMP](https://modrinth.com/modpack/clovercraftsmp-season-3) · Season 3
