@@ -1,16 +1,12 @@
-<h1 align="center">CloverCraft SMP</h1>
-
 <div align="center">
-  Season 3
+<h1>CloverCraft SMP</h1>
+
+![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-62b47a?style=for-the-badge&logo=minecraft&logoColor=white)
+![Fabric](https://img.shields.io/badge/Fabric_Loader-0.19.2-dbb98a?style=for-the-badge)
+![Targets](https://img.shields.io/badge/Targets-Modrinth_%7C_Server-4a9eff?style=for-the-badge)
 </div>
 
-<br />
-
-**Version:** 1.21.1
-
-**[Fabric Loader](https://fabricmc.net/develop/):** 0.18.4
-
-**[Target](https://juraj-hrivnak.github.io/Pakku/exporting-a-modpack.html):** Modrinth, CurseForge, and Server pack 
+---
 
 ## Setup
 
@@ -64,3 +60,12 @@ cmd /c "java -jar pakku.jar fetch && copy /Y "$INST_MC_DIR\.pakku\prism-override
 # Linux
 java -jar pakku.jar fetch && cp -f "$INST_MC_DIR/.pakku/prism-overrides/mmc-pack.json" "$INST_DIR/mmc-pack.json"
 ```
+
+<div align="center">
+---
+ 
+Made with 🍀 for [CloverCraft SMP](https://modrinth.com/modpack/clovercraftsmp-season-3) · Season 3
+ 
+---
+ 
+</div>
