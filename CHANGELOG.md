@@ -1,15 +1,11 @@
-# CloverCraft Changelog
+# Changelog
 
-**Using** Fabric 1.21.1
-
-## What's new?
+## @version@
 
 @news@{
-
-- Discord RPC
-- Improved GitHub workflow
-- Modrinth publishing (waiting on pack to be published before finishing automating)
-
+  - 
 }
+
+## Mod Changes
 
 @mod_changes@
