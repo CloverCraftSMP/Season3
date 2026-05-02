@@ -1091,7 +1091,8 @@
             "pakku_id": "eJv560IpttM269Rl",
             "pakku_links": [
                 "c6WdOwoiUFvXUYqm",
-                "f8Q61nB9UI5qAr4T"
+                "f8Q61nB9UI5qAr4T",
+                "ZTMBFHLedqzQPF5x"
             ],
             "type": "MOD",
             "side": "CLIENT",
@@ -3026,7 +3027,9 @@
             "pakku_id": "dJFZxj5WRUKX73Wa",
             "pakku_links": [
                 "9SjXpR6ortnRHRuZ",
-                "VkQTrAZ52OAikuZy"
+                "VkQTrAZ52OAikuZy",
+                "0fOtHxG1QvGFokTj",
+                "umnjeP1YfoWCfOmF"
             ],
             "type": "MOD",
             "side": "SERVER",
@@ -3094,28 +3097,25 @@
             ]
         },
         {
-            "pakku_id": "VkQTrAZ52OAikuZy",
+            "pakku_id": "umnjeP1YfoWCfOmF",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1"
             ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                "curseforge": "farmers-delight-refabricated",
                 "modrinth": "farmers-delight-refabricated"
             },
             "name": {
-                "curseforge": "Farmer's Delight Refabricated",
                 "modrinth": "Farmer's Delight Refabricated"
             },
             "id": {
-                "curseforge": "993166",
                 "modrinth": "7vxePowz"
             },
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "FarmersDelight-1.21.1-3.3.2+refabricated.jar",
+                    "file_name": "FarmersDelight-1.21.1-3.2.8+refabricated.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -3123,41 +3123,18 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/7vxePowz/versions/pVaiLRWA/FarmersDelight-1.21.1-3.3.2+refabricated.jar",
-                    "id": "pVaiLRWA",
+                    "url": "https://cdn.modrinth.com/data/7vxePowz/versions/YEHRH8LC/FarmersDelight-1.21.1-3.2.8+refabricated.jar",
+                    "id": "YEHRH8LC",
                     "parent_id": "7vxePowz",
                     "hashes": {
-                        "sha512": "1bd91db2997c6d3ca39cafa956541d3298991ccb60ab99ff7e02dc1b6967c3616ee6f8cce99595804924ad23ecb097b5d792263f6fc959d35838ac5096cd47f5",
-                        "sha1": "fc2b6d91c0e0dc0648fce45cfa609c12ba7f3f2d"
+                        "sha512": "b81080b77cb3500589cadf4e6325ac827f22c14652ef5428a0ea2531639da261dcd553de46379fa2f92cb131b49d32114948755f7114839c9690a23fa9d5d958",
+                        "sha1": "7adf7fbfbc29b87546b286a5d9a59358dfeca1e8"
                     },
                     "required_dependencies": [
                         "P7dR8mSH"
                     ],
-                    "size": 3192151,
-                    "date_published": "2026-04-29T04:01:04.019657Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "FarmersDelight-1.21.1-3.3.2+refabricated.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8008/242/FarmersDelight-1.21.1-3.3.2+refabricated.jar",
-                    "id": "8008242",
-                    "parent_id": "993166",
-                    "hashes": {
-                        "sha1": "fc2b6d91c0e0dc0648fce45cfa609c12ba7f3f2d",
-                        "md5": "880867a2f9992a765cf160004e8ba5ee"
-                    },
-                    "required_dependencies": [
-                        "306612"
-                    ],
-                    "size": 3192151,
-                    "date_published": "2026-04-29T04:00:37.777Z"
+                    "size": 3142838,
+                    "date_published": "2026-04-13T01:36:25.029522Z"
                 }
             ]
         },
@@ -4796,24 +4773,20 @@
             ]
         },
         {
-            "pakku_id": "f8Q61nB9UI5qAr4T",
+            "pakku_id": "ZTMBFHLedqzQPF5x",
             "pakku_links": [
-                "UAim16NBrM3aUbKY",
                 "dGjZM8Beg6NjBNI1",
                 "kbFI8jqxyCnOShNL"
             ],
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                "curseforge": "modmenu",
                 "modrinth": "modmenu"
             },
             "name": {
-                "curseforge": "Mod Menu",
                 "modrinth": "Mod Menu"
             },
             "id": {
-                "curseforge": "308702",
                 "modrinth": "mOgUt4GM"
             },
             "files": [
@@ -4842,32 +4815,6 @@
                     ],
                     "size": 973059,
                     "date_published": "2026-03-25T00:45:03.878787Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "modmenu-11.0.4.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7808/443/modmenu-11.0.4.jar",
-                    "id": "7808443",
-                    "parent_id": "308702",
-                    "hashes": {
-                        "sha1": "8af1b0b9ee18eab5cd5e5c97c497f0e473c49e9a",
-                        "md5": "b2b9c53a887c100f780708c4f36db6c4"
-                    },
-                    "required_dependencies": [
-                        "1037459",
-                        "306612"
-                    ],
-                    "size": 973059,
-                    "date_published": "2026-03-25T00:45:05.477Z"
                 }
             ]
         },
