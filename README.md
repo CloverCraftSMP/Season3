@@ -7,7 +7,7 @@
 [![Fabric](https://img.shields.io/badge/Fabric_Loader-0.19.2-dbb98a?style=for-the-badge)](https://fabricmc.net/develop/)
 [![Targets](https://img.shields.io/badge/Targets-Modrinth_%7C_Server-4a9eff?style=for-the-badge)](https://juraj-hrivnak.github.io/Pakku/exporting-a-modpack.html)
 [![Modrinth](https://img.shields.io/modrinth/dt/Ds1KOhlV?style=for-the-badge&logo=modrinth&color=62b47a&label=Downloads)](https://modrinth.com/modpack/clovercraftsmp-season-3)
-[![GitHub Releases](https://img.shields.io/github/v/release/CloverCraftSMP/CloverCraft-SMP?style=for-the-badge&logo=github&color=333&label=Releases)](https://github.com/CloverCraftSMP/CloverCraft-SMP/releases)
+[![GitHub Releases](https://img.shields.io/github/v/release/CloverCraftSMP/Season3?style=for-the-badge&logo=github&color=333&label=Releases)](https://github.com/CloverCraftSMP/Season3/releases)
 </div>
 
 Polished modpack, quality performance enhancements and stellar immersion; designed for our community. We've hand-picked a collection of mods that enhance vanilla gameplay.
