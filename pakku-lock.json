@@ -307,6 +307,54 @@
             ]
         },
         {
+            "pakku_id": "6F8Uz6uei6bYz8vQ",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "ante"
+            },
+            "name": {
+                "modrinth": "Anvil Never Too Expensive"
+            },
+            "id": {
+                "modrinth": "TEOa2X8B"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "AnvilNeverTooExpensive-fabric-1.21+-1.2.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/TEOa2X8B/versions/Q4HKC0iZ/AnvilNeverTooExpensive-fabric-1.21+-1.2.1.jar",
+                    "id": "Q4HKC0iZ",
+                    "parent_id": "TEOa2X8B",
+                    "hashes": {
+                        "sha512": "975eb796968ab27f2c1f237c12866ee8ad3e123a57ca0997bcd5040b6486fe1f04a6112af4482f3e9b83efaf053771b0437c7bf823bc2ed7418930ae94f53fe0",
+                        "sha1": "62024f9a26b61cdeb87e3d1f7182ef3616eb0cab"
+                    },
+                    "required_dependencies": [],
+                    "size": 5434,
+                    "date_published": "2025-01-05T17:47:46.273859Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "iS7PrO9936rsFqAE",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1"
@@ -1079,7 +1127,7 @@
                 "dGjZM8Beg6NjBNI1"
             ],
             "type": "MOD",
-            "side": "BOTH",
+            "side": "SERVER",
             "slug": {
                 "modrinth": "chunky",
                 "curseforge": "chunky-pregenerator"

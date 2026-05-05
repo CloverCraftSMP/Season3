@@ -58,7 +58,7 @@ backups/
 crash-reports/
 local/
 logs/
-mods/
+/mods/
 resourcepacks/
 saves/
 screenshots/
