@@ -14,6 +14,33 @@
         },
         "distant-horizons": {
             "side": "CLIENT"
+        },
+        "chunky": {
+            "side": "SERVER"
+        },
+        "lukis-woodland-mansions": {
+            "side": "SERVER"
+        },
+        "lukis-grand-capitals": {
+            "side": "SERVER"
+        },
+        "lukis-crazy-chambers": {
+            "side": "SERVER"
+        },
+        "yungs-api-fabric": {
+            "side": "SERVER"
+        },
+        "yungs-better-desert-temples-fabric": {
+            "side": "SERVER"
+        },
+        "yungs-better-ocean-monuments-fabric": {
+            "side": "SERVER"
+        },
+        "yungs-better-strongholds-fabric": {
+            "side": "SERVER"
+        },
+        "yungs-better-witch-huts-fabric": {
+            "side": "SERVER"
         }
     }
 }
