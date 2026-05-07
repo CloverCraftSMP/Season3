@@ -25,6 +25,7 @@ on:
 
 env:
   MR_PROJECT_ID: "Ds1KOhlV"
+  RELEASE_ROOT: "/var/www/releases"
 
 jobs:
   release-github:
@@ -74,33 +75,69 @@ jobs:
   #           ${{ inputs.news }}
   #         embeds: "[{}]"
 
+  release-selfhosted:
+    name: Self-Hosted Release
+    runs-on: self-hosted
+    steps:
+      - name: Publish to self-hosted server
+        run: |
+          DEST="${{ env.RELEASE_ROOT }}/${{ inputs.projectname }}"
+          rm -rf "$DEST" && mkdir -p "$DEST"
+ 
+          cp /tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}.mrpack          "$DEST/"
+          cp /tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip "$DEST/"
+          cp /tmp/modpack-builds/CHANGELOG-${{ inputs.projectsuffix }}.md                             "$DEST/"
+ 
+          cat > "$DEST/latest.json" <<EOF
+          {
+            "projectname": "${{ inputs.projectname }}",
+            "version":     "${{ inputs.projectsuffix }}",
+            "mcversion":   "${{ inputs.mcversion }}",
+            "type":        "${{ inputs.rel_type }}",
+            "tag":         "${{ inputs.tag }}",
+            "mrpack":      "${{ inputs.projectname }}-${{ inputs.projectsuffix }}.mrpack",
+            "serverpack":  "${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip",
+            "changelog":   "CHANGELOG-${{ inputs.projectsuffix }}.md"
+          }
+          EOF
+ 
+          echo "Published to $DEST"
+          ls -lh "$DEST"
+
   update-changelogs:
     name: Update Changelogs
     runs-on: self-hosted
-    needs: [release-github, release-modrinth]
+    needs: [release-github, release-modrinth, release-selfhosted]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Retrieve changelog locally
+      - name: Archive changelog
         run: |
           mkdir -p .github/changelogs
           cp /tmp/modpack-builds/CHANGELOG-${{ inputs.projectsuffix }}.md .github/changelogs/
 
       - name: Reset CHANGELOG.md from template
-        # The processed changelog is archived under .github/changelogs/,
-        # and CHANGELOG.md is reset to the template for the next release.
         run: cp .github/CHANGELOG_TEMPLATE.md CHANGELOG.md
 
-      - name: Commit
+      - name: Commit and Push
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "chore: update changelogs for ${{ inputs.projectsuffix }}"
+          git add .github/changelogs/ CHANGELOG.md
+          git commit -m "chore: archive changelogs for ${{ inputs.projectsuffix }}"
 
       - name: Push
         uses: ad-m/github-push-action@v1.0.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
+
+  cleanup:
+    name: Cleanup
+    runs-on: self-hosted
+    needs: [update-changelogs]
+    if: always()
+    steps:
+      - name: Remove staging directory
+        run: rm -rf /tmp/modpack-builds
