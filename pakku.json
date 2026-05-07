@@ -3,6 +3,10 @@
     "version": "DEV",
     "author": "CloverCraft Team",
     "projects": {
+        "farmers-delight-refabricated": {
+            "update_strategy": "NONE"
+        },
+
         "geckolib": {
             "side": "BOTH"
         },
@@ -18,9 +22,11 @@
         "open-parties-and-claims": {
             "side": "BOTH"
         },
+
         "distant-horizons": {
             "side": "CLIENT"
         },
+
         "chunky": {
             "side": "SERVER"
         },
