@@ -88,6 +88,10 @@ jobs:
           cp "/tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip" "$DEST/"
           cp "/tmp/modpack-builds/CHANGELOG-${{ inputs.projectsuffix }}.md"                             "$DEST/"
  
+          cd "$DEST"
+          ln -sf "${{ inputs.projectname }}-${{ inputs.projectsuffix }}.mrpack" "latest.mrpack"
+          ln -sf "${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip" "latest-serverpack.zip"
+
           cat > "$DEST/latest.json" <<EOF
           {
             "projectname": "${{ inputs.projectname }}",
