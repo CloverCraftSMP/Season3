@@ -12,6 +12,12 @@
         "chimes": {
             "side": "BOTH"
         },
+        "snow-under-trees-remastered": {
+            "side": "BOTH"
+        },
+        "open-parties-and-claims": {
+            "side": "BOTH"
+        },
         "distant-horizons": {
             "side": "CLIENT"
         },
@@ -27,19 +33,25 @@
         "lukis-crazy-chambers": {
             "side": "SERVER"
         },
-        "yungs-api-fabric": {
+        "yungs-api": {
             "side": "SERVER"
         },
-        "yungs-better-desert-temples-fabric": {
+        "yungs-better-desert-temples": {
             "side": "SERVER"
         },
-        "yungs-better-ocean-monuments-fabric": {
+        "yungs-better-ocean-monuments": {
             "side": "SERVER"
         },
-        "yungs-better-strongholds-fabric": {
+        "yungs-better-strongholds": {
             "side": "SERVER"
         },
-        "yungs-better-witch-huts-fabric": {
+        "yungs-better-witch-huts": {
+            "side": "SERVER"
+        },
+        "medieval-buildings-end-edition": {
+            "side": "SERVER"
+        },
+        "medieval-buildings-nether-edition": {
             "side": "SERVER"
         }
     }
