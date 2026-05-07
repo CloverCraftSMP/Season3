@@ -51,12 +51,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Clean staging directory
-        run: rm -rf /tmp/modpack-builds && mkdir -p /tmp/modpack-builds
-
-      - name: Restore changelog
+      - name: Clean stale build artifacts
         run: |
-          cp CHANGELOG-${{ needs.modpack-info.outputs.projectsuffix }}.md /tmp/modpack-builds/
+          mkdir -p /tmp/modpack-builds
+          rm -f /tmp/modpack-builds/*.mrpack /tmp/modpack-builds/*.zip
  
       - name: Set up Java
         uses: actions/setup-java@v4
