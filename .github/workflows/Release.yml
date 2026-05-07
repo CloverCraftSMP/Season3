@@ -81,12 +81,12 @@ jobs:
     steps:
       - name: Publish to self-hosted server
         run: |
-          DEST="${{ env.RELEASE_ROOT }}/${{ inputs.projectname }}"
+          DEST="${{ env.RELEASE_ROOT }}/"
           rm -rf "$DEST" && mkdir -p "$DEST"
  
-          cp /tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}.mrpack          "$DEST/"
-          cp /tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip "$DEST/"
-          cp /tmp/modpack-builds/CHANGELOG-${{ inputs.projectsuffix }}.md                             "$DEST/"
+          cp "/tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}.mrpack"          "$DEST/"
+          cp "/tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip" "$DEST/"
+          cp "/tmp/modpack-builds/CHANGELOG-${{ inputs.projectsuffix }}.md"                             "$DEST/"
  
           cat > "$DEST/latest.json" <<EOF
           {
