@@ -16,15 +16,12 @@
             "side": "CLIENT",
             "slug": {
                 "modrinth": "3dskinlayers"
-                
             },
             "name": {
                 "modrinth": "3D Skin Layers"
-                
             },
             "id": {
                 "modrinth": "zV5r3pPn"
-                
             },
             "redistributable": false,
             "files": [
@@ -152,15 +149,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "ambientsounds"
             },
             "name": {
-                
                 "modrinth": "AmbientSounds"
             },
             "id": {
-                
                 "modrinth": "fM515JnW"
             },
             "files": [
@@ -198,15 +192,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "amendments"
             },
             "name": {
-                
                 "modrinth": "Amendments"
             },
             "id": {
-                
                 "modrinth": "6iTJugQR"
             },
             "files": [
@@ -293,15 +284,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "appleskin"
             },
             "name": {
-                
                 "modrinth": "AppleSkin"
             },
             "id": {
-                
                 "modrinth": "EsAfCjCV"
             },
             "files": [
@@ -340,15 +328,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "architectury-api"
             },
             "name": {
-                
                 "modrinth": "Architectury API"
             },
             "id": {
-                
                 "modrinth": "lhGA9TYQ"
             },
             "files": [
@@ -387,15 +372,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "armor-poser"
             },
             "name": {
-                
                 "modrinth": "Armor Poser"
             },
             "id": {
-                
                 "modrinth": "PFwYNrHb"
             },
             "files": [
@@ -433,15 +415,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "axiom"
             },
             "name": {
-                
                 "modrinth": "Axiom"
             },
             "id": {
-                
                 "modrinth": "N6n5dqoA"
             },
             "redistributable": false,
@@ -964,15 +943,12 @@
             "side": "SERVER",
             "slug": {
                 "modrinth": "chunky"
-                
             },
             "name": {
                 "modrinth": "Chunky"
-                
             },
             "id": {
                 "modrinth": "fALzjamp"
-                
             },
             "files": [
                 {
@@ -1009,15 +985,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "cinderscapes"
             },
             "name": {
-                
                 "modrinth": "Cinderscapes"
             },
             "id": {
-                
                 "modrinth": "QC4wcUXZ"
             },
             "files": [
@@ -1097,15 +1070,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "cloth-config"
             },
             "name": {
-                
                 "modrinth": "Cloth Config API"
             },
             "id": {
-                
                 "modrinth": "9s6osm5g"
             },
             "files": [
@@ -1141,15 +1111,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "clumps"
             },
             "name": {
-                
                 "modrinth": "Clumps"
             },
             "id": {
-                
                 "modrinth": "Wnxd13zP"
             },
             "files": [
@@ -1187,15 +1154,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "clutterbestiary"
             },
             "name": {
-                
                 "modrinth": "Clutter: Bestiary"
             },
             "id": {
-                
                 "modrinth": "FkbDiLgR"
             },
             "redistributable": false,
@@ -1231,15 +1195,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "collective"
             },
             "name": {
-                
                 "modrinth": "Collective"
             },
             "id": {
-                
                 "modrinth": "e0M1UDsY"
             },
             "files": [
@@ -1318,15 +1279,12 @@
             "type": "MOD",
             "side": "SERVER",
             "slug": {
-                
                 "modrinth": "c2me-fabric"
             },
             "name": {
-                
                 "modrinth": "Concurrent Chunk Management Engine (Fabric)"
             },
             "id": {
-                
                 "modrinth": "VSNURh3q"
             },
             "files": [
@@ -1361,15 +1319,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "continuity"
             },
             "name": {
-                
                 "modrinth": "Continuity"
             },
             "id": {
-                
                 "modrinth": "1IjD5062"
             },
             "files": [
@@ -1409,15 +1364,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "controlling"
             },
             "name": {
-                
                 "modrinth": "Controlling"
             },
             "id": {
-                
                 "modrinth": "xv94TkTM"
             },
             "files": [
@@ -1499,15 +1451,12 @@
             "side": "CLIENT",
             "slug": {
                 "modrinth": "coolrain"
-                
             },
             "name": {
                 "modrinth": "Cool Rain"
-                
             },
             "id": {
                 "modrinth": "iDyqnQLT"
-                
             },
             "redistributable": false,
             "files": [
@@ -1630,15 +1579,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "creativecore"
             },
             "name": {
-                
                 "modrinth": "CreativeCore"
             },
             "id": {
-                
                 "modrinth": "OsZiaDHq"
             },
             "files": [
@@ -1672,15 +1618,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "cubes-without-borders"
             },
             "name": {
-                
                 "modrinth": "Cubes Without Borders"
             },
             "id": {
-                
                 "modrinth": "ETlrkaYF"
             },
             "files": [
@@ -1717,15 +1660,12 @@
             "type": "MOD",
             "side": "SERVER",
             "slug": {
-                
                 "modrinth": "deeper-oceans"
             },
             "name": {
-                
                 "modrinth": "Deeper Oceans"
             },
             "id": {
-                
                 "modrinth": "yqHsPROA"
             },
             "files": [
@@ -1763,15 +1703,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "deepslate-instamine"
             },
             "name": {
-                
                 "modrinth": "Deepslate Instamine"
             },
             "id": {
-                
                 "modrinth": "g7kBNY9K"
             },
             "files": [
@@ -1845,15 +1782,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "distanthorizons"
             },
             "name": {
-                
                 "modrinth": "Distant Horizons"
             },
             "id": {
-                
                 "modrinth": "uCdwusMi"
             },
             "files": [
@@ -1928,15 +1862,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "dynamic-fps"
             },
             "name": {
-                
                 "modrinth": "Dynamic FPS"
             },
             "id": {
-                
                 "modrinth": "LQ3K71Q1"
             },
             "files": [
@@ -1971,15 +1902,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "emi"
             },
             "name": {
-                
                 "modrinth": "EMI"
             },
             "id": {
-                
                 "modrinth": "fRiHVvU7"
             },
             "files": [
@@ -2149,15 +2077,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "enderscape"
             },
             "name": {
-                
                 "modrinth": "Enderscape"
             },
             "id": {
-                
                 "modrinth": "btCrWvHr"
             },
             "files": [
@@ -2240,15 +2165,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "eternal-nether"
             },
             "name": {
-                
                 "modrinth": "Eternal Nether"
             },
             "id": {
-                
                 "modrinth": "s6R4jmL8"
             },
             "files": [
@@ -2379,15 +2301,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "fsit"
             },
             "name": {
-                
                 "modrinth": "FSit"
             },
             "id": {
-                
                 "modrinth": "J5NAzRqK"
             },
             "files": [
@@ -2424,15 +2343,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "fabric-api"
             },
             "name": {
-                
                 "modrinth": "Fabric API"
             },
             "id": {
-                
                 "modrinth": "P7dR8mSH"
             },
             "files": [
@@ -2464,15 +2380,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "fabric-language-kotlin"
             },
             "name": {
-                
                 "modrinth": "Fabric Language Kotlin"
             },
             "id": {
-                
                 "modrinth": "Ha28R6CL"
             },
             "files": [
@@ -2555,15 +2468,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "fancymenu"
             },
             "name": {
-                
                 "modrinth": "FancyMenu"
             },
             "id": {
-                
                 "modrinth": "Wq5SjeWM"
             },
             "files": [
@@ -2606,15 +2516,12 @@
             "side": "SERVER",
             "slug": {
                 "modrinth": "farmers-cutting-natures-spirit"
-                
             },
             "name": {
                 "modrinth": "Farmer's Cutting: Nature's Spirit"
-                
             },
             "id": {
                 "modrinth": "sUhDIDyA"
-                
             },
             "files": [
                 {
@@ -2734,15 +2641,12 @@
             "side": "BOTH",
             "slug": {
                 "modrinth": "ferrite-core"
-                
             },
             "name": {
                 "modrinth": "FerriteCore"
-                
             },
             "id": {
                 "modrinth": "uXXizFIs"
-                
             },
             "files": [
                 {
@@ -2776,15 +2680,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "forge-config-api-port"
             },
             "name": {
-                
                 "modrinth": "Forge Config API Port"
             },
             "id": {
-                
                 "modrinth": "ohNO6lps"
             },
             "files": [
@@ -2910,15 +2811,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "geckolib"
             },
             "name": {
-                
                 "modrinth": "Geckolib"
             },
             "id": {
-                
                 "modrinth": "8BmcQJ2H"
             },
             "files": [
@@ -3001,15 +2899,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "horseman"
             },
             "name": {
-                
                 "modrinth": "Horseman"
             },
             "id": {
-                
                 "modrinth": "qIv5FhAA"
             },
             "files": [
@@ -3093,15 +2988,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "hybrid-aquatic"
             },
             "name": {
-                
                 "modrinth": "Hybrid Aquatic"
             },
             "id": {
-                
                 "modrinth": "HH4FjUqN"
             },
             "files": [
@@ -3218,15 +3110,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "immersivethunder"
             },
             "name": {
-                
                 "modrinth": "ImmersiveThunder"
             },
             "id": {
-                
                 "modrinth": "uKjKoMsj"
             },
             "files": [
@@ -3265,15 +3154,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "indium"
             },
             "name": {
-                
                 "modrinth": "Indium"
             },
             "id": {
-                
                 "modrinth": "Orvt0mRa"
             },
             "files": [
@@ -3313,15 +3199,12 @@
             "side": "CLIENT",
             "slug": {
                 "modrinth": "iris"
-                
             },
             "name": {
                 "modrinth": "Iris Shaders"
-                
             },
             "id": {
                 "modrinth": "YL57xq9U"
-                
             },
             "files": [
                 {
@@ -3356,15 +3239,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "jade"
             },
             "name": {
-                
                 "modrinth": "Jade 🔍"
             },
             "id": {
-                
                 "modrinth": "nvQzSEkH"
             },
             "files": [
@@ -3397,15 +3277,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "joy-of-painting"
             },
             "name": {
-                
                 "modrinth": "Joy of Painting"
             },
             "id": {
-                
                 "modrinth": "YOs4tZea"
             },
             "files": [
@@ -3440,15 +3317,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "konkrete"
             },
             "name": {
-                
                 "modrinth": "Konkrete"
             },
             "id": {
-                
                 "modrinth": "J81TRJWm"
             },
             "files": [
@@ -3483,15 +3357,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "krypton"
             },
             "name": {
-                
                 "modrinth": "Krypton"
             },
             "id": {
-                
                 "modrinth": "fQEb0iXm"
             },
             "files": [
@@ -3573,15 +3444,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "lithium"
             },
             "name": {
-                
                 "modrinth": "Lithium"
             },
             "id": {
-                
                 "modrinth": "gvQqBUqZ"
             },
             "files": [
@@ -3614,15 +3482,12 @@
             "type": "MOD",
             "side": "SERVER",
             "slug": {
-                
                 "modrinth": "lithostitched"
             },
             "name": {
-                
                 "modrinth": "Lithostitched"
             },
             "id": {
-                
                 "modrinth": "XaDC71GB"
             },
             "files": [
@@ -3660,15 +3525,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "lootr"
             },
             "name": {
-                
                 "modrinth": "Lootr"
             },
             "id": {
-                
                 "modrinth": "EltpO5cN"
             },
             "files": [
@@ -3978,15 +3840,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "melody"
             },
             "name": {
-                
                 "modrinth": "Melody"
             },
             "id": {
-                
                 "modrinth": "CVT4pFB2"
             },
             "files": [
@@ -4071,15 +3930,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "modelfix"
             },
             "name": {
-                
                 "modrinth": "Model Gap Fix"
             },
             "id": {
-                
                 "modrinth": "QdG47OkI"
             },
             "files": [
@@ -4235,15 +4091,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "natures-delight"
             },
             "name": {
-                
                 "modrinth": "Nature's Delight"
             },
             "id": {
-                
                 "modrinth": "18s8zHvJ"
             },
             "files": [
@@ -4282,15 +4135,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "natures-spirit"
             },
             "name": {
-                
                 "modrinth": "Nature's Spirit"
             },
             "id": {
-                
                 "modrinth": "WBvnqHfV"
             },
             "files": [
@@ -4456,15 +4306,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "oceans-delight"
             },
             "name": {
-                
                 "modrinth": "Ocean's Delight"
             },
             "id": {
-                
                 "modrinth": "DGiq4ZSW"
             },
             "files": [
@@ -4624,15 +4471,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "platform"
             },
             "name": {
-                
                 "modrinth": "Platform"
             },
             "id": {
-                
                 "modrinth": "i6fiqm5y"
             },
             "files": [
@@ -4750,15 +4594,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "puzzles-lib"
             },
             "name": {
-                
                 "modrinth": "Puzzles Lib"
             },
             "id": {
-                
                 "modrinth": "QAGBst4M"
             },
             "files": [
@@ -4833,15 +4674,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "reeses-sodium-options"
             },
             "name": {
-                
                 "modrinth": "Reese's Sodium Options"
             },
             "id": {
-                
                 "modrinth": "Bh37bMuy"
             },
             "files": [
@@ -4937,15 +4775,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "searchables"
             },
             "name": {
-                
                 "modrinth": "Searchables"
             },
             "id": {
-                
                 "modrinth": "fuuu3xnx"
             },
             "files": [
@@ -4979,15 +4814,12 @@
             "type": "MOD",
             "side": "SERVER",
             "slug": {
-                
                 "modrinth": "servercore"
             },
             "name": {
-                
                 "modrinth": "ServerCore"
             },
             "id": {
-                
                 "modrinth": "4WWQxlQP"
             },
             "redistributable": false,
@@ -5214,15 +5046,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "simple-voice-chat"
             },
             "name": {
-                
                 "modrinth": "Simple Voice Chat"
             },
             "id": {
-                
                 "modrinth": "9eGKb6K1"
             },
             "files": [
@@ -5300,15 +5129,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "sodium"
             },
             "name": {
-                
                 "modrinth": "Sodium"
             },
             "id": {
-                
                 "modrinth": "AANobbMI"
             },
             "files": [
@@ -5390,15 +5216,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "sodium-extra"
             },
             "name": {
-                
                 "modrinth": "Sodium Extra"
             },
             "id": {
-                
                 "modrinth": "PtjYWJkn"
             },
             "files": [
@@ -5521,15 +5344,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "sound-physics-remastered"
             },
             "name": {
-                
                 "modrinth": "Sound Physics Remastered"
             },
             "id": {
-                
                 "modrinth": "qyVF9oeo"
             },
             "files": [
@@ -5652,15 +5472,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "terrablender"
             },
             "name": {
-                
                 "modrinth": "TerraBlender"
             },
             "id": {
-                
                 "modrinth": "kkmrDlKT"
             },
             "files": [
@@ -5694,15 +5511,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "placeholder-api"
             },
             "name": {
-                
                 "modrinth": "Text Placeholder API"
             },
             "id": {
-                
                 "modrinth": "eXts2L7r"
             },
             "files": [
@@ -5739,15 +5553,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "tide"
             },
             "name": {
-                
                 "modrinth": "Tide 2"
             },
             "id": {
-                
                 "modrinth": "die1AF7i"
             },
             "files": [
@@ -5832,15 +5643,12 @@
             "type": "MOD",
             "side": "SERVER",
             "slug": {
-                
                 "modrinth": "tree-harvester"
             },
             "name": {
-                
                 "modrinth": "Tree Harvester"
             },
             "id": {
-                
                 "modrinth": "abooMhox"
             },
             "files": [
@@ -5969,15 +5777,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "vanillabackport"
             },
             "name": {
-                
                 "modrinth": "Vanilla Backport"
             },
             "id": {
-                
                 "modrinth": "6xwxDTgf"
             },
             "files": [
@@ -6100,15 +5905,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "vinurl"
             },
             "name": {
-                
                 "modrinth": "VinURL"
             },
             "id": {
-                
                 "modrinth": "5PsMUIsq"
             },
             "files": [
@@ -6148,15 +5950,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "visuality"
             },
             "name": {
-                
                 "modrinth": "Visuality"
             },
             "id": {
-                
                 "modrinth": "rI0hvYcd"
             },
             "files": [
@@ -6196,15 +5995,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "wilder-flowers"
             },
             "name": {
-                
                 "modrinth": "Wilder Flowers"
             },
             "id": {
-                
                 "modrinth": "8lUQapTY"
             },
             "files": [
@@ -6241,15 +6037,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "xaeros-minimap"
             },
             "name": {
-                
                 "modrinth": "Xaero's Minimap"
             },
             "id": {
-                
                 "modrinth": "1bokaNcj"
             },
             "files": [
@@ -6287,15 +6080,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "xaeros-world-map"
             },
             "name": {
-                
                 "modrinth": "Xaero's World Map"
             },
             "id": {
-                
                 "modrinth": "NcUtCpym"
             },
             "files": [
@@ -6565,15 +6355,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "yacl"
             },
             "name": {
-                
                 "modrinth": "YetAnotherConfigLib (YACL)"
             },
             "id": {
-                
                 "modrinth": "1eAoo2KR"
             },
             "files": [
@@ -6608,15 +6395,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "yosbr"
             },
             "name": {
-                
                 "modrinth": "Your Options Shall Be Respected (YOSBR)"
             },
             "id": {
-                
                 "modrinth": "WwbubTsV"
             },
             "files": [
@@ -6696,15 +6480,12 @@
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
-                
                 "modrinth": "zoomify"
             },
             "name": {
-                
                 "modrinth": "Zoomify (Zoom)"
             },
             "id": {
-                
                 "modrinth": "w7ThoJFB"
             },
             "files": [
@@ -6870,15 +6651,12 @@
             "type": "MOD",
             "side": "BOTH",
             "slug": {
-                
                 "modrinth": "owo-lib"
             },
             "name": {
-                
                 "modrinth": "oωo (owo-lib)"
             },
             "id": {
-                
                 "modrinth": "ccKDOlHs"
             },
             "files": [
