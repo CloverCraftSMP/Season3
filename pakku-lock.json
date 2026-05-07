@@ -425,7 +425,7 @@
             "id": {
                 "modrinth": "N6n5dqoA"
             },
-            "redistributable": false,
+            "redistributable": true,
             "files": [
                 {
                     "type": "modrinth",
@@ -1164,7 +1164,7 @@
             "id": {
                 "modrinth": "FkbDiLgR"
             },
-            "redistributable": false,
+            "redistributable": true,
             "files": [
                 {
                     "type": "modrinth",
@@ -4824,7 +4824,7 @@
             "id": {
                 "modrinth": "4WWQxlQP"
             },
-            "redistributable": false,
+            "redistributable": true,
             "files": [
                 {
                     "type": "modrinth",
@@ -6692,5 +6692,5 @@
             ]
         }
     ],
-    "lockfile_version": 1
+    "lockfile_version": 2
 }

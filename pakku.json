@@ -6,7 +6,6 @@
         "farmers-delight-refabricated": {
             "update_strategy": "NONE"
         },
-
         "geckolib": {
             "side": "BOTH"
         },
@@ -22,11 +21,6 @@
         "open-parties-and-claims": {
             "side": "BOTH"
         },
-
-        "distant-horizons": {
-            "side": "CLIENT"
-        },
-
         "chunky": {
             "side": "SERVER"
         },
@@ -59,6 +53,10 @@
         },
         "medieval-buildings-nether-edition": {
             "side": "SERVER"
+        },
+        "distanthorizons": {
+            "side": "CLIENT"
         }
-    }
+    },
+    "export_server_side_projects_to_client": false
 }
