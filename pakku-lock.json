@@ -54,7 +54,8 @@
             "pakku_id": "1BvY2adIGOM8CbyC",
             "pakku_links": [
                 "16ZKYLpBOHByBlyV",
-                "dGjZM8Beg6NjBNI1"
+                "dGjZM8Beg6NjBNI1",
+                "Z7N01m7JzOlBHw7b"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -5900,7 +5901,8 @@
             "pakku_id": "jBcgPFc28Gx6GwSZ",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1",
-                "16ZKYLpBOHByBlyV"
+                "16ZKYLpBOHByBlyV",
+                "Z7N01m7JzOlBHw7b"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -6644,7 +6646,7 @@
             ]
         },
         {
-            "pakku_id": "16ZKYLpBOHByBlyV",
+            "pakku_id": "Z7N01m7JzOlBHw7b",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1"
             ],
@@ -6662,28 +6664,27 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "owo-lib-0.13.0-alpha.15+1.21.jar",
+                    "file_name": "owo-lib-0.13.0+1.21.11.jar",
                     "mc_versions": [
-                        "1.21",
-                        "1.21.1"
+                        "1.21.11"
                     ],
                     "loaders": [
                         "fabric",
                         "quilt"
                     ],
-                    "release_type": "alpha",
-                    "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/m3XmDd8j/owo-lib-0.13.0-alpha.15+1.21.jar",
-                    "id": "m3XmDd8j",
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/33Ei8Thm/owo-lib-0.13.0+1.21.11.jar",
+                    "id": "33Ei8Thm",
                     "parent_id": "ccKDOlHs",
                     "hashes": {
-                        "sha512": "939299e72209f8e5a4937fbb2290ed63f7bc5caf2677e6d9fbea8be8049d5ad39c1173f0b61abae7cfddcf7cceb9802f7e2d60b9e8a0fdda399fcbad8f0ac5b4",
-                        "sha1": "5042f3b15df7cdbb058436bb105aedf826f39d3c"
+                        "sha512": "acdd14f068a1751ec9e9baa4c6febc1a807a522ada80c2d999abf07e4a5693892fc92497f13043fbb7fc6e04c1eb42fb59a364a6ef813302f60833355a489c2e",
+                        "sha1": "5baf520ec1e69210ee430a8413a6493cc402764d"
                     },
                     "required_dependencies": [
                         "P7dR8mSH"
                     ],
-                    "size": 1963544,
-                    "date_published": "2026-04-29T10:41:06.572479Z"
+                    "size": 2254955,
+                    "date_published": "2026-01-31T22:46:24.444719Z"
                 }
             ]
         }
