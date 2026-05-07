@@ -81,8 +81,8 @@ jobs:
     steps:
       - name: Publish to self-hosted server
         run: |
-          DEST="${{ env.RELEASE_ROOT }}/"
-          rm -rf "$DEST" && mkdir -p "$DEST"
+          DEST="${{ env.RELEASE_ROOT }}"
+          rm -rf "$DEST"/*
  
           cp "/tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}.mrpack"          "$DEST/"
           cp "/tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip" "$DEST/"
