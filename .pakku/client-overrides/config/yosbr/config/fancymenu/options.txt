@@ -1,3 +1,0 @@
-##[tutorial]
-
-B:show_welcome_screen = 'false';
