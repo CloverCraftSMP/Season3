@@ -6,3 +6,75 @@ net.minecraft.class_442 {
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
+net.minecraft.class_526 {
+}
+
+net.minecraft.class_500 {
+}
+
+net.minecraft.class_443 {
+}
+
+net.minecraft.class_440 {
+}
+
+com.terraformersmc.modmenu.gui.ModsScreen {
+}
+
+net.minecraft.class_426 {
+}
+
+net.minecraft.class_4189 {
+}
+
+net.minecraft.class_524 {
+}
+
+io.github.gaming32.worldhost.gui.screen.OnlineFriendsScreen {
+}
+
+net.minecraft.class_4387 {
+}
+
+net.minecraft.class_429 {
+}
+
+net.minecraft.class_404 {
+}
+
+net.minecraft.class_458 {
+}
+
+com.seibel.distanthorizons.common.wrappers.gui.classicConfig.DhConfigScreen_fabric {
+}
+
+net.minecraft.class_6777 {
+}
+
+me.flashyreese.mods.reeses_sodium_options.client.gui.SodiumVideoOptionsScreen {
+}
+
+net.irisshaders.iris.gui.screen.ShaderPackScreen {
+}
+
+net.minecraft.class_5375 {
+}
+
+net.minecraft.class_8219 {
+}
+
+net.minecraft.class_445 {
+}
+
+net.minecraft.class_407 {
+}
+
+net.minecraft.class_9246 {
+}
+
+net.minecraft.class_4288 {
+}
+
+com.blamejared.controlling.client.NewKeyBindsScreen {
+}
+
