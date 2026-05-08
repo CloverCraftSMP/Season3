@@ -14,3 +14,5 @@ joinedFirstServer:true
 onboardAccessibility:false
 soundCategory_master:0.5
 soundCategory_music:0.2
+key_evenmoreinstruments.keymaps.record:key.keyboard.unknown
+key_key.accessorify.open_ender_chest:key.keyboard.grave.accent
