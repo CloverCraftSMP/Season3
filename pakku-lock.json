@@ -4212,6 +4212,55 @@
             ]
         },
         {
+            "pakku_id": "u9uGrER4xwsqErFG",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "modpack-checker"
+            },
+            "name": {
+                "modrinth": "Modpack Checker"
+            },
+            "id": {
+                "modrinth": "LbG0j53h"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "ModpackChecker-0.1.2+1.21.x.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/LbG0j53h/versions/k46pBcqe/ModpackChecker-0.1.2+1.21.x.jar",
+                    "id": "k46pBcqe",
+                    "parent_id": "LbG0j53h",
+                    "hashes": {
+                        "sha512": "758ba9b0661f6020d2af1acf502c972120d7b3929a33a783fd112f4f61b0d7926731a77a3899d9d9cc47f2fbb0d9e5b5dbe320487f74cd20adc682d622aaf3b5",
+                        "sha1": "d0fac7c5c19633de3afbdff9eef55eab88dbc383"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 390413,
+                    "date_published": "2025-06-30T21:14:44.585942Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "4YprumYTK0ocdPEj",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1"

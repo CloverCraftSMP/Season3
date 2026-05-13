@@ -733,7 +733,7 @@ element {
 
 element {
   interactable = true
-  source = Pack version: v%modpack_version%
+  source = Pack version: v@modpack_version@
   source_mode = direct
   shadow = true
   enable_scrolling = false

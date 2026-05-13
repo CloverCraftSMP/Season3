@@ -1,0 +1,6 @@
+enable = true
+expected_version = "@modpack_version@"
+[messages]
+no_mod = "Please install the Modpack: https://clovercraftsmp.com/latest.mrpack"
+wrong_version = "Please install modpack version {version}: https://clovercraftsmp.com/latest.mrpack"
+server_error = "Server configuration error. Please contact an administrator." 
