@@ -1,0 +1,15 @@
+header-footer:
+  enabled: true
+  designs:
+    default:
+      header:
+        - "<#FFFFFF>&m                                                </#68F527>"
+        - "&2&lCloverCraft &aSMP"
+        - "&r&7Online players: &f%online%"
+        - ""
+      footer:
+        - "&r&7Ping: %ping%"
+        - "&7TPS: %tps%"
+        - "&7MSPT: %mspt%"
+        - ""
+        - "<#FFFFFF>&m                                                </#68F527>"
