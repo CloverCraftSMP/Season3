@@ -43,6 +43,7 @@ dev-server/
 # ==========================================
 
 /options.txt
+/icon.png
 emi.json
 rhino.local.properties
 command_history.txt
@@ -78,6 +79,7 @@ texturepacks/
 # Mod-specific folders and caches
 .fabric/
 ESM/
+sdlinkstorage/
 fancymenu_data/
 moddata/
 modernfix/
