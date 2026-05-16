@@ -1143,6 +1143,49 @@
             ]
         },
         {
+            "pakku_id": "3PHWAewJfGXDsCLW",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "clover-core"
+            },
+            "name": {
+                "modrinth": "Clover"
+            },
+            "id": {
+                "modrinth": "SnT761HH"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "clover-0.3.1+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/SnT761HH/versions/LOZvuior/clover-0.3.1+1.21.1.jar",
+                    "id": "LOZvuior",
+                    "parent_id": "SnT761HH",
+                    "hashes": {
+                        "sha512": "3ff9b3c0a882cca4a9298e4d6095b75865a46026e02753835e7ea769e7ba0c7ac89544dcd356a69a73601660ce378b87291201a08ea26e47667100de827ae0b2",
+                        "sha1": "636ec3a15c8060e0d4caec7f91ee3151cbfc4e30"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 324638,
+                    "date_published": "2026-05-16T19:01:11.795094Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "4DlTyjU6FZq0oMOc",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1"
