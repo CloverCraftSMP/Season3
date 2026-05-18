@@ -1148,7 +1148,7 @@
                 "dGjZM8Beg6NjBNI1"
             ],
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "clover-core"
             },
@@ -1161,7 +1161,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "clover-0.3.1+1.21.1.jar",
+                    "file_name": "clover-0.3.2+1.21.1.jar",
                     "mc_versions": [
                         "1.21",
                         "1.21.1"
@@ -1170,18 +1170,18 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/SnT761HH/versions/LOZvuior/clover-0.3.1+1.21.1.jar",
-                    "id": "LOZvuior",
+                    "url": "https://cdn.modrinth.com/data/SnT761HH/versions/uvPCgvey/clover-0.3.2+1.21.1.jar",
+                    "id": "uvPCgvey",
                     "parent_id": "SnT761HH",
                     "hashes": {
-                        "sha512": "3ff9b3c0a882cca4a9298e4d6095b75865a46026e02753835e7ea769e7ba0c7ac89544dcd356a69a73601660ce378b87291201a08ea26e47667100de827ae0b2",
-                        "sha1": "636ec3a15c8060e0d4caec7f91ee3151cbfc4e30"
+                        "sha512": "d812a7341048aee410f932663280e90a0e8b543fe09e471e6c5e3fb52f7a03cf37f01ab19c7cf79d82d2cd8a3c7259f21b3c3d576b4e1b48b1327f00a915826d",
+                        "sha1": "f9f603ec5be5e9eae05b270fa4c0bd895c11622f"
                     },
                     "required_dependencies": [
                         "P7dR8mSH"
                     ],
-                    "size": 324638,
-                    "date_published": "2026-05-16T19:01:11.795094Z"
+                    "size": 348502,
+                    "date_published": "2026-05-18T16:26:45.106858Z"
                 }
             ]
         },
@@ -3646,6 +3646,47 @@
             ]
         },
         {
+            "pakku_id": "recVIG8yzLZY7tJG",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "larion-worldgen"
+            },
+            "name": {
+                "modrinth": "Larion World Generation"
+            },
+            "id": {
+                "modrinth": "rctNbbuL"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "larion-fabric-1.21.1-4.3.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/rctNbbuL/versions/ojlLh0uS/larion-fabric-1.21.1-4.3.0.jar",
+                    "id": "ojlLh0uS",
+                    "parent_id": "rctNbbuL",
+                    "hashes": {
+                        "sha512": "7731ac713d6ac880a815b71b3407944bab7249b72d8da4a39378ebb24fb62745007922ae9c24faa77bed39fd7cb8a5f89e73740f21b0ff4f2e7b69b9888e22ac",
+                        "sha1": "8beecba73c0ae932d3b343a8ea0a55c1364208f9"
+                    },
+                    "required_dependencies": [],
+                    "size": 80898,
+                    "date_published": "2025-03-17T15:41:17.221839Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "y15TFsYiyabLvp9y",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1",
@@ -3745,7 +3786,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "lithostitched-1.7.6-fabric-21.1.jar",
+                    "file_name": "lithostitched-1.7.7-fabric-21.1.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -3753,18 +3794,18 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/VlrjQMuR/lithostitched-1.7.6-fabric-21.1.jar",
-                    "id": "VlrjQMuR",
+                    "url": "https://cdn.modrinth.com/data/XaDC71GB/versions/UrEAYvpA/lithostitched-1.7.7-fabric-21.1.jar",
+                    "id": "UrEAYvpA",
                     "parent_id": "XaDC71GB",
                     "hashes": {
-                        "sha512": "032f20f0fbe6f866b87c585d03095a19823359d319924012b3912095b71f7f28ef43ac1380e392376452319914219f6d4578f9b643f2df13af82ea9f8109c18c",
-                        "sha1": "3e721047e836089daa6e32fd6fb24d857945aa87"
+                        "sha512": "8f29588b6752467046b63e5814423aced46f2feb69f7c2f21476a450539f4266b598e26df79feeb414d114f23dd2ff22c31040d5f5896a37a8413d610ae36180",
+                        "sha1": "92e54c5d3f3d57b8fc317285f933044c24700f7e"
                     },
                     "required_dependencies": [
                         "P7dR8mSH"
                     ],
-                    "size": 797025,
-                    "date_published": "2026-05-16T07:31:43.485292Z"
+                    "size": 797027,
+                    "date_published": "2026-05-17T05:22:37.439838Z"
                 }
             ]
         },

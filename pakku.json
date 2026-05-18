@@ -2,6 +2,7 @@
     "name": "CloverCraft SMP Season 3",
     "version": "DEV",
     "author": "CloverCraft Team",
+    "export_server_side_projects_to_client": false,
     "projects": {
         "farmers-delight-refabricated": {
             "update_strategy": "NONE"
@@ -65,7 +66,9 @@
         },
         "lithostitched": {
             "side": "BOTH"
+        },
+        "clover-core": {
+            "side": "BOTH"
         }
-    },
-    "export_server_side_projects_to_client": false
+    }
 }
