@@ -1736,6 +1736,7 @@
         {
             "pakku_id": "PtCWPFKyi9WUhe83",
             "type": "MOD",
+            "side": "SERVER",
             "slug": {
                 "curseforge": "cupboard"
             },
@@ -2761,6 +2762,7 @@
                 "PtCWPFKyi9WUhe83"
             ],
             "type": "MOD",
+            "side": "SERVER",
             "slug": {
                 "curseforge": "fast-async-world-save-forge-fabric"
             },
@@ -5132,6 +5134,70 @@
             ]
         },
         {
+            "pakku_id": "kHRg4Yj6w4vtOjVQ",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "raknetify"
+            },
+            "name": {
+                "modrinth": "Raknetify"
+            },
+            "id": {
+                "modrinth": "5IovSY3u"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "raknetify-fabric-0.1.0+alpha.5.196-all.jar",
+                    "mc_versions": [
+                        "1.18",
+                        "1.18.1",
+                        "1.18.2",
+                        "1.19",
+                        "1.19.1",
+                        "1.19.2",
+                        "1.19.3",
+                        "1.19.4",
+                        "1.20",
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://cdn.modrinth.com/data/5IovSY3u/versions/4kUkTS6R/raknetify-fabric-0.1.0+alpha.5.196-all.jar",
+                    "id": "4kUkTS6R",
+                    "parent_id": "5IovSY3u",
+                    "hashes": {
+                        "sha512": "4ef946cc940966d245a1ba02cf1fcb488617285cb19d66e6f99ad7721068eea124f21023141fa687259e42a05c42ff5a8d8a1a59bc6f1cfea0878ac42d2270ad",
+                        "sha1": "478a2cfc10beb9141f681a404e0a61449406a723"
+                    },
+                    "required_dependencies": [],
+                    "size": 718436,
+                    "date_published": "2026-02-25T08:20:10.613971Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "KVhlsbWMGTy81oPa",
             "pakku_links": [
                 "pMUaauKYObfdv8kv",
@@ -5615,6 +5681,56 @@
             ]
         },
         {
+            "pakku_id": "YGxQChKiiCxi6zZM",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "simple-resource-loader"
+            },
+            "name": {
+                "modrinth": "Simple Resource Loader"
+            },
+            "id": {
+                "modrinth": "5e65FGXQ"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "simpleresourceloader-1.0.0+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9-rc1",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/5e65FGXQ/versions/IEbD337h/simpleresourceloader-1.0.0+1.21.1.jar",
+                    "id": "IEbD337h",
+                    "parent_id": "5e65FGXQ",
+                    "hashes": {
+                        "sha512": "e1912941d38bd43019aeff3707e0d9fffbaffd768f774bea54b17f64d27a9a9c3d27102b555a798a7036b6c1a9cdad08d069c0639a8b4452346f9e6d21440c04",
+                        "sha1": "faa2a9b25f3a3e1e6c6ed8ab860a5b10cec303ff"
+                    },
+                    "required_dependencies": [],
+                    "size": 15235,
+                    "date_published": "2024-09-26T13:23:04.766640Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "XoBQimPakIhiaoCR",
             "type": "MOD",
             "side": "BOTH",
@@ -6084,7 +6200,7 @@
         {
             "pakku_id": "UOHhtvy5gby7i5xi",
             "type": "MOD",
-            "side": "BOTH",
+            "side": "SERVER",
             "slug": {
                 "modrinth": "tab-was-taken"
             },
