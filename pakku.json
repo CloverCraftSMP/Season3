@@ -69,6 +69,15 @@
         },
         "clover-core": {
             "side": "BOTH"
+        },
+        "cupboard": {
+            "side": "SERVER"
+        },
+        "fastasyncworldsaver": {
+            "side": "SERVER"
+        },
+        "tab": {
+            "side": "SERVER"
         }
     }
 }
