@@ -33,7 +33,7 @@ menu_background {
   instance_identifier = eb2f0bdb-2a77-40d5-9a2f-f134bc4ba832-1778181852120
   background_type = image
   show_background = true
-  image_path = [source:local]/config/fancymenu/assets/huge_2026-05-02_20.38.10.png
+  image_path = [source:local]/config/fancymenu/assets/cabin.png
   slide = false
   repeat_texture = false
   parallax = false

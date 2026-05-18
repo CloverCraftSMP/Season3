@@ -567,8 +567,8 @@ element {
   button_element_executable_block_identifier = c9a3f83c-f0da-4745-a2ea-cc646cf975eb-1778020633890
   [executable_action_instance:8ef34c06-b861-4037-afff-309efc11fb61-1778260501240][action_type:openlink] = https://github.com/CloverCraftSMP/Season3
   [executable_block:c9a3f83c-f0da-4745-a2ea-cc646cf975eb-1778020633890][type:generic] = [executables:8ef34c06-b861-4037-afff-309efc11fb61-1778260501240;]
-  iconnormal = [source:local]/config/fancymenu/assets/octicons_mark_github.png
-  iconhovered = [source:local]/config/fancymenu/assets/octicons_mark_github.png
+  iconnormal = [source:local]/config/fancymenu/assets/github.png
+  iconhovered = [source:local]/config/fancymenu/assets/github.png
   underline_label_on_hover = false
   transparent_background = false
   restartbackgroundanimations = true
@@ -733,7 +733,7 @@ element {
 
 element {
   interactable = true
-  source = Pack version: v@modpack_version@
+  source = Pack version: @modpack_version@
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -817,7 +817,7 @@ element {
 }
 
 element {
-  audio_instance_0 = [source:local]/config/fancymenu/assets/clovercraft-menu-music-final.ogg
+  audio_instance_0 = [source:local]/config/fancymenu/assets/menu_music.ogg
   audio_instance_weight_0 = 1.0
   play_mode = normal
   looping = false
