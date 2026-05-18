@@ -1,12 +1,12 @@
 [accessorySettings]
-clockAccessory = false
-compassAccessory = false
-recoveryCompassAccessory = false
-calendarAccessory = false
+clockAccessory = true
+compassAccessory = true
+recoveryCompassAccessory = true
+calendarAccessory = true
 elytraAccessory = true
-spyglassAccessory = false
-lanternAccessory = false
+spyglassAccessory = true
+lanternAccessory = true
 totemOfUndyingAccessory = true
-enderChestAccessory = false
+enderChestAccessory = true
 shulkerBoxAccessory = false
-arrowAccessory = false
+arrowAccessory = true
