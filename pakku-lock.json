@@ -3856,6 +3856,44 @@
             ]
         },
         {
+            "pakku_id": "MYSiBjloRkBeB6zD",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "luckperms"
+            },
+            "name": {
+                "modrinth": "LuckPerms"
+            },
+            "id": {
+                "modrinth": "Vebnzrzj"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "LuckPerms-Fabric-5.4.140.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Vebnzrzj/versions/l47d4ZWk/LuckPerms-Fabric-5.4.140.jar",
+                    "id": "l47d4ZWk",
+                    "parent_id": "Vebnzrzj",
+                    "hashes": {
+                        "sha512": "386ff4d18981c830d21ddaa599d70c1c5430c1475e2c5960275bad535cbd572c77e38b3841f0a71e3ea4a795c56d45ff8c4a8dba3799dae26bff5a382c6e0a64",
+                        "sha1": "5368c9a12f181eeeae124b70395691780e5cb657"
+                    },
+                    "required_dependencies": [],
+                    "size": 1574861,
+                    "date_published": "2024-08-22T21:33:40.834033Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "wRH2j3DxlSBXOewr",
             "type": "MOD",
             "side": "SERVER",
@@ -6583,6 +6621,45 @@
                     ],
                     "size": 54297353,
                     "date_published": "2026-05-14T06:26:13.341990Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Vzq7u9bEGUeZkbcd",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "vanilla-permissions"
+            },
+            "name": {
+                "modrinth": "Vanilla Permissions"
+            },
+            "id": {
+                "modrinth": "fdZkP5Bb"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "vanilla-permissions-0.3.3+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/fdZkP5Bb/versions/AReshRra/vanilla-permissions-0.3.3+1.21.1.jar",
+                    "id": "AReshRra",
+                    "parent_id": "fdZkP5Bb",
+                    "hashes": {
+                        "sha512": "8fbbe41b0c0e135fe917b624dbc825f8c6802136be006936e6f7fa1b9d56e96252a98eb1c2c9a7063b9ee182b27437eb8d9f57a1fabf9972b5bc2de878d8e4b1",
+                        "sha1": "0f03bc587452f132d5139b7864d47e248cf82ec3"
+                    },
+                    "required_dependencies": [],
+                    "size": 92113,
+                    "date_published": "2026-01-04T10:22:58.933795Z"
                 }
             ]
         },
