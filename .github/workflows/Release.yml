@@ -82,7 +82,8 @@ jobs:
       - name: Publish to self-hosted server
         run: |
           DEST="${{ env.RELEASE_ROOT }}"
-          rm -rf "$DEST"/*
+          unlink "$DEST"/latest.mrpack "$DEST"/latest-serverpack.zip 2>/dev/null || true
+          rm "$DEST"/latest.json 2>/dev/null || true
  
           cp "/tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}.mrpack"          "$DEST/"
           cp "/tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip" "$DEST/"
