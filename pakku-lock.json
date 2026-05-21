@@ -4403,7 +4403,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "moonlight-fabric-1.21.1-3.0.10.jar",
+                    "file_name": "moonlight-fabric-1.21.1-3.0.12.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -4411,16 +4411,16 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/7FKqMasU/moonlight-fabric-1.21.1-3.0.10.jar",
-                    "id": "7FKqMasU",
+                    "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/CJgeN5Q2/moonlight-fabric-1.21.1-3.0.12.jar",
+                    "id": "CJgeN5Q2",
                     "parent_id": "twkfQtEc",
                     "hashes": {
-                        "sha512": "f28c376f188bf5034a1ef9448a810e8d24d37887eba20a1fcc697602dd789cb47250561638737b604f8a337875265727c18e23a36f201508525973faff59eef9",
-                        "sha1": "81ba86c986b6b9abf5ddd157cfad4e26a1dc714b"
+                        "sha512": "91dc2534af41055a7241a40a5c172070b0dca9d86c55953ffcd2b95af7140955c54d5e9f600cbf3d965a46faad6dcb2d8dbf9647ef32e6e91b3895bca7e6a4fa",
+                        "sha1": "9b8c2e289dcbac641159d1d5632937f95c1e5d44"
                     },
                     "required_dependencies": [],
-                    "size": 1612558,
-                    "date_published": "2026-05-18T22:39:20.623422Z"
+                    "size": 1616236,
+                    "date_published": "2026-05-21T00:25:57.418676Z"
                 }
             ]
         },
@@ -5110,7 +5110,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "PuzzlesLib-v21.1.39-1.21.1-Fabric.jar",
+                    "file_name": "PuzzlesLib-v21.1.44-1.21.1-Fabric.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -5118,19 +5118,19 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/L007zH3l/PuzzlesLib-v21.1.39-1.21.1-Fabric.jar",
-                    "id": "L007zH3l",
+                    "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/8lUcewQG/PuzzlesLib-v21.1.44-1.21.1-Fabric.jar",
+                    "id": "8lUcewQG",
                     "parent_id": "QAGBst4M",
                     "hashes": {
-                        "sha512": "2c5bc1f0bc1b2d6edfc66660d33495a76e4268f75ec02c6fe81f3d7f633a8873695f841c0fdb4e828a5b9d0da428d38d37d084da8ab149909f9a36b160492eb1",
-                        "sha1": "28c3b80d60d4f89ae334970e0ed609cd0dba7374"
+                        "sha512": "b32acd2fec574654a0c4dd35cd1fc940c30482ad746a4166ce8d7d4c5171c59197ac30643d3c9798823ba34c288fd0992c6005e1bb21602607b5584273512b0c",
+                        "sha1": "4818587d5de6e3fb8cc9a78d5ca8665a112588ff"
                     },
                     "required_dependencies": [
                         "ohNO6lps",
                         "P7dR8mSH"
                     ],
-                    "size": 1129192,
-                    "date_published": "2025-10-23T08:58:49.328358Z"
+                    "size": 1386829,
+                    "date_published": "2026-05-21T08:58:28.728461Z"
                 }
             ]
         },
@@ -6212,7 +6212,7 @@
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "supplementaries-fabric-1.21.1-3.6.4.jar",
+                    "file_name": "supplementaries-fabric-1.21.1-3.6.5.jar",
                     "mc_versions": [
                         "1.21.1"
                     ],
@@ -6220,18 +6220,18 @@
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/hVuiFBZD/supplementaries-fabric-1.21.1-3.6.4.jar",
-                    "id": "hVuiFBZD",
+                    "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/jeSbi9B9/supplementaries-fabric-1.21.1-3.6.5.jar",
+                    "id": "jeSbi9B9",
                     "parent_id": "fFEIiSDQ",
                     "hashes": {
-                        "sha512": "14af3d9529be57242ac896487e62cffa8255d0ee26b33cf62beaade9e4f8f430454d3ada58225c9b8bd98368c623701569c54307bbbfb519811e3562868df596",
-                        "sha1": "0b1843efcc32f348436f8336eabcd1d3c45bd61e"
+                        "sha512": "dfefadb4a890a2578e9f130bc96c2bd6216b5cc15b1559cb5e8dccd6f02b44e4a2acff0513d03a444b798b7d83150c5c1bfb74f98c2aead86117f992393277a2",
+                        "sha1": "e14171cd9dbe886676877eea83f59fd8c75707b6"
                     },
                     "required_dependencies": [
                         "twkfQtEc"
                     ],
-                    "size": 13145453,
-                    "date_published": "2026-05-07T07:08:18.683689Z"
+                    "size": 13168045,
+                    "date_published": "2026-05-20T23:10:23.963330Z"
                 }
             ]
         },
