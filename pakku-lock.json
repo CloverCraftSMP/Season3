@@ -3443,6 +3443,49 @@
             ]
         },
         {
+            "pakku_id": "Md8JmJYjN5NlKDad",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "itemstats"
+            },
+            "name": {
+                "modrinth": "Item Stat Tracker"
+            },
+            "id": {
+                "modrinth": "ow5rRJYD"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "itemstats-fabric-1.21.1-1.0.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ow5rRJYD/versions/Kc8y27fA/itemstats-fabric-1.21.1-1.0.1.jar",
+                    "id": "Kc8y27fA",
+                    "parent_id": "ow5rRJYD",
+                    "hashes": {
+                        "sha512": "84cb5382154a71e1d9e0da61ebc4699b58aad6140e4878fb8113114fb444d25ed05cb12c1d927fb7005c0a9d78c558cf72b5037dc0c0c7db6302b5aa7eb316d0",
+                        "sha1": "1b172cf52c2c39c46764a1e7d0d5bfc70f5df324"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 83566,
+                    "date_published": "2026-03-05T03:05:52.394751Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "IRPn7QponnRfDFYz",
             "type": "MOD",
             "side": "BOTH",
@@ -5426,6 +5469,52 @@
                     ],
                     "size": 286902,
                     "date_published": "2026-01-22T20:46:07.605505Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "AjMtHnyg6hOMxRZX",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "riptidefix"
+            },
+            "name": {
+                "modrinth": "RiptideFix"
+            },
+            "id": {
+                "modrinth": "6QoDwzOZ"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "riptidefix-1.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/6QoDwzOZ/versions/6CZLMJvw/riptidefix-1.1.jar",
+                    "id": "6CZLMJvw",
+                    "parent_id": "6QoDwzOZ",
+                    "hashes": {
+                        "sha512": "cf885e0e70ea2a1ae5e723f959745132ab509610b8b5219e9192b8e7647633e7db7d1916bbe891b3712461d9106f0e45c5f2d3c7614b82be4eb2794ada13012f",
+                        "sha1": "f7f97e12d67ad0ca5d4b61bee39fbb19e84b7b51"
+                    },
+                    "required_dependencies": [],
+                    "size": 3953,
+                    "date_published": "2024-12-08T12:24:25.979190Z"
                 }
             ]
         },
