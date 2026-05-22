@@ -5338,6 +5338,50 @@
             ]
         },
         {
+            "pakku_id": "2N3cXmxhohzALOJw",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "respawnable-pets"
+            },
+            "name": {
+                "modrinth": "Respawnable Pets"
+            },
+            "id": {
+                "modrinth": "gbFe1FWa"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "respawnablepets-1.21-r2.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/gbFe1FWa/versions/DxDhy0br/respawnablepets-1.21-r2.jar",
+                    "id": "DxDhy0br",
+                    "parent_id": "gbFe1FWa",
+                    "hashes": {
+                        "sha512": "076914fc222740c7678b2863549b866ec6f6ff0a94050619329012c5ca735ad32c6f1122dea1e79e9aa3fd997756693f32b398e34ad286057fe60a971e5cbfed",
+                        "sha1": "e16b31f25570bbfb00424c166b92951e0b9e442b"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 294763,
+                    "date_published": "2024-10-10T19:01:31.933596Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "xAmixXzbIRvZ33zs",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1",
