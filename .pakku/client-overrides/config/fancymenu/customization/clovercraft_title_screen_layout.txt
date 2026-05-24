@@ -93,11 +93,11 @@ menu_background {
   instance_identifier = 9c05ed8e-6a3e-45dc-a2a5-9c5dc026a8a9-1778018191582
   background_type = glsl
   show_background = false
-  inline_shader_source = 
-  buffer_a_inline_source = 
-  buffer_b_inline_source = 
-  buffer_c_inline_source = 
-  buffer_d_inline_source = 
+  inline_shader_source =
+  buffer_a_inline_source =
+  buffer_b_inline_source =
+  buffer_c_inline_source =
+  buffer_d_inline_source =
   image_ichannel0_input = none
   image_ichannel1_input = none
   image_ichannel2_input = none
@@ -150,11 +150,11 @@ decoration_overlay {
   overlay_type = glsl
   instance_identifier = ca429a64-4b82-46ea-af6e-05d1c3053b86-1778018191582
   show_decoration_overlay = false
-  inline_shader_source = 
-  buffer_a_inline_source = 
-  buffer_b_inline_source = 
-  buffer_c_inline_source = 
-  buffer_d_inline_source = 
+  inline_shader_source =
+  buffer_a_inline_source =
+  buffer_b_inline_source =
+  buffer_c_inline_source =
+  buffer_d_inline_source =
   image_ichannel0_input = none
   image_ichannel1_input = none
   image_ichannel2_input = none
@@ -492,7 +492,7 @@ element {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  label = 
+  label =
   navigatable = true
   widget_active_state_requirement_container_identifier = 05a7b95c-0abb-43af-b999-949fa382e068-1778020430143
   [loading_requirement_container_meta:05a7b95c-0abb-43af-b999-949fa382e068-1778020430143] = [groups:][instances:]
@@ -905,7 +905,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -100
-  y = -3
+  y = -16
   width = 200
   height = 20
   stay_on_screen = true
@@ -983,8 +983,8 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -100
-  y = 40
-  width = 99
+  y = 44
+  width = 98
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = 1f1746af-d726-4023-9312-53297fe8b666-1778018191589
@@ -1061,7 +1061,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -100
-  y = -25
+  y = -40
   width = 200
   height = 20
   stay_on_screen = true
@@ -1295,8 +1295,8 @@ vanilla_button {
   auto_sizing_base_screen_height = 1420
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 101
-  y = 40
+  x = 104
+  y = 44
   width = 20
   height = 20
   stay_on_screen = true
@@ -1373,9 +1373,9 @@ vanilla_button {
   auto_sizing_base_screen_height = 1420
   sticky_anchor = false
   anchor_point = mid-centered
-  x = 1
-  y = 40
-  width = 99
+  x = 2
+  y = 44
+  width = 98
   height = 20
   stay_on_screen = true
   element_loading_requirement_container_identifier = fc3b213c-6f88-49d3-9ee4-832f629dc970-1778018191589
@@ -1529,8 +1529,8 @@ vanilla_button {
   auto_sizing_base_screen_height = 1420
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -121
-  y = 40
+  x = -124
+  y = 44
   width = 20
   height = 20
   stay_on_screen = true
@@ -1764,7 +1764,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -100
-  y = 18
+  y = 8
   width = 200
   height = 20
   stay_on_screen = true
@@ -1887,4 +1887,3 @@ vanilla_button {
   automated_button_clicks = 0
   is_hidden = true
 }
-
