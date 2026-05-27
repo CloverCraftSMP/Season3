@@ -7,9 +7,6 @@
         "farmers-delight-refabricated": {
             "update_strategy": "NONE"
         },
-        "sodium": {
-            "update_strategy": "NONE"
-        },
         "geckolib": {
             "side": "BOTH"
         },

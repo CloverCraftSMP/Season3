@@ -3360,51 +3360,6 @@
             ]
         },
         {
-            "pakku_id": "qAidYyaIcnxiV4XY",
-            "pakku_links": [
-                "pMUaauKYObfdv8kv",
-                "afdIufzCreYH5Qmj"
-            ],
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "iris"
-            },
-            "name": {
-                "modrinth": "Iris Shaders"
-            },
-            "id": {
-                "modrinth": "YL57xq9U"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "iris-fabric-1.8.8+mc1.21.1.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "quilt"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/zsoi0dso/iris-fabric-1.8.8+mc1.21.1.jar",
-                    "id": "zsoi0dso",
-                    "parent_id": "YL57xq9U",
-                    "hashes": {
-                        "sha512": "2e6ba2ffa1e1a6799288245a7e0ac68ee8df1d41b98362189df58f535cae34fa9277801e4136633467341b7dae5be0e5c698011b480b3d91b66d3dd4f7567aa6",
-                        "sha1": "4e0df4011503b4b36ba69877ea7247c1a47fea00"
-                    },
-                    "required_dependencies": [
-                        "AANobbMI"
-                    ],
-                    "size": 2690177,
-                    "date_published": "2025-02-20T15:04:02.182924Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "Md8JmJYjN5NlKDad",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1"
@@ -5954,29 +5909,27 @@
             "id": {
                 "modrinth": "AANobbMI"
             },
-            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "sodium-fabric-0.6.13+mc1.21.1.jar",
+                    "file_name": "sodium-fabric-0.8.12-alpha.4+mc1.21.1.jar",
                     "mc_versions": [
-                        "1.21",
                         "1.21.1"
                     ],
                     "loaders": [
                         "fabric"
                     ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/AANobbMI/versions/u1OEbNKx/sodium-fabric-0.6.13+mc1.21.1.jar",
-                    "id": "u1OEbNKx",
+                    "release_type": "alpha",
+                    "url": "https://cdn.modrinth.com/data/AANobbMI/versions/uheoPKxU/sodium-fabric-0.8.12-alpha.4+mc1.21.1.jar",
+                    "id": "uheoPKxU",
                     "parent_id": "AANobbMI",
                     "hashes": {
-                        "sha512": "13032e064c554fc8671573dadb07bc70e6ea2f68706c65c086c4feb1d2f664346a3414cbf9d1367b42b8d063a35e40f2f967ef9af31642e1f0093b852161fe91",
-                        "sha1": "928a2598178c3a58b0638bab842f467d2e49251a"
+                        "sha512": "cad8769ac8cf1ceed0baa6ac0c0afb52217ac3d4b6f022efb0e47dc521a4b11c375d2b054d2831107d97a0aa44cb7f2d04f95cfe8274dca882c8460c833f002d",
+                        "sha1": "5db45837af4de14136f8ee6f6f7ba1a4d69b1972"
                     },
                     "required_dependencies": [],
-                    "size": 1297761,
-                    "date_published": "2025-04-04T00:07:37.476142Z"
+                    "size": 1565263,
+                    "date_published": "2026-05-25T13:19:01.423143Z"
                 }
             ]
         },
@@ -6068,51 +6021,6 @@
                     ],
                     "size": 373661,
                     "date_published": "2024-11-17T16:17:18.917756Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "CWdaz0RIEUDcN0iW",
-            "pakku_links": [
-                "dGjZM8Beg6NjBNI1",
-                "pMUaauKYObfdv8kv",
-                "afdIufzCreYH5Qmj"
-            ],
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "sodiumleafculling"
-            },
-            "name": {
-                "modrinth": "Sodium Leaf Culling"
-            },
-            "id": {
-                "modrinth": "M25bkObt"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "sodiumleafculling-fabric-1.0.1-1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/M25bkObt/versions/7zNT2jo4/sodiumleafculling-fabric-1.0.1-1.21.1.jar",
-                    "id": "7zNT2jo4",
-                    "parent_id": "M25bkObt",
-                    "hashes": {
-                        "sha512": "e9418149ccfb5365416fe1a54c991d8eba604d5dc751e1241f5904b6cda927eb99a13e296ed86297111423401dbfbe6d9de8a3ff77b93a142c31e848df814271",
-                        "sha1": "792d25eab5876b3cd0d3b2b3e7b93d3d3a65836a"
-                    },
-                    "required_dependencies": [
-                        "P7dR8mSH",
-                        "AANobbMI"
-                    ],
-                    "size": 299711,
-                    "date_published": "2025-04-07T04:30:57.964318Z"
                 }
             ]
         },
