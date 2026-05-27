@@ -4423,49 +4423,6 @@
             ]
         },
         {
-            "pakku_id": "gx42EEy9IBCofm48",
-            "pakku_links": [
-                "dGjZM8Beg6NjBNI1"
-            ],
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "mouse-tweaks"
-            },
-            "name": {
-                "modrinth": "Mouse Tweaks"
-            },
-            "id": {
-                "modrinth": "aC3cM3Vq"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "MouseTweaks-fabric-mc1.21-2.26.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/ylmBQ38A/MouseTweaks-fabric-mc1.21-2.26.jar",
-                    "id": "ylmBQ38A",
-                    "parent_id": "aC3cM3Vq",
-                    "hashes": {
-                        "sha512": "1744a48a47aedcbf19a0a93f78473cf0221fc4782852dca7fc02685719174664b4f9d95d353fcfc16902ac3815594511ba6d9ab14391f9b7e25ec9b2e777927a",
-                        "sha1": "ee81af33a5606ef2cd057e075833d7c69836c210"
-                    },
-                    "required_dependencies": [
-                        "P7dR8mSH"
-                    ],
-                    "size": 75984,
-                    "date_published": "2024-06-17T08:24:47.086399Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "l313aCcve5dhM3FZ",
             "type": "MOD",
             "side": "BOTH",
