@@ -605,6 +605,53 @@
             ]
         },
         {
+            "pakku_id": "7dvXDEu98foCFWCT",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "bluemap"
+            },
+            "name": {
+                "modrinth": "BlueMap"
+            },
+            "id": {
+                "modrinth": "swbUV1cr"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "bluemap-5.7-fabric.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/swbUV1cr/versions/Dr2hvJBc/bluemap-5.7-fabric.jar",
+                    "id": "Dr2hvJBc",
+                    "parent_id": "swbUV1cr",
+                    "hashes": {
+                        "sha512": "b7483d6ff90f09258f994a6f487846c1dfe814f1d0af931bd50426fd0afc98ccad033c5f440705edc08a8ced03cf216171ba1571db2221aca4ec620d676443a4",
+                        "sha1": "42777d6140234a75243c04156b63cfbe562a1cdb"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 5517229,
+                    "date_published": "2025-02-26T14:16:11.688132Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "kdkDvekPANn0cNyz",
             "type": "MOD",
             "side": "BOTH",
@@ -4050,6 +4097,52 @@
             ]
         },
         {
+            "pakku_id": "0SrulNwPDoks3BeU",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1",
+                "c6WdOwoiUFvXUYqm"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "maplink"
+            },
+            "name": {
+                "modrinth": "Map Link  (formerly Remote Player Waypoints for Xaero's Map)"
+            },
+            "id": {
+                "modrinth": "kiByZ6gx"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "maplink-fabric-4.4.0-1.21-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/kiByZ6gx/versions/FxXZXGZ4/maplink-fabric-4.4.0-1.21-1.21.1.jar",
+                    "id": "FxXZXGZ4",
+                    "parent_id": "kiByZ6gx",
+                    "hashes": {
+                        "sha512": "476070ffc592e7765d31392c272a29bfc266901d813cbd2c8405936ee0504ed9dd752ccc9417a8c08ff240e5a040417c06e95aefe391972333eb9c5f9e2a817c",
+                        "sha1": "65ec005edb5a868be7b00c55a897c200d13aa2f5"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH",
+                        "9s6osm5g"
+                    ],
+                    "size": 1322955,
+                    "date_published": "2026-03-08T22:10:33.060881Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "zlGUoXzcKK2PVMqj",
             "type": "MOD",
             "side": "SERVER",
@@ -6144,6 +6237,46 @@
                     "required_dependencies": [],
                     "size": 508502,
                     "date_published": "2025-01-24T08:21:59.025194Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "B0EeFHKtyKFi7HYx",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "styled-nicknames"
+            },
+            "name": {
+                "modrinth": "Styled Nicknames"
+            },
+            "id": {
+                "modrinth": "DOk6Gcdi"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "styled-nicknames-1.6.0+1.21.jar",
+                    "mc_versions": [
+                        "1.21-rc1",
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/DOk6Gcdi/versions/U9pXTyh2/styled-nicknames-1.6.0+1.21.jar",
+                    "id": "U9pXTyh2",
+                    "parent_id": "DOk6Gcdi",
+                    "hashes": {
+                        "sha512": "d9145ead6134537ed0bba9f9c7ebdf6cfe290df2cae75417faf4d296835f84540851f618c942ee20d9f58b1c94b44d801edc0a909c6495028a9b0fd6f18bd4d9",
+                        "sha1": "8dce0a79959b1cdee245d0ab4bb16363f7d32a8c"
+                    },
+                    "required_dependencies": [],
+                    "size": 283118,
+                    "date_published": "2024-06-12T10:40:34.935164Z"
                 }
             ]
         },
