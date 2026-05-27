@@ -23,7 +23,8 @@
             "side": "BOTH"
         },
         "open-parties-and-claims": {
-            "side": "BOTH"
+            "side": "BOTH",
+            "update_strategy": "NONE"
         },
         "chunky": {
             "side": "SERVER"
