@@ -1895,44 +1895,6 @@
             ]
         },
         {
-            "pakku_id": "w547O2f7llvOyxyA",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "distanthorizons"
-            },
-            "name": {
-                "modrinth": "Distant Horizons"
-            },
-            "id": {
-                "modrinth": "uCdwusMi"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "DistantHorizons-3.0.3-b-1.21.1-fabric-neoforge.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "neoforge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://cdn.modrinth.com/data/uCdwusMi/versions/oYXIfeus/DistantHorizons-3.0.3-b-1.21.1-fabric-neoforge.jar",
-                    "id": "oYXIfeus",
-                    "parent_id": "uCdwusMi",
-                    "hashes": {
-                        "sha512": "8b39994ee6c5d71b8afacc80c2d13dd92fad10281374392c0049d1b6aebc823d7e137125268dee7383d3ff753eacf708fbe87d773cf0087d7b6057a05cf18ad3",
-                        "sha1": "bc865b11c94581949384b6d5820b58aee8b7273c"
-                    },
-                    "required_dependencies": [],
-                    "size": 30113661,
-                    "date_published": "2026-05-04T12:36:21.362872Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "rMBwt1eLvlaAlpIg",
             "type": "MOD",
             "side": "BOTH",
