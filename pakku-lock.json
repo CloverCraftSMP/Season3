@@ -1059,52 +1059,6 @@
             ]
         },
         {
-            "pakku_id": "eJv560IpttM269Rl",
-            "pakku_links": [
-                "c6WdOwoiUFvXUYqm",
-                "f8Q61nB9UI5qAr4T",
-                "ZTMBFHLedqzQPF5x"
-            ],
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "clientsort"
-            },
-            "name": {
-                "modrinth": "Client Sort"
-            },
-            "id": {
-                "modrinth": "K0AkAin6"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "clientsort-fabric-2.2.1+1.21.1.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/K0AkAin6/versions/ICs54uIi/clientsort-fabric-2.2.1+1.21.1.jar",
-                    "id": "ICs54uIi",
-                    "parent_id": "K0AkAin6",
-                    "hashes": {
-                        "sha512": "bf8dcca70252eb498964069a9733c06f649451d7270348fd8c2ad08a317322f423fd45b00a3cf5e6c9535ee8405219fb12e285fab8d8cd7f2563e15494daf698",
-                        "sha1": "93171f6be324005aa57abe3b9997578ef41e4bf4"
-                    },
-                    "required_dependencies": [
-                        "9s6osm5g",
-                        "mOgUt4GM"
-                    ],
-                    "size": 341874,
-                    "date_published": "2026-02-18T13:09:41.027940Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "c6WdOwoiUFvXUYqm",
             "type": "MOD",
             "side": "BOTH",
@@ -3398,6 +3352,52 @@
             ]
         },
         {
+            "pakku_id": "iqgQL7sA8kmYhB7J",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1",
+                "o0XUigMapF1Ucw2v",
+                "vYKlm3L2uvUOH982"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "inventory-profiles-next"
+            },
+            "name": {
+                "modrinth": "Inventory Profiles Next"
+            },
+            "id": {
+                "modrinth": "O7RBXm3n"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "InventoryProfilesNext-fabric-1.21.1-2.2.6.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/O7RBXm3n/versions/h1db7jG7/InventoryProfilesNext-fabric-1.21.1-2.2.6.jar",
+                    "id": "h1db7jG7",
+                    "parent_id": "O7RBXm3n",
+                    "hashes": {
+                        "sha512": "329ba98932110af7905e0108f96aef2750a2cc6a6eec6fdc7c4a6b3682a9886d91b695ecc9677c2a619d829642a1f795dd01c32564f18e0151a861c9e3a158b1",
+                        "sha1": "a99471cb13f2c3c355ab3a61483580ccfa0d3693"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH",
+                        "onSQdWhM",
+                        "Ha28R6CL"
+                    ],
+                    "size": 1331935,
+                    "date_published": "2026-03-26T17:44:43.493608Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "qAidYyaIcnxiV4XY",
             "pakku_links": [
                 "pMUaauKYObfdv8kv",
@@ -4891,7 +4891,7 @@
                 "dGjZM8Beg6NjBNI1"
             ],
             "type": "MOD",
-            "side": "SERVER",
+            "side": "BOTH",
             "slug": {
                 "modrinth": "open-parties-and-claims"
             },
@@ -4901,6 +4901,7 @@
             "id": {
                 "modrinth": "gF3BGWvG"
             },
+            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "modrinth",
@@ -7668,6 +7669,50 @@
                     "required_dependencies": [],
                     "size": 12935,
                     "date_published": "2024-04-16T22:43:46.987077Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "o0XUigMapF1Ucw2v",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1",
+                "vYKlm3L2uvUOH982"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "libipn"
+            },
+            "name": {
+                "modrinth": "libIPN"
+            },
+            "id": {
+                "modrinth": "onSQdWhM"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "libIPN-fabric-1.21.1-6.6.3.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/onSQdWhM/versions/PSscYPRs/libIPN-fabric-1.21.1-6.6.3.jar",
+                    "id": "PSscYPRs",
+                    "parent_id": "onSQdWhM",
+                    "hashes": {
+                        "sha512": "765991facc85b2cbc5a40c5ddc506da16f18a5c43de7c42757195dbc8d43e09573504602d3695de0054e5a868c6368fca7ad982738f509ba17a68d373532d16c",
+                        "sha1": "0fdc425d1fc0ad8703256f43deadcadee4328eea"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH",
+                        "Ha28R6CL"
+                    ],
+                    "size": 636114,
+                    "date_published": "2026-03-25T11:26:06.562470Z"
                 }
             ]
         },
