@@ -40,3 +40,22 @@ addCopperHorn("admire");
 addCopperHorn("call");
 addCopperHorn("yearn");
 addCopperHorn("dream");
+
+craftingTable.removeByName("cinderscapes:gunpowder");
+craftingTable.removeByName("hybrid-aquatic:gunpowder");
+craftingTable.removeByName("supplementaries:fire_pit");
+
+var sulfurTag = <tagmanager:item>.tag("clover:sulfur_for_gunpowder");
+sulfurTag.add(<item:cinderscapes:sulfur>);
+sulfurTag.add(<item:hybrid-aquatic:sulfur>);
+sulfurTag.add(<item:minecraft:sulfur_spike>);
+
+craftingTable.addShapeless("ct_gunpowder_from_sulfur", <item:minecraft:gunpowder> * 4, [sulfurTag, <tagmanager:item>.tag("minecraft:coals"), <item:minecraft:bone_meal>]);
+
+var copper = <item:minecraft:copper_ingot>;
+var campfire = <item:minecraft:campfire>;
+
+craftingTable.addShaped("ct_fire_pit", <item:supplementaries:fire_pit>, [
+    [copper, campfire, copper],
+    [copper, copper, copper]
+]);
