@@ -4,6 +4,9 @@
     "author": "CloverCraft Team",
     "export_server_side_projects_to_client": false,
     "projects": {
+        "spark": {
+            "side": "CLIENT"
+        },
         "farmers-delight-refabricated": {
             "update_strategy": "NONE"
         },
