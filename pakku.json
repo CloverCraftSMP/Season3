@@ -79,6 +79,9 @@
         },
         "tab": {
             "side": "SERVER"
+        },
+        "owo-lib": {
+            "update_strategy": "NONE"
         }
     }
 }
