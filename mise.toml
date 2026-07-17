@@ -1,4 +1,5 @@
 [tools]
+git-lfs = "latest"
 java = "temurin-23"
 
 [shell_alias]
