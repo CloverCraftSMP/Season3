@@ -4,7 +4,7 @@
         "1.21.1"
     ],
     "loaders": {
-        "fabric": "0.19.2"
+        "fabric": "0.19.3"
     },
     "projects": [
         {
@@ -2767,30 +2767,28 @@
             "id": {
                 "modrinth": "7vxePowz"
             },
-            "update_strategy": "NONE",
             "files": [
                 {
                     "type": "modrinth",
-                    "file_name": "FarmersDelight-1.21.1-3.2.8+refabricated.jar",
+                    "file_name": "FarmersDelight-1.21.1-3.3.3+refabricated.jar",
                     "mc_versions": [
+                        "1.21",
                         "1.21.1"
                     ],
                     "loaders": [
                         "fabric"
                     ],
                     "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/7vxePowz/versions/YEHRH8LC/FarmersDelight-1.21.1-3.2.8+refabricated.jar",
-                    "id": "YEHRH8LC",
+                    "url": "https://cdn.modrinth.com/data/7vxePowz/versions/NCLOIK5z/FarmersDelight-1.21.1-3.3.3+refabricated.jar",
+                    "id": "NCLOIK5z",
                     "parent_id": "7vxePowz",
                     "hashes": {
-                        "sha512": "b81080b77cb3500589cadf4e6325ac827f22c14652ef5428a0ea2531639da261dcd553de46379fa2f92cb131b49d32114948755f7114839c9690a23fa9d5d958",
-                        "sha1": "7adf7fbfbc29b87546b286a5d9a59358dfeca1e8"
+                        "sha512": "9e6adc3c6b0b840a29634105c7c5fb0c46d2b0281a5807a1deb5a5093fbf190815d8b16031313d17eb71ecf736f06338da10bf4388ae900d77b883641fbcf7c9",
+                        "sha1": "6e605d344cd79519958921a2390108cb4d42cf3d"
                     },
-                    "required_dependencies": [
-                        "P7dR8mSH"
-                    ],
-                    "size": 3142838,
-                    "date_published": "2026-04-13T01:36:25.029522Z"
+                    "required_dependencies": [],
+                    "size": 3240212,
+                    "date_published": "2026-05-14T17:34:23.901245Z"
                 }
             ]
         },

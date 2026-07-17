@@ -7,9 +7,6 @@
         "spark": {
             "side": "CLIENT"
         },
-        "farmers-delight-refabricated": {
-            "update_strategy": "NONE"
-        },
         "geckolib": {
             "side": "BOTH"
         },
