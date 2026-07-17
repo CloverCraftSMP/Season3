@@ -1,5 +1,5 @@
 [tools]
-java = "temurin-21"
+java = "temurin-23"
 
 [shell_alias]
 pakku = "java -jar pakku.jar"
