@@ -653,6 +653,44 @@
             ]
         },
         {
+            "pakku_id": "Mw4UCRq2j97CEtLg",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "biolith"
+            },
+            "name": {
+                "modrinth": "Biolith"
+            },
+            "id": {
+                "modrinth": "iGEl6Crx"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "biolith-fabric-3.0.14.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/iGEl6Crx/versions/aBinwigO/biolith-fabric-3.0.14.jar",
+                    "id": "aBinwigO",
+                    "parent_id": "iGEl6Crx",
+                    "hashes": {
+                        "sha512": "3d0f05a9ae4b001f33437cfb789b1fd9d5a90dde1075197f9ea97fe9b5b01505c2936baf748df641b4476cb1bb30ad229926c3afc310800e7bef076186d8fd81",
+                        "sha1": "804f41e18b368222b74295911f8487579d83e3e0"
+                    },
+                    "required_dependencies": [],
+                    "size": 218094,
+                    "date_published": "2026-07-15T04:48:32.618530Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "kdkDvekPANn0cNyz",
             "type": "MOD",
             "side": "BOTH",
@@ -3184,6 +3222,58 @@
                     ],
                     "size": 53333,
                     "date_published": "2025-04-06T01:00:34.155359Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "mA29IL4MtqNWUcqj",
+            "pakku_links": [
+                "vYKlm3L2uvUOH982",
+                "Mw4UCRq2j97CEtLg",
+                "g0bO5VOlJG82Kqc9",
+                "Ei9FytwQMD7JII21",
+                "dGjZM8Beg6NjBNI1",
+                "6cAA1qnQLGhOxGHC"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "hybrid-aquatic"
+            },
+            "name": {
+                "modrinth": "Hybrid Aquatic"
+            },
+            "id": {
+                "modrinth": "HH4FjUqN"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "[1.21.1-Fabric] Hybrid Aquatic 1.6.7.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/HH4FjUqN/versions/iHV6q8YP/[1.21.1-Fabric] Hybrid Aquatic 1.6.7.jar",
+                    "id": "iHV6q8YP",
+                    "parent_id": "HH4FjUqN",
+                    "hashes": {
+                        "sha512": "3bbf5b3ff6d3663c27c5709e5e32b69b28b0a7883a3dd4515b137f5ecb96284e3e150aa0af3ce3a528b42c371d53af82b485cc28044f594cc8cb181ac24104f1",
+                        "sha1": "952566627c0fe1fbc370fbb2578c9bda817c824d"
+                    },
+                    "required_dependencies": [
+                        "Ha28R6CL",
+                        "iGEl6Crx",
+                        "XaDC71GB",
+                        "8BmcQJ2H",
+                        "P7dR8mSH",
+                        "5aaWibi9"
+                    ],
+                    "size": 6331792,
+                    "date_published": "2026-07-13T21:47:53.740609Z"
                 }
             ]
         },
@@ -6490,6 +6580,48 @@
                     "required_dependencies": [],
                     "size": 232325,
                     "date_published": "2025-01-27T19:08:23.196696Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "sjLQJSlwREEsSKZX",
+            "pakku_links": [
+                "c6WdOwoiUFvXUYqm"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "tide"
+            },
+            "name": {
+                "modrinth": "Tide 2"
+            },
+            "id": {
+                "modrinth": "die1AF7i"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "tide-fabric-1.21.1-2.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/die1AF7i/versions/mfPSyW1X/tide-fabric-1.21.1-2.1.jar",
+                    "id": "mfPSyW1X",
+                    "parent_id": "die1AF7i",
+                    "hashes": {
+                        "sha512": "5b8bc2dd6370e9b4c9fb374c252575b5a43c0dfbb2dd898deac2214c49a41b1bba4bad9bd54eb07cc4965d5b04b432fc5778f360e2d659dbb277eda91a472791",
+                        "sha1": "5a3cc765464259b5e722c1297d2ff7ab0807c8e5"
+                    },
+                    "required_dependencies": [
+                        "9s6osm5g"
+                    ],
+                    "size": 2199255,
+                    "date_published": "2026-06-21T17:43:36.533074Z"
                 }
             ]
         },
