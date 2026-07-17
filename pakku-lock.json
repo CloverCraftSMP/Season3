@@ -726,6 +726,46 @@
             ]
         },
         {
+            "pakku_id": "wPJezABueHjmkfHZ",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "build-guide"
+            },
+            "name": {
+                "modrinth": "Build Guide"
+            },
+            "id": {
+                "modrinth": "XwBDibES"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "BuildGuide-1.21-0.4.8.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/XwBDibES/versions/FAqppP3u/BuildGuide-1.21-0.4.8.jar",
+                    "id": "FAqppP3u",
+                    "parent_id": "XwBDibES",
+                    "hashes": {
+                        "sha512": "ad6e8b8a193e4d9723117018d2b1723f62d82906a70ab3cf2729b20eab167eb7e9b134b9e3badf01b6e71bc95c6b8a6cbfd25cfa324430edce02cf1995ee1331",
+                        "sha1": "abaf923c3072768fea1f28ff16af7a8f30e72f39"
+                    },
+                    "required_dependencies": [],
+                    "size": 1674432,
+                    "date_published": "2026-02-06T20:28:54.786649Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "eu8K2F5wYkhEF45a",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1"
@@ -2016,6 +2056,51 @@
             ]
         },
         {
+            "pakku_id": "RGi2MJ6iaTOs98Xb",
+            "pakku_links": [
+                "UhdtR8jPnijbVjXJ",
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "ding"
+            },
+            "name": {
+                "modrinth": "Ding"
+            },
+            "id": {
+                "modrinth": "UEtTD3gP"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Ding-1.21-Fabric-1.5.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/UEtTD3gP/versions/rBn3e7NE/Ding-1.21-Fabric-1.5.0.jar",
+                    "id": "rBn3e7NE",
+                    "parent_id": "UEtTD3gP",
+                    "hashes": {
+                        "sha512": "4ceb1f428b39b1709d787f573856d920579c13013d544a16b56d5184572d0ebebf9c1683e003a3f2c0e07494a21912ff0b4994469dfebbedc431aebac2ea960c",
+                        "sha1": "8c9a19f47331f29edd9010b8b0d87d8a44e11b01"
+                    },
+                    "required_dependencies": [
+                        "W6ROj0Hl",
+                        "P7dR8mSH"
+                    ],
+                    "size": 34897,
+                    "date_published": "2024-06-27T03:43:59.158265Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "rMBwt1eLvlaAlpIg",
             "type": "MOD",
             "side": "BOTH",
@@ -3133,6 +3218,45 @@
             ]
         },
         {
+            "pakku_id": "vYUxu9CCKiE6ogqs",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "held-item-info"
+            },
+            "name": {
+                "modrinth": "Held Item Info"
+            },
+            "id": {
+                "modrinth": "tEcWzCZz"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "held-item-info-1.7.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/tEcWzCZz/versions/EvcC3qTM/held-item-info-1.7.0.jar",
+                    "id": "EvcC3qTM",
+                    "parent_id": "tEcWzCZz",
+                    "hashes": {
+                        "sha512": "a1dc1925e68f608a5d9c7e5790339b0cee6a5ed4f096c599b41f11839a7ee7626d4b9dbf1edc2d75b66b5ce95a2d5787beb582c3987bb76544d95100a557ee26",
+                        "sha1": "32f34e6b481e2d3ca5e0d6205dc699872f2f2315"
+                    },
+                    "required_dependencies": [],
+                    "size": 79720,
+                    "date_published": "2024-06-16T19:41:52.046655Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "S2kukE65yD2pUfCl",
             "pakku_links": [
                 "AJsuBnCsnTHQH8ps",
@@ -3489,6 +3613,50 @@
                     ],
                     "size": 161830,
                     "date_published": "2024-05-27T19:56:39.205551Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "GKsWVgQafO957MWI",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1",
+                "LqoqepSfkSYfporM"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "inventory-particles"
+            },
+            "name": {
+                "modrinth": "Inventory Particles"
+            },
+            "id": {
+                "modrinth": "XYnKrsxH"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "InventoryParticles-2.6.0+1.21.1+fabric.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/XYnKrsxH/versions/GreasOxH/InventoryParticles-2.6.0+1.21.1+fabric.jar",
+                    "id": "GreasOxH",
+                    "parent_id": "XYnKrsxH",
+                    "hashes": {
+                        "sha512": "c48b03e307a1c5ebe482b06e2e0b1d645d30bcdb1c74f2085f4816aed1efc0df9ad35c5d2203fadbb265cc2b3f2d99d741a43e336550de13ccc2509717521579",
+                        "sha1": "31810186ebd3287f09a41b3e525c5164a7700045"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH",
+                        "ffLDUGbm"
+                    ],
+                    "size": 1718560,
+                    "date_published": "2026-07-11T16:43:04.088086Z"
                 }
             ]
         },
@@ -4643,6 +4811,90 @@
             ]
         },
         {
+            "pakku_id": "LqoqepSfkSYfporM",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "mossylib"
+            },
+            "name": {
+                "modrinth": "MossyLib"
+            },
+            "id": {
+                "modrinth": "ffLDUGbm"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "MossyLib-1.5.0+1.21.1+fabric.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ffLDUGbm/versions/IuKEg8pG/MossyLib-1.5.0+1.21.1+fabric.jar",
+                    "id": "IuKEg8pG",
+                    "parent_id": "ffLDUGbm",
+                    "hashes": {
+                        "sha512": "38955c324e1c7c46625b14f4939fdd48212551e36d64c5f45aa09ab3b7815177a2149b7d92dfa52449caf2c9ea3d7ae05ebfdf2553f12fd2f646670667f44e94",
+                        "sha1": "dabe58029bea8154654a54b3d4a667543c4d964c"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 182096,
+                    "date_published": "2026-06-21T14:01:55.087678Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "lQzuGyyY5MJZE2Ab",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "my_totem_doll"
+            },
+            "name": {
+                "modrinth": "My Totem Doll"
+            },
+            "id": {
+                "modrinth": "ygYU16dG"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "MyTotemDoll-2.6.0+1.21.1+fabric.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ygYU16dG/versions/TvRGMtQ2/MyTotemDoll-2.6.0+1.21.1+fabric.jar",
+                    "id": "TvRGMtQ2",
+                    "parent_id": "ygYU16dG",
+                    "hashes": {
+                        "sha512": "6a505d42894ae0e229185e5b015807a13e1f0cb344a8c80a4d86c05dafbfe0f5c2a0db9866842ad3daacbe5db1f3b9805790146892704cbeb9351774d6b1024c",
+                        "sha1": "64de5b10ded0858352c2cc920b57068082b66263"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 1844441,
+                    "date_published": "2026-07-07T12:08:37.884918Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "l313aCcve5dhM3FZ",
             "type": "MOD",
             "side": "BOTH",
@@ -5021,6 +5273,48 @@
                     ],
                     "size": 1740451,
                     "date_published": "2026-07-09T17:30:07.537769Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "y4qsKncIvVI5yuDu",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "packed-packs"
+            },
+            "name": {
+                "modrinth": "Packed Packs"
+            },
+            "id": {
+                "modrinth": "8Pq6Exn2"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "packed_packs-fabric-2.2.1+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/8Pq6Exn2/versions/xk8ueFrF/packed_packs-fabric-2.2.1+1.21.1.jar",
+                    "id": "xk8ueFrF",
+                    "parent_id": "8Pq6Exn2",
+                    "hashes": {
+                        "sha512": "e274fe8c1fa8fc6d998a5b49f2e5f84d6f2f86c598dca578b8aced70a45fbc85e01a1e68b26363a9623e511347c5f1a2a77cedfae29549cf56a4b9ad7b21ddf1",
+                        "sha1": "79b84037d4e2e613986826030cd2b5deedba0492"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 798890,
+                    "date_published": "2026-06-02T18:00:56.768784Z"
                 }
             ]
         },
@@ -5469,6 +5763,51 @@
             ]
         },
         {
+            "pakku_id": "eL7LAwQJ0nTAwW6K",
+            "pakku_links": [
+                "vYKlm3L2uvUOH982",
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "resourcify"
+            },
+            "name": {
+                "modrinth": "Resourcify"
+            },
+            "id": {
+                "modrinth": "RLzHAoZe"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "Resourcify (1.21.1-fabric)-1.8.5.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/RLzHAoZe/versions/tWL8XHWU/Resourcify (1.21.1-fabric)-1.8.5.jar",
+                    "id": "tWL8XHWU",
+                    "parent_id": "RLzHAoZe",
+                    "hashes": {
+                        "sha512": "ee643a7f8188fd65b0b121ed3387964ec77daed067f907c00e65b44ce755d01146a8a586374b377089c372bd180cee22e76c49dc551b03340547db31e5ee6665",
+                        "sha1": "a8484cf3e3c99f953d70f5d4647be0c92d780138"
+                    },
+                    "required_dependencies": [
+                        "Ha28R6CL",
+                        "P7dR8mSH"
+                    ],
+                    "size": 2625998,
+                    "date_published": "2026-07-14T19:04:55.303853Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "2N3cXmxhohzALOJw",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1"
@@ -5727,6 +6066,48 @@
                     ],
                     "size": 290150,
                     "date_published": "2024-08-12T08:40:42.199863Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "PinJPyjtAjK603WX",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "shulkerboxtooltip"
+            },
+            "name": {
+                "modrinth": "Shulker Box Tooltip"
+            },
+            "id": {
+                "modrinth": "2M01OLQq"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "shulkerboxtooltip-fabric-5.1.9+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/2M01OLQq/versions/NSrItCES/shulkerboxtooltip-fabric-5.1.9+1.21.1.jar",
+                    "id": "NSrItCES",
+                    "parent_id": "2M01OLQq",
+                    "hashes": {
+                        "sha512": "0de3d88416303c58585bac11921ac60956ccd6dce164c70013e1721c8aef85f38d6440732edbfee50c9f7fa81733ee0b08b32d50dcd103132a6109bf516be56d",
+                        "sha1": "3f119c2fe561235f5af384fba4dd7a4b6f1617c2"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 379091,
+                    "date_published": "2026-03-16T19:32:09.180836Z"
                 }
             ]
         },
@@ -6276,6 +6657,49 @@
             ]
         },
         {
+            "pakku_id": "UfOJ1IfbyIMQPoTO",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "stendhal"
+            },
+            "name": {
+                "modrinth": "Stendhal"
+            },
+            "id": {
+                "modrinth": "BWloQ9jK"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "stendhal-1.4.1-1.21.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/BWloQ9jK/versions/I3a5043B/stendhal-1.4.1-1.21.jar",
+                    "id": "I3a5043B",
+                    "parent_id": "BWloQ9jK",
+                    "hashes": {
+                        "sha512": "93276c27f00bd16a99bfcd02b24d8ca279aa9af4729e0db685760249751364919cc035e35a6841cab4e2ee95f50bf25b6a29dbd7eed0545efaeb99581777d14a",
+                        "sha1": "a653cc8d30a28d600ad6e1b3045564ebf9d67efc"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 479928,
+                    "date_published": "2024-07-06T19:19:34.132211Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "B0EeFHKtyKFi7HYx",
             "type": "MOD",
             "side": "SERVER",
@@ -6520,6 +6944,49 @@
                     ],
                     "size": 2199255,
                     "date_published": "2026-06-21T17:43:36.533074Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "bUBVZvLWH2lLmNKT",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "toggle-item-frames"
+            },
+            "name": {
+                "modrinth": "Toggle Item Frames"
+            },
+            "id": {
+                "modrinth": "sv9FlLct"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "toggleableitemframes-5.1.0-1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/sv9FlLct/versions/WTmB37VN/toggleableitemframes-5.1.0-1.21.1.jar",
+                    "id": "WTmB37VN",
+                    "parent_id": "sv9FlLct",
+                    "hashes": {
+                        "sha512": "7421923151e11aa43e54e9477a5879a19189cfc95f1169a88a4577678831bceb37fd06a551317b19d3396968fc0f6b682257b33e8fd68d4e330263c9a99ef575",
+                        "sha1": "ade79e049610e978a42f0b8fcebe871a5a76f87a"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 93960,
+                    "date_published": "2024-09-09T04:04:09.938266Z"
                 }
             ]
         },
@@ -7706,6 +8173,49 @@
                     "required_dependencies": [],
                     "size": 12935,
                     "date_published": "2024-04-16T22:43:46.987077Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "UhdtR8jPnijbVjXJ",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "ichunutil"
+            },
+            "name": {
+                "modrinth": "iChunUtil"
+            },
+            "id": {
+                "modrinth": "W6ROj0Hl"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "iChunUtil-1.21-Fabric-1.0.3.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/W6ROj0Hl/versions/gfAOoiwe/iChunUtil-1.21-Fabric-1.0.3.jar",
+                    "id": "gfAOoiwe",
+                    "parent_id": "W6ROj0Hl",
+                    "hashes": {
+                        "sha512": "6aef7838146304010792a62aba34c466cb8605945ed59b1c2a873932020b26ee598c665abb295e36e186ae796832217f81b0b4dac76943a2da388ad519653b30",
+                        "sha1": "a47cac07d5606482b93d94b8a484ddeb24fbc669"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 706352,
+                    "date_published": "2024-12-18T00:57:49.577478Z"
                 }
             ]
         },
