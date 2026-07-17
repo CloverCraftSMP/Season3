@@ -2,7 +2,6 @@
     "name": "CloverCraft SMP Season 3",
     "version": "DEV",
     "author": "CloverCraft Team",
-    "export_server_side_projects_to_client": false,
     "projects": {
         "spark": {
             "side": "CLIENT"
@@ -20,8 +19,7 @@
             "side": "BOTH"
         },
         "open-parties-and-claims": {
-            "side": "BOTH",
-            "update_strategy": "NONE"
+            "side": "BOTH"
         },
         "chunky": {
             "side": "SERVER"
