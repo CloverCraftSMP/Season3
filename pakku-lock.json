@@ -2921,6 +2921,50 @@
             ]
         },
         {
+            "pakku_id": "eTk9hc1RkjvfNAvv",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "fism"
+            },
+            "name": {
+                "modrinth": "Faster Iris Shadow Mapper"
+            },
+            "id": {
+                "modrinth": "nSRLvOHG"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "fism+1.21.1-1.0.5.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/nSRLvOHG/versions/c8OUXP89/fism+1.21.1-1.0.5.jar",
+                    "id": "c8OUXP89",
+                    "parent_id": "nSRLvOHG",
+                    "hashes": {
+                        "sha512": "4b204518cb1823ba02c19664f1b3cc954b5ff809a6ca49a8115026f835c7f5c2ee61cfcca82fbfcefa164f3a093fc1bb1ade39c82fb24a28ec08a91b5c764259",
+                        "sha1": "62af155c1ac9dda45f58d070a054a01a8904da46"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 24270,
+                    "date_published": "2026-06-15T17:22:08.207368Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "watJXmH2NfBfZwGA",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1"
@@ -5068,6 +5112,59 @@
             ]
         },
         {
+            "pakku_id": "hdptiVVrIRDhgpzb",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "no-chat-restrictions"
+            },
+            "name": {
+                "modrinth": "No Chat Restrictions"
+            },
+            "id": {
+                "modrinth": "z440MEwJ"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "NoChatRestrictions-Fabric-MC1.21.11-v1.0.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10",
+                        "1.21.11"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/z440MEwJ/versions/2fnDwqeV/NoChatRestrictions-Fabric-MC1.21.11-v1.0.0.jar",
+                    "id": "2fnDwqeV",
+                    "parent_id": "z440MEwJ",
+                    "hashes": {
+                        "sha512": "59bb3443e1cb5e19e652013b699700a7704df74ce7c60eac510af4b71d86e6f9d06d0b5f3238dfdd56350b66668a06a51beee41eb71389e4f9d998e4370c2de4",
+                        "sha1": "853d8af1282c0dac0a9814e336c9ebfe2776ca25"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 9907,
+                    "date_published": "2026-01-29T03:48:02.205211Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ydC5qQKgoBQoBkHG",
             "type": "MOD",
             "side": "SERVER",
@@ -5356,6 +5453,45 @@
                     "required_dependencies": [],
                     "size": 171552,
                     "date_published": "2024-07-04T02:45:02.508175Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "3z59ISck1KyF3IrK",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "peek"
+            },
+            "name": {
+                "modrinth": "Peek"
+            },
+            "id": {
+                "modrinth": "TnOXNf5e"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "peek-fabric-1.21.1-1.4.11.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/TnOXNf5e/versions/kjw4LuVa/peek-fabric-1.21.1-1.4.11.jar",
+                    "id": "kjw4LuVa",
+                    "parent_id": "TnOXNf5e",
+                    "hashes": {
+                        "sha512": "156b90d3e4f84ba3d58fb46e7408cba9dea593e37692baecb8f857f0de2c1a01f97f58e00f0aa8212ab4d1e3613f81abe2a1454213310c7c555e10726f901629",
+                        "sha1": "c65be14c9cbb3862c2274c4e6ebc8b5548c8ec25"
+                    },
+                    "required_dependencies": [],
+                    "size": 457636,
+                    "date_published": "2026-06-04T05:57:30.116964Z"
                 }
             ]
         },
@@ -6070,48 +6206,6 @@
             ]
         },
         {
-            "pakku_id": "PinJPyjtAjK603WX",
-            "pakku_links": [
-                "dGjZM8Beg6NjBNI1"
-            ],
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "shulkerboxtooltip"
-            },
-            "name": {
-                "modrinth": "Shulker Box Tooltip"
-            },
-            "id": {
-                "modrinth": "2M01OLQq"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "shulkerboxtooltip-fabric-5.1.9+1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/2M01OLQq/versions/NSrItCES/shulkerboxtooltip-fabric-5.1.9+1.21.1.jar",
-                    "id": "NSrItCES",
-                    "parent_id": "2M01OLQq",
-                    "hashes": {
-                        "sha512": "0de3d88416303c58585bac11921ac60956ccd6dce164c70013e1721c8aef85f38d6440732edbfee50c9f7fa81733ee0b08b32d50dcd103132a6109bf516be56d",
-                        "sha1": "3f119c2fe561235f5af384fba4dd7a4b6f1617c2"
-                    },
-                    "required_dependencies": [
-                        "P7dR8mSH"
-                    ],
-                    "size": 379091,
-                    "date_published": "2026-03-16T19:32:09.180836Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "K21yEUaOmBYlruAV",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1",
@@ -6407,6 +6501,50 @@
                     "required_dependencies": [],
                     "size": 5361828,
                     "date_published": "2026-06-21T12:39:44.419429Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "g1tVZo1KyPQYKYGC",
+            "pakku_links": [
+                "XoBQimPakIhiaoCR"
+            ],
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "modrinth": "enhanced-groups"
+            },
+            "name": {
+                "modrinth": "Simple Voice Chat Enhanced Groups"
+            },
+            "id": {
+                "modrinth": "1LE7mid6"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "instantgroup-fabric-1.21.1-1.7.0.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "quilt"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://cdn.modrinth.com/data/1LE7mid6/versions/pMiTHN9M/instantgroup-fabric-1.21.1-1.7.0.jar",
+                    "id": "pMiTHN9M",
+                    "parent_id": "1LE7mid6",
+                    "hashes": {
+                        "sha512": "0878997166d14069a934d8b32534907dbb9ef85317031a102e76543aaa42639849d8f9e186fff774e00b1604b099739f3f97086a5e83d7becc3387699e925304",
+                        "sha1": "cf3f4ce900285be55535dedf8c8cd9b61f9ae1c1"
+                    },
+                    "required_dependencies": [
+                        "9eGKb6K1"
+                    ],
+                    "size": 496471,
+                    "date_published": "2025-01-27T19:26:46.987298Z"
                 }
             ]
         },
