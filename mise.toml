@@ -1,6 +1,10 @@
 [tools]
 git-lfs = "latest"
 java = "temurin-23"
+jq = "latest"
+
+[hooks]
+postinstall = { task = "pakku:update" }
 
 [shell_alias]
-pakku = "java -jar pakku.jar"
+pakku = "java --enable-native-access=ALL-UNNAMED -jar .mise/pakku.jar"
