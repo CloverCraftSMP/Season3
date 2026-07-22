@@ -28,11 +28,8 @@ jobs:
         with:
           fetch-depth: 0  # Full history needed for git describe and diff
  
-      - name: Set up Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: 25
+      - name: Setup mise
+        uses: jdx/mise-action@v4
 
       - name: Get modpack info
         id: info
@@ -56,22 +53,17 @@ jobs:
           mkdir -p /tmp/modpack-builds
           rm -f /tmp/modpack-builds/*.mrpack /tmp/modpack-builds/*.zip
  
-      - name: Set up Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: 25
+      - name: Setup mise
+        uses: jdx/mise-action@v4
  
-      - name: Download Pakku
-        run: |
-          PAKKU_VERSION=$(curl -sSL https://api.github.com/repos/juraj-hrivnak/Pakku/releases/latest | jq -r .tag_name)
-          curl -sSL "https://github.com/juraj-hrivnak/Pakku/releases/download/${PAKKU_VERSION}/pakku.jar" -o pakku.jar
+      - name: Update Pakku
+        run: mise run pakku:update
  
       - name: Set pack version
         # On tagged releases, stamp the lock file with the tag version so
         # the exported filenames and mrpack metadata reflect the release.
         if: startsWith(github.ref, 'refs/tags/v')
-        run: java -jar pakku.jar cfg --version "${{ needs.modpack-info.outputs.projectsuffix }}"
+        run: mise run pakku cfg --version "${{ needs.modpack-info.outputs.projectsuffix }}"
  
       - name: Inject modpack version into configs
         run: |
@@ -84,16 +76,17 @@ jobs:
  
       - name: Export modpack
         # Produces:
-        #   build/modrinth/<name>-<version>.mrpack
-        #   build/serverpack/<name>-<version>.zip
-        run: java -jar pakku.jar export
+        #   .ci/artifacts/<name>-<version>.mrpack
+        #   .ci/artifacts/<name>-<version>.zip (server pack)
+        run: mise run build:export
 
       - name: Stage artifacts
         run: |
           NAME="${{ needs.modpack-info.outputs.projectname }}"
           SUFFIX="${{ needs.modpack-info.outputs.projectsuffix }}"
-          mv build/modrinth/*.mrpack   "${NAME}-${SUFFIX}.mrpack"
-          mv build/serverpack/*.zip    "${NAME}-${SUFFIX}-Server-Pack.zip"
+          mv .ci/artifacts/*.mrpack  "${NAME}-${SUFFIX}.mrpack"
+          mv .ci/artifacts/*.zip     "${NAME}-${SUFFIX}-Server-Pack.zip"
+
           cp *.mrpack           /tmp/modpack-builds/
           cp *-Server-Pack.zip  /tmp/modpack-builds/
  

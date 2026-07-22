@@ -6,7 +6,7 @@ set -euo pipefail
 echo "🔎 Getting modpack info..."
 
 # Ensure required tools are available
-for tool in jq curl java perl grep sed git; do
+for tool in jq mise java perl grep sed git; do
   command -v "$tool" >/dev/null 2>&1 || { echo "::error::$tool is required but not installed."; exit 1; }
 done
 
@@ -67,10 +67,9 @@ echo "📌 Diffing from commit $latest_tagged_commit"
 git show "$latest_tagged_commit:./pakku-lock.json" > ./pakku-lock-prev.json
  
 # Download Pakku
-PAKKU_VERSION=$(curl -sSL https://api.github.com/repos/juraj-hrivnak/Pakku/releases/latest | jq -r .tag_name)
-curl -sSL "https://github.com/juraj-hrivnak/Pakku/releases/download/${PAKKU_VERSION}/pakku.jar" -o pakku.jar
+mise run pakku:update
  
-java -jar ./pakku.jar diff ./pakku-lock-prev.json ./pakku-lock.json -v --markdown PROJECTS_DIFF.md
+mise run pakku diff ./pakku-lock-prev.json ./pakku-lock.json -v --markdown PROJECTS_DIFF.md
  
 # Write diff to Actions output (multiline safe)
 {
