@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #MISE description="Generates a drag-and-drop Prism instance linked to this repository"
 #MISE hide=true
-set -euo pipefail
+set -eo pipefail
 
 if [ ! -f pakku-lock.json ]; then
     echo "pakku-lock.json not found!"
@@ -36,7 +36,7 @@ EnableMangoHud=true
 EOF
 
 cd .mise/prism-instance
-jar cMf "../Season 4 Dev.zip" *
+jar cMf "../Season 3 Dev.zip" *
 cd ../..
 
-echo "Success! Drag and drop '.mise/Season 4 Dev.zip' into Prism Launcher to import it."
+echo "Success! Drag and drop '.mise/Season 3 Dev.zip' into Prism Launcher to import it."

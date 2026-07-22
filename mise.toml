@@ -1,6 +1,6 @@
 [tools]
 git-lfs = "latest"
-java = "temurin-23"
+java = "temurin-25"
 jq = "latest"
 
 [hooks]

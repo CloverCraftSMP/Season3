@@ -27,6 +27,6 @@ PreLaunchCommand=`$INST_JAVA "-Ddev.repo.path=$repoPath" "$repoPath/DevLaunch.ja
 Set-Content -Path ".mise/prism-instance/instance.cfg" -Value $cfgContent
 
 Write-Host "Zipping instance..."
-Compress-Archive -Path ".mise/prism-instance/*" -DestinationPath ".mise/Season 4 Dev.zip" -Force
+Compress-Archive -Path ".mise/prism-instance/*" -DestinationPath ".mise/Season 3 Dev.zip" -Force
 
-Write-Host "Success! Drag and drop '.mise/Season 4 Dev.zip' into Prism Launcher to import it." -ForegroundColor Green
+Write-Host "Success! Drag and drop '.mise/Season 3 Dev.zip' into Prism Launcher to import it." -ForegroundColor Green

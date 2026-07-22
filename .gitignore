@@ -30,77 +30,18 @@ Thumbs.db
 !/.vscode/*.code-workspace
 
 # Pakku
-build/
 !.pakku/
 !pakku.jar
 !pakku.json
 !pakku-lock.json
-dev-server/
-
-
-# ==========================================
-# Minecraft
-# ==========================================
-
-/options.txt
-/icon.png
-emi.json
-rhino.local.properties
-command_history.txt
-servers.dat
-servers.dat_old
-
-
-# ==========================================
-# Minecraft Directories
-# ==========================================
-
-backups/
-crash-reports/
-local/
-logs/
 /mods/
-resourcepacks/
-saves/
-screenshots/
-server-resource-packs/
-shaderpacks/
-texturepacks/
-/debug/
+/resourcepacks/
+
+# Mise
+.mise/*
+!.mise/tasks/
 
 
-# ==========================================
-# Mod Data & Configs
-# ==========================================
-
-# Ignore all configs except yosbr
-/config/
-
-# Mod-specific folders and caches
-.fabric/
-ESM/
-sdlinkstorage/
-fancymenu_data/
-moddata/
-modernfix/
-vinurl/
-xaero/
-Distant_Horizons_server_data/
-XaeroWaypoints_BACKUP*/
-/resources/
-/bluemap
-
-
-# ==========================================
-# Caches
-# ==========================================
-
-data/
-downloads/
-dynamic-resource-pack-cache/
-dynamic-data-pack-cache/
-frozenlib/
-moonlight-global-datapacks/
-.mixin.out/
-usercache.json
-usernamecache.json
+# CI
+.ci/
+/build/
