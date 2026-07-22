@@ -1179,6 +1179,51 @@
             ]
         },
         {
+            "pakku_id": "CbKejlTgVncB7CB5",
+            "pakku_links": [
+                "ZTMBFHLedqzQPF5x",
+                "c6WdOwoiUFvXUYqm"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "clientsort"
+            },
+            "name": {
+                "modrinth": "Client Sort"
+            },
+            "id": {
+                "modrinth": "K0AkAin6"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "clientsort-fabric-2.2.2+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/K0AkAin6/versions/HmreLmlE/clientsort-fabric-2.2.2+1.21.1.jar",
+                    "id": "HmreLmlE",
+                    "parent_id": "K0AkAin6",
+                    "hashes": {
+                        "sha512": "407c81b433a15ff9f9d4945a71d216635a53451807d48f28990905f6cf7f69c0f4a7b0f0d148fa8c218b6f7877ce68d216f2be4c87d5b1a47af47440ee3e2454",
+                        "sha1": "9e2139f45c60fc20f542f03b30a299b9adea76a1"
+                    },
+                    "required_dependencies": [
+                        "mOgUt4GM",
+                        "9s6osm5g"
+                    ],
+                    "size": 341676,
+                    "date_published": "2026-05-31T04:35:41.354412Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "c6WdOwoiUFvXUYqm",
             "type": "MOD",
             "side": "BOTH",
@@ -4812,6 +4857,53 @@
             ]
         },
         {
+            "pakku_id": "zWPnvhG3cdh7oSGu",
+            "pakku_links": [
+                "c6WdOwoiUFvXUYqm",
+                "ZTMBFHLedqzQPF5x",
+                "hGg6zCBLgZZeJsXV"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "moremousetweaks"
+            },
+            "name": {
+                "modrinth": "More Mouse Tweaks"
+            },
+            "id": {
+                "modrinth": "S8drsznD"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "moremousetweaks-fabric-1.1.1+1.21.1.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/S8drsznD/versions/sw6cZo0y/moremousetweaks-fabric-1.1.1+1.21.1.jar",
+                    "id": "sw6cZo0y",
+                    "parent_id": "S8drsznD",
+                    "hashes": {
+                        "sha512": "0cc1a811f2c56ef2724ebc426704796f21278368d0d34c993e3caaa01e590355a8572872d4f2d9ab437cb234c1d924da608ffa968aaffb0842984f0a5daf16b4",
+                        "sha1": "a7ba944d3c213d7a535eca5a1fe6a01a173444c1"
+                    },
+                    "required_dependencies": [
+                        "9s6osm5g",
+                        "mOgUt4GM",
+                        "aC3cM3Vq"
+                    ],
+                    "size": 118214,
+                    "date_published": "2025-09-03T08:46:47.860159Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "LqoqepSfkSYfporM",
             "pakku_links": [
                 "dGjZM8Beg6NjBNI1"
@@ -4850,6 +4942,111 @@
                     ],
                     "size": 182096,
                     "date_published": "2026-06-21T14:01:55.087678Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "hGg6zCBLgZZeJsXV",
+            "pakku_links": [
+                "dGjZM8Beg6NjBNI1"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "mouse-tweaks"
+            },
+            "name": {
+                "modrinth": "Mouse Tweaks"
+            },
+            "id": {
+                "modrinth": "aC3cM3Vq"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "MouseTweaks-fabric-mc1.21-2.26.jar",
+                    "mc_versions": [
+                        "1.21",
+                        "1.21.1"
+                    ],
+                    "loaders": [
+                        "fabric"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/ylmBQ38A/MouseTweaks-fabric-mc1.21-2.26.jar",
+                    "id": "ylmBQ38A",
+                    "parent_id": "aC3cM3Vq",
+                    "hashes": {
+                        "sha512": "1744a48a47aedcbf19a0a93f78473cf0221fc4782852dca7fc02685719174664b4f9d95d353fcfc16902ac3815594511ba6d9ab14391f9b7e25ec9b2e777927a",
+                        "sha1": "ee81af33a5606ef2cd057e075833d7c69836c210"
+                    },
+                    "required_dependencies": [
+                        "P7dR8mSH"
+                    ],
+                    "size": 75984,
+                    "date_published": "2024-06-17T08:24:47.086399Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "LQRVo9lCU82WWDFH",
+            "pakku_links": [
+                "hGg6zCBLgZZeJsXV",
+                "1BvY2adIGOM8CbyC"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "modrinth": "mousetweaks-x-accessories-fix"
+            },
+            "name": {
+                "modrinth": "MouseTweaks x Accessories Fix"
+            },
+            "id": {
+                "modrinth": "bFBJU91s"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "mousetweaks-x-accessories-fix-1.4.0.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.4",
+                        "1.20.5",
+                        "1.20.6",
+                        "1.21",
+                        "1.21.1",
+                        "1.21.2",
+                        "1.21.3",
+                        "1.21.4",
+                        "1.21.5",
+                        "1.21.6",
+                        "1.21.7",
+                        "1.21.8",
+                        "1.21.9",
+                        "1.21.10"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/bFBJU91s/versions/znY5vYq7/mousetweaks-x-accessories-fix-1.4.0.jar",
+                    "id": "znY5vYq7",
+                    "parent_id": "bFBJU91s",
+                    "hashes": {
+                        "sha512": "63a179595cb38598968fe1f34680af08560f731d877ce6cb67abec8a3dab91eb34a118208caab28a592a90e144319036f26d83648d5773bbdd5e78142775385f",
+                        "sha1": "4d47eea1921f4f2b2b8967487f287df0f3b26cfe"
+                    },
+                    "required_dependencies": [
+                        "aC3cM3Vq",
+                        "jtmvUHXj"
+                    ],
+                    "size": 12155,
+                    "date_published": "2026-06-21T05:57:35.285508Z"
                 }
             ]
         },
@@ -6666,49 +6863,6 @@
                     "required_dependencies": [],
                     "size": 205671,
                     "date_published": "2025-09-25T14:30:43.785864Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "LvzZlk0efeja2mFV",
-            "pakku_links": [
-                "dGjZM8Beg6NjBNI1"
-            ],
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "modrinth": "stack-to-nearby-chests"
-            },
-            "name": {
-                "modrinth": "Stack to Nearby Chests"
-            },
-            "id": {
-                "modrinth": "HtGckJVc"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "stack-to-nearby-chests-mc1.21.1-0.5.10.jar",
-                    "mc_versions": [
-                        "1.21",
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/HtGckJVc/versions/Ycxx5lTa/stack-to-nearby-chests-mc1.21.1-0.5.10.jar",
-                    "id": "Ycxx5lTa",
-                    "parent_id": "HtGckJVc",
-                    "hashes": {
-                        "sha512": "80daf67342cfff991cf838f69a175332e3180317942483bf1cdcde72ab8dec6f1889b570fc15d4d77a613e1fd67134bf8553acf068e8f69601e4434ed33fde7e",
-                        "sha1": "1abb2f933b3ccc2b145dce419a9fcb12b471161c"
-                    },
-                    "required_dependencies": [
-                        "P7dR8mSH"
-                    ],
-                    "size": 577590,
-                    "date_published": "2024-09-14T04:16:32.171719Z"
                 }
             ]
         },
