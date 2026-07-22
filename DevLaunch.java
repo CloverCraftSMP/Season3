@@ -38,7 +38,7 @@ public class DevLaunch {
         Set<String> validClientMods = generateClientWhitelist(repoDir, pakkuJar);
         
         if (!validClientMods.isEmpty()) {
-            syncClientMods(repoDir, rootDir, validClientMods);
+            syncClientMods(repoDir, rootDir, validClientMods, commonOverridesDir, clientOverridesDir);
         }
 
         System.out.println("Booting pack...");
@@ -136,7 +136,7 @@ public class DevLaunch {
         return validMods;
     }
 
-    private static void syncClientMods(Path repoDir, Path rootDir, Set<String> validClientMods) throws IOException {
+    private static void syncClientMods(Path repoDir, Path rootDir, Set<String> validClientMods, Path commonOverridesDir, Path clientOverridesDir) throws IOException {
         Path repoModsDir = repoDir.resolve("mods");
         Path prismModsDir = rootDir.resolve("mods");
         
@@ -155,11 +155,25 @@ public class DevLaunch {
             }
         }
 
+        Set<String> overrideMods = new HashSet<>();
+        Path commonModsDir = commonOverridesDir.resolve("mods");
+        Path clientModsDir = clientOverridesDir.resolve("mods");
+
+        for (Path overrideDir : List.of(commonModsDir, clientModsDir)) {
+            if (Files.exists(overrideDir) && Files.isDirectory(overrideDir)) {
+                try (var stream = Files.list(overrideDir)) {
+                    stream.filter(p -> p.toString().endsWith(".jar"))
+                          .map(p -> p.getFileName().toString())
+                          .forEach(overrideMods::add);
+                }
+            }
+        }
+
         try (var stream = Files.list(prismModsDir)) {
             stream.filter(p -> p.toString().endsWith(".jar"))
                   .forEach(p -> {
                       String fileName = p.getFileName().toString();
-                      if (!validClientMods.contains(fileName)) {
+                      if (!validClientMods.contains(fileName) && !overrideMods.contains(fileName)) {
                           System.out.println("❯❯❯  Purged invalid/server mod: " + fileName);
                           try {
                               Files.delete(p);

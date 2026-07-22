@@ -30,7 +30,7 @@ cat << EOF > .mise/prism-instance/instance.cfg
 [General]
 InstanceType=OneSix
 OverrideCommands=true
-PreLaunchCommand=\\$INST_JAVA "-Ddev.repo.path=${REPO_PATH}" "${REPO_PATH}/DevLaunch.java"
+PreLaunchCommand=\$INST_JAVA "-Ddev.repo.path=${REPO_PATH}" "${REPO_PATH}/DevLaunch.java"
 OverridePerformance=true
 EnableMangoHud=true
 EOF
