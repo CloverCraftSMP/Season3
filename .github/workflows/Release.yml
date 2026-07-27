@@ -43,24 +43,24 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  release-modrinth:
-    name: Modrinth Release
-    runs-on: self-hosted
-    steps:
-      - name: Publish to Modrinth
-        uses: Kir-Antipov/mc-publish@v3.3
-        with:
-          modrinth-id: ${{ env.MR_PROJECT_ID }}
-          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          files: |
-            /tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}.mrpack
-            /tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip
-          name: ${{ inputs.projectname }} ${{ inputs.projectsuffix }}
-          version: ${{ inputs.projectsuffix }}
-          version-type: ${{ inputs.rel_type }}
-          changelog-file: /tmp/modpack-builds/CHANGELOG-${{ inputs.projectsuffix }}.md
-          loaders: fabric
-          game-versions: ${{ inputs.mcversion }}
+  # release-modrinth:
+  #   name: Modrinth Release
+  #   runs-on: self-hosted
+  #   steps:
+  #     - name: Publish to Modrinth
+  #       uses: Kir-Antipov/mc-publish@v3.3
+  #       with:
+  #         modrinth-id: ${{ env.MR_PROJECT_ID }}
+  #         modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+  #         files: |
+  #           /tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}.mrpack
+  #           /tmp/modpack-builds/${{ inputs.projectname }}-${{ inputs.projectsuffix }}-Server-Pack.zip
+  #         name: ${{ inputs.projectname }} ${{ inputs.projectsuffix }}
+  #         version: ${{ inputs.projectsuffix }}
+  #         version-type: ${{ inputs.rel_type }}
+  #         changelog-file: /tmp/modpack-builds/CHANGELOG-${{ inputs.projectsuffix }}.md
+  #         loaders: fabric
+  #         game-versions: ${{ inputs.mcversion }}
 
   release-selfhosted:
     name: Self-Hosted Release
