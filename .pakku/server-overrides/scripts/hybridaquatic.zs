@@ -18,3 +18,5 @@
     <tag:item:c:tools/knife>,
     "minecraft:entity.cod.hurt"
 );
+
+<tag:item:c:foods/safe_raw_fish>.add(<item:tide:fish_slice>);
