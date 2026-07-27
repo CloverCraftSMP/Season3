@@ -7117,53 +7117,6 @@
             ]
         },
         {
-            "pakku_id": "UqnxBkkPJQ9qn5Ue",
-            "pakku_links": [
-                "wGPYpFW5RTN8phZ0",
-                "dGjZM8Beg6NjBNI1",
-                "1BvY2adIGOM8CbyC"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "immersive-lanterns"
-            },
-            "name": {
-                "modrinth": "Toni's Immersive Lanterns"
-            },
-            "id": {
-                "modrinth": "vskzdsyT"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "immersivelanterns-fabric-1.0.6-1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/vskzdsyT/versions/WNSAURut/immersivelanterns-fabric-1.0.6-1.21.1.jar",
-                    "id": "WNSAURut",
-                    "parent_id": "vskzdsyT",
-                    "hashes": {
-                        "sha512": "ae3cc7d6dee9180b323f7ac2668a25d2fdfc663bada1e2685f65896dc9cfb17980b3e391b5cdbdb6c6fa14cad355f49a1ef6e22821f176296aada4c39ae547ee",
-                        "sha1": "a7a2412838532a967ab4c7dc96cc61fbd4055c26"
-                    },
-                    "required_dependencies": [
-                        "vBbPDuOs",
-                        "P7dR8mSH",
-                        "PxQSWIcD",
-                        "jtmvUHXj"
-                    ],
-                    "size": 802245,
-                    "date_published": "2025-01-04T16:04:59.497370Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "zWT51veRo992pI60",
             "pakku_links": [
                 "jY7zulyIXDgsd5jS"
@@ -7290,48 +7243,6 @@
                     ],
                     "size": 14748,
                     "date_published": "2024-06-14T12:47:16.919151Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "wGPYpFW5RTN8phZ0",
-            "pakku_links": [
-                "dGjZM8Beg6NjBNI1"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "modrinth": "txnilib"
-            },
-            "name": {
-                "modrinth": "TxniLib"
-            },
-            "id": {
-                "modrinth": "vBbPDuOs"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "txnilib-fabric-1.0.24-1.21.1.jar",
-                    "mc_versions": [
-                        "1.21.1"
-                    ],
-                    "loaders": [
-                        "fabric"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/vBbPDuOs/versions/98FHAlrc/txnilib-fabric-1.0.24-1.21.1.jar",
-                    "id": "98FHAlrc",
-                    "parent_id": "vBbPDuOs",
-                    "hashes": {
-                        "sha512": "27e8e8afb93e4fe57fb5e7281e50fc1b2d4881609691cabda914692bfac805b6c63ddf4ae622596d7fa950870f1ad824b443e8973499daa4d44cb6f274694ea2",
-                        "sha1": "95bd43012b414ce13efaba4b2fbd73dcd8951775"
-                    },
-                    "required_dependencies": [
-                        "P7dR8mSH"
-                    ],
-                    "size": 1303092,
-                    "date_published": "2025-05-15T21:54:11.652825Z"
                 }
             ]
         },
